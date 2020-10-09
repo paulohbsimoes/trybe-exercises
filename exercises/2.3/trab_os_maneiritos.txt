@@ -1,0 +1,19 @@
+Nome do grupo: Os maneiritos
+
+Quando você digita google.com no navegador, o que acontece entre o instante em que você clica em “Enter” (ou “ir/carregar”) e o momento em que a página inicial do Google aparece na tela? 
+
+1) Digitamos a URL
+
+2) Analisa a URL de acordo com o seu protocolo, domínio e recurso
+
+3) O browser comunica com o ISP para fazer uma pesquisa DNS e converter o domínio em um endereço IP
+
+4) O ISP retorna o IP para o client
+
+5) Dado o protocolo da URL e o endereço de IP o browser utiliza essas informações para abrir a conexão com o servidor
+
+6) O cliente faz o request HTTP para o servidor e o servidor confere se o recurso solicitado existe, caso existe, ele retorna a página, caso não, retorna um erro 404
+
+7) Depois de receber o HTML ele verifica o arquivo em busca de outras informaçṍes que são solicitadas, como CSS, JS, imagens e recursos externos, para cada item identificado ele faz uma nova requisição
+
+8) Depois de receber todos os recursos ele renderiza a página, fazendo o load no browser
