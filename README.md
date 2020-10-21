@@ -1,1 +1,1 @@
-# Utilizarei esse repositório para guardar os exercícios que desenvolvi ao longo de minha formação na Trybe.
+# Utilizarei esse repositório para guardar os exercícios desenvolvidos ao longo da minha formação na Trybe.
