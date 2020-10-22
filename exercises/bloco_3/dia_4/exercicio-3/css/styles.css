@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 20px;
+}
+
+header {
+  padding: 50px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+  font-size: 1.2rem;
+  height: 150px;
+}
+
+nav {
+  background-color: purple;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+article {
+  padding: 20px;
+  width: 65%;
+  float: left;
+}
+
+article h2 {
+  font-size: 42px;
+  text-align: center;
+  margin: 20px 0px;
+}
+
+article section {
+  margin: 30px 15px;
+  text-align: justify;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+article section:last-child {
+  border-bottom: none;
+}
+
+article section h3 {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+article section p {
+  margin-bottom: 20px;
+}
+
+article section table {
+  margin: 50px auto;
+}
+
+article section table td {
+  padding: 10px;
+  text-align: center;
+  border: 2px solid black;
+}
+
+article section img {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  padding: 10px 0px 50px 0px;
+  margin: 40px auto 0px auto;
+}
+
+article section ul {
+  list-style: none;
+}
+
+article section ul li {
+  margin-bottom: 10px;
+}
+
+article section ul li a {
+  text-decoration: none;
+  color: #193d6b;
+  font-weight: bold;
+}
+
+aside {
+  width: 35%;
+  float: right;
+  height: 100vh;
+  padding: 20px;
+  font-size: 30px;
+}
+
+aside p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+aside p a {
+  text-decoration: none;
+  color: orangered;
+  font-weight: bold;
+}
+
+aside a:visited {
+  color: blue;
+}
+
+aside .wrapper iframe {
+  width: 100%;
+}
+
+footer {
+  clear: left;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.8);
+  ;
+  color: white;
+  height: 150px;
+  padding: 50px;
+  text-align: center;
+}
+
+footer a {
+  color: orangered;
+  text-decoration: none;
+}
