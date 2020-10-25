@@ -2,34 +2,32 @@
 
 Este repositório contém todas as atividades de aprendizagem desenvolvidas por __[mim](https://www.linkedin.com/in/paulohbsimoes/)__ durante minha tragetória na [Trybe](https://www.betrybe.com/) :rocket:
 
-_"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bom trabalho."_
-
-O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
+>"O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais."
 
 ## Fundamentos do Desenvolvimento Web :white_check_mark:
 
 ##### Bloco 1: Unix, Bash e Shell Script
-- [ ] 1 - Setup
-- [ ] 2 - Fundamentos do Desenvolvimento Web
-- [ ] 3 - Introdução - Unix & Shell
-- [ ] 4 - Unix & Bash - Parte 1
-- [ ] 5 - Unix & Bash - Parte 2
+- [x] 1 - Setup
+- [x] 2 - Fundamentos do Desenvolvimento Web
+- [x] 3 - Introdução - Unix & Shell
+- [x] 4 - Unix & Bash - Parte 1
+- [x] 5 - Unix & Bash - Parte 2
 
 ##### Bloco 2: Git, GitHub e Internet
-- [ ] 6 - Git & GitHub  - O que é e para que serve
-- [ ] 7 - Git & GitHub - Entendendo os comandos
-- [ ] 8 - Internet - Entendendo como ela funciona
+- [x] 6 - Git & GitHub  - O que é e para que serve
+- [x] 7 - Git & GitHub - Entendendo os comandos
+- [x] 8 - Internet - Entendendo como ela funciona
 
 ##### Bloco 3: Introdução à HTML e CSS
-- [ ] 9 - Introdução - HTML & CSS
-- [ ] 10 - HTML & CSS - Estruturas de página
-- [ ] 11 - HTML & CSS - Primeiros passos em CSS
-- [ ] 12 - HTML & CSS - Seletores e posicionamento
-- [ ] 13 - HTML Semântico
-- [ ] 14 - Projeto - Lessons Learned
+- [x] 9 - Introdução - HTML & CSS
+- [x] 10 - HTML & CSS - Estruturas de página
+- [x] 11 - HTML & CSS - Primeiros passos em CSS
+- [x] 12 - HTML & CSS - Seletores e posicionamento
+- [x] 13 - HTML Semântico
+- [x] 14 - Projeto - Lessons Learned
 
 ##### Bloco 4: Introdução à JavaScript e Lógica de Programação
-- [ ] 15 - Introdução - JavaScript
+- [x] 15 - Introdução - JavaScript
 - [ ] 16 - JavaScript - Primeiros passos
 - [ ] 17 - JavaScript - Array e loop For
 - [ ] 18 - JavaScript - Lógica de Programação e Algoritmos
