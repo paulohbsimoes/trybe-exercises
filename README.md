@@ -1,24 +1,24 @@
 # Trybe - Exercícios
 
-Este repositório contém todas as atividades de aprendizagem desenvolvidas por __[mim](https://www.linkedin.com/in/paulohbsimoes/)__ durante minha tragetória na [Trybe](https://www.betrybe.com/) :rocket:
+Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/in/paulohbsimoes/)__ durante minha tragetória na [Trybe](https://www.betrybe.com/) :rocket:
 
 >"O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais."
 
-## Fundamentos do Desenvolvimento Web :white_check_mark:
+## Fundamentos do Desenvolvimento Web :hourglass:
 
-##### Bloco 1: Unix, Bash e Shell Script
+##### Bloco 1: Unix, Bash e Shell Script :heavy_check_mark:
 - [x] 1 - Setup
 - [x] 2 - Fundamentos do Desenvolvimento Web
 - [x] 3 - Introdução - Unix & Shell
 - [x] 4 - Unix & Bash - Parte 1
 - [x] 5 - Unix & Bash - Parte 2
 
-##### Bloco 2: Git, GitHub e Internet
+##### Bloco 2: Git, GitHub e Internet :heavy_check_mark:
 - [x] 6 - Git & GitHub  - O que é e para que serve
 - [x] 7 - Git & GitHub - Entendendo os comandos
 - [x] 8 - Internet - Entendendo como ela funciona
 
-##### Bloco 3: Introdução à HTML e CSS
+##### Bloco 3: Introdução à HTML e CSS :heavy_check_mark:
 - [x] 9 - Introdução - HTML & CSS
 - [x] 10 - HTML & CSS - Estruturas de página
 - [x] 11 - HTML & CSS - Primeiros passos em CSS
