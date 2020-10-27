@@ -25,7 +25,7 @@
 
 ## Bônus
 
-Para os próximos dois exercícios leia este artigo e tente entender o que está acontencedo no código abaixo:
+Para os próximos dois exercícios [leia este artigo](http://devfuria.com.br/logica-de-programacao/introducao-ao-algoritmo-de-ordenacao-bubble-sort/) e tente entender o que está acontencedo no código abaixo:
 
 ```
 for (let i = 1; i < array.length; i++) {
