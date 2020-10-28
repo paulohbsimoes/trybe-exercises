@@ -1,4 +1,4 @@
-# Agora a prática
+# Exercícios
 
 ## Leia atentamente os enunciados e faça o que se pede! Você irá utilizar esse array para realizar os exercícios do 1 ao 7:
 
