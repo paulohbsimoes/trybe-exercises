@@ -1,3 +1,5 @@
+// Link: https://www.codewars.com/kata/5effa412233ac3002a9e471d/javascript
+
 function add(num1, num2) {
   let a = String(num1);
   let b = String(num2);
