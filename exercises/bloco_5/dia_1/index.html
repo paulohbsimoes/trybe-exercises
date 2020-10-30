@@ -52,22 +52,41 @@
     */
 
     // 1. Crie uma função que mude o texto na tag <p> para uma descrição de como você se vê daqui a 2 anos. (Não gaste tempo pensando no texto e sim realizando o exercício)
-    document.getElementsByTagName('p')[1].innerText = 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati deserunt est reiciendis architecto similique eveniet, nostrum incidunt! Ab, explicabo perspiciatis?';
+    const description = document.getElementsByTagName('p')[1];
+    function changeText(elem, text) {
+      elem.innerText = text;
+    }
+    changeText(description, 'Lorem ipsum, dolor sit amet consectetur adipisicing elit.');
 
     // 2. Crie uma função que mude a cor do quadrado amarelo para o verde da Trybe (rgb(76,164,109)).
-    document.getElementsByClassName('main-content')[0].style.backgroundColor = 'rgb(76,164,109)';
+    const yellowSquare = document.getElementsByClassName('main-content')[0];
+    function changeColor(elem, color) {
+      elem.style.backgroundColor = color;
+    }
+    changeColor(yellowSquare, 'rgb(76,164,109)');
 
     // 3. Crie uma função que mude a cor do quadrado vermelho para branco.
-    document.querySelector('.main-content .center-content').style.backgroundColor = 'white';
+    const redSquare = document.getElementsByClassName('center-content')[0];
+    changeColor(redSquare, 'white');
 
     // 4. Crie uma função que corrija o texto da tag <h1>.
-    document.querySelector('h1.title').innerText = 'Exercício 5.1 - JavaScript';
+    const header = document.getElementsByClassName('title')[0];
+    changeText(header, 'Exercício 5.1 - JavaScript');
 
     // 5. Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
-    document.querySelectorAll('p').forEach(p => p.innerText = p.innerText.toUpperCase());
+    const paragraphs = document.getElementsByTagName('p');
+    for (p of paragraphs) {
+      changeText(p, p.innerText.toUpperCase());
+    };
 
     // 6. Crie uma função que exiba o conteúdo de todas as tags <p> no console.
-    document.querySelectorAll('p').forEach(p => console.log(p.innerText));
+    function log() {
+      for (p of paragraphs) {
+        console.log(p.innerText);
+      }
+    }
+
+    log();
   </script>
 </body>
 
