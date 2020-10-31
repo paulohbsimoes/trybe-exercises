@@ -13,12 +13,12 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 1.4 - Unix & Bash - Parte 1
 - [x] 1.5 - Unix & Bash - Parte 2
 
-##### Bloco 2: Git, GitHub e Internet
+##### Bloco 2: [Git, GitHub e Internet](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_2)
 - [x] 2.1 - Git & GitHub  - O que é e para que serve
 - [x] 2.2 - Git & GitHub - Entendendo os comandos
 - [x] 2.3 - Internet - Entendendo como ela funciona
 
-##### Bloco 3: Introdução à HTML e CSS
+##### Bloco 3: [Introdução à HTML e CSS](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_3)
 - [x] 3.1 - Introdução - HTML & CSS
 - [x] 3.2 - HTML & CSS - Estruturas de página
 - [x] 3.3 - HTML & CSS - Primeiros passos em CSS
@@ -26,7 +26,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 3.5 - HTML Semântico
 - [x] 3.6 - Projeto - Lessons Learned
 
-##### Bloco 4: Introdução à JavaScript e Lógica de Programação
+##### Bloco 4: [Introdução à JavaScript e Lógica de Programação](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_4)
 - [x] 4.1 - Introdução - JavaScript
 - [x] 4.2 - JavaScript - Primeiros passos
 - [x] 4.3 - JavaScript - Array e loop For
@@ -34,7 +34,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 4.5 - JavaScript - Objetos e funções
 - [x] 4.6 - Projeto - Playground Functions
 
-##### Bloco 5: JavaScript: DOM, Eventos e Web Storage
+##### Bloco 5: [JavaScript: DOM, Eventos e Web Storage](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_5)
 - [x] 5.1 - JavaScript - DOM e seletores
 - [ ] 5.2 - JavaScript - Trabalhando com elementos
 - [ ] 5.3 - JavaScript - Eventos
