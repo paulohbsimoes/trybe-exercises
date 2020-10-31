@@ -20,11 +20,11 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 
 ##### Bloco 3: [Introdução à HTML e CSS](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_3)
 - [x] 3.1 - Introdução - HTML & CSS
-- [x] 3.2 - HTML & CSS - Estruturas de página
-- [x] 3.3 - HTML & CSS - Primeiros passos em CSS
-- [x] 3.4 - HTML & CSS - Seletores e posicionamento
-- [x] 3.5 - HTML Semântico
-- [x] 3.6 - Projeto - Lessons Learned
+- [x] 3.1 - HTML & CSS - Estruturas de página
+- [x] 3.2 - HTML & CSS - Primeiros passos em CSS
+- [x] 3.3 - HTML & CSS - Seletores e posicionamento
+- [x] 3.4 - HTML Semântico
+- [x] 3.5 - Projeto - Lessons Learned
 
 ##### Bloco 4: [Introdução à JavaScript e Lógica de Programação](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_4)
 - [x] 4.1 - Introdução - JavaScript
