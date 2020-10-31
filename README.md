@@ -79,6 +79,8 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [ ] 10.3 - Jest - Simulando comportamentos
 - [ ] 10.4 - Projeto - Jest Assíncrono e Mocking
 
+## Desenvolvimento Front-end :hourglass_flowing_sand:
+
 ##### Bloco 11: Introdução à React
 - [ ] 11.1 - Introdução - Front-end
 - [ ] 11.2 - Introdução - React
@@ -125,6 +127,8 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 
 ##### Bloco 19: Projeto App de Receitas
 - [ ] 19.1 - Projeto - App de Receitas
+
+## Desenvolvimento Back-end :hourglass_flowing_sand:
 
 ##### Bloco 20: Introdução à SQL
 - [ ] 20.1 - Introdução - Back-end
@@ -214,6 +218,8 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [ ] 34.3 - Arquitetura de redes
 - [ ] 34.4 - Redes de computadores, ferramentas e segurança
 - [ ] 34.5 - Projeto - Explorando os protocolos
+
+## Ciência da Computação :hourglass_flowing_sand:
 
 ##### Bloco 35: Introdução à Python e Raspagem de Dados da Web
 - [ ] 35.1 - Aprendendo Python
