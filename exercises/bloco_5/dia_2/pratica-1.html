@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div id="paiDoPai">
+    <div id="pai">
+      <div id="primeiroFilho"></div>
+      <div id="elementoOndeVoceEsta">
+        <div id="primeiroFilhoDoFilho"></div>
+        <div id="segundoEUltimoFilhoDoFilho"></div>
+      </div>
+      Atenção!
+      <div id="terceiroFilho"></div>
+      <div id="quartoEUltimoFilho"></div>
+    </div>
+  </div>
+
+</body>
+  <script>
+    // 1. Acesse o elemento elementoOndeVoceEsta.
+    const ondeVoceEsta = document.getElementById('elementoOndeVoceEsta');
+
+    // 2. Acesse pai a partir de elementoOndeVoceEsta e adicione uma color a ele.
+    const ondeVoceEstaParent = ondeVoceEsta.parentNode;
+    ondeVoceEstaParent.style.color = 'red';
+
+    // 3. Acesse o primeiroFilhoDoFilho e adicione um texto a ele.
+    // Você se lembra dos vídeos da aula anterior, como fazer isso?
+    const primeiroFilhoDoFilho = ondeVoceEsta.firstElementChild;
+    primeiroFilhoDoFilho.textContent = 'Hello world';
+
+    // 4. Acesse o primeiroFilho a partir de pai.
+    const pai = document.getElementById('pai');
+    let primeiroFilho = pai.firstElementChild;
+
+    // 5. Agora acesse o primeiroFilho a partir de elementoOndeVoceEsta.
+    primeiroFilho = ondeVoceEsta.previousElementSibling;
+
+    // 6. Agora acesse o texto Atenção! a partir de elementoOndeVoceEsta.
+    const textoAtencao = ondeVoceEsta.nextSibling;
+
+    // 7. Agora acesse o terceiroFilho a partir de elementoOndeVoceEsta.
+    let terceiroFilho = ondeVoceEsta.nextElementSibling;
+
+    // 8. Agora acesse o terceiroFilho a partir de pai.
+    terceiroFilho = pai.lastElementChild.previousElementSibling;
+  </script>
+</html>

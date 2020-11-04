@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div id="paiDoPai">
+    <div id="pai">
+      <div id="primeiroFilho"></div>
+      <div id="elementoOndeVoceEsta">
+        <div id="primeiroFilhoDoFilho"></div>
+        <div id="segundoEUltimoFilhoDoFilho"></div>
+      </div>
+      Atenção!
+      <div id="terceiroFilho"></div>
+      <div id="quartoEUltimoFilho"></div>
+    </div>
+  </div>
+
+</body>
+<script>
+  // 1. Remova todos os elementos da página, menos pai, elementoOndeVoceEsta e primeiroFilhoDoFilho.
+
+  const pai = document.getElementById('pai');
+
+  const manter = ['pai', 'elementoOndeVoceEsta', 'primeiroFilhoDoFilho'];
+
+  function remove(elem) {
+    if (elem.nodeType !== 1) elem.remove();
+    if (elem.childNodes.length > 0) {
+      for (let i = elem.childNodes.length - 1; i >= 0; i--) {
+        let child = elem.childNodes[i];
+        remove(child);
+      }
+    }
+    if (!manter.includes(elem.id)) elem.remove();
+  }
+
+  remove(pai);
+</script>
+
+</html>
