@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Calendar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="month-container">
+    <ul>
+      <li id="month">Dezembro</li>
+      <li id="year">2020</li>
+    </ul>
+  </header>
+  <div class="week-days-container">
+    <ul class="week-days">
+    </ul>
+  </div>
+  <div class="days-container">
+    <ul id="days">
+    </ul>
+  </div>
+  <div class="buttons-container">
+  </div>
+  <section class="tasks-container">
+    <div class="my-tasks">
+      <h3>MINHAS TAREFAS</h3>
+    </div>
+    <div class="input-container">
+      <h3>COMPROMISSOS</h3>
+      <label for="task-input">Novo:</label>
+      <input type="text" id="task-input" placeholder="Escreva seu compromisso">
+      <button id="btn-add">Adicionar</button>
+    </div>
+    <div class="task-list-container">
+      <ul class="task-list">
+      </ul>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+
+</html>
