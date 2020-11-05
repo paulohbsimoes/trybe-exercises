@@ -1,4 +1,4 @@
-# Exerício
+# Exercício
 
 Template HTML
 
