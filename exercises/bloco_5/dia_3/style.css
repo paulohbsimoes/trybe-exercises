@@ -38,8 +38,9 @@ button {
 
 .input-container {
   width: 49%;
-  height: 100px;
-  display: inline-block;
+  height: auto;
+  /* display: inline-block; */
+  float: right;
 }
 
 input {
@@ -71,7 +72,7 @@ label {
 .my-tasks {
   clear: both;
   float: left;
-  height: 100px;
+  height: auto;
   vertical-align: middle;
   width: 49%;
 }
@@ -158,4 +159,24 @@ label {
 
 .task-wrapper {
   display: block;
+}
+
+#compromissos {
+  clear: both;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+#compromissos h2 {
+  margin-top: 40px;
+  text-align: center;
+}
+
+#compromissos ul {
+  text-align: center;
+}
+
+#compromissos ul li {
+  margin-bottom: 10px;
 }

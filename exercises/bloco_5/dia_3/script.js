@@ -23,6 +23,8 @@ const holidays = [24, 25, 31];
 
 const ulDays = document.getElementById('days');
 
+let dayColor = 'rgb(119,119,119)';
+
 for (let index = 0; index < dezDaysList.length; index++) {
   const day = dezDaysList[index];
 
@@ -136,7 +138,70 @@ function createTask(description, color) {
 
 function createLabel(color) {
   const label = document.createElement('div');
+  
   label.className = 'task';
   label.style.backgroundColor = color;
+
+  
+  label.addEventListener('click', toggleSelected);
+
   return label;
+}
+
+createTask('Estudar', 'red');
+createTask('Fazer exercícios', 'blue');
+createTask('Descansar', 'green');
+
+// Exercicio 9
+
+function toggleSelected(event) {
+  if (this.classList.contains('selected')) {
+    dayColor = 'rgb(119,119,119)';
+  } else {
+    dayColor = event.target.style.backgroundColor;
+  }
+  const labels = myTasks.querySelectorAll('.task');
+
+  labels.forEach(label => {
+    if (label !== this && label.classList.contains('selected')) {
+      label.classList.toggle('selected');
+    }
+  })
+
+  this.classList.toggle('selected');
+}
+
+
+// Exercício 10
+
+let todosOsDias = ulDays.querySelectorAll('.day');
+todosOsDias.forEach(day => day.addEventListener('click', changeColor));
+
+function changeColor() {
+  this.style.color = dayColor;
+}
+
+// Exercício Bônus
+
+const commitments = document.querySelector('.task-list-container .task-list');
+
+const commitmentInput = document.getElementById('task-input');
+commitmentInput.addEventListener('keydown', function(event) {
+  if (event.code == 'Enter') addCommitment();
+})
+
+const buttonAdd = document.getElementById('btn-add');
+buttonAdd.addEventListener('click', addCommitment);
+
+
+function addCommitment() {
+  const description = commitmentInput.value;
+  if (description.length === 0) {
+    alert('Adicione uma descrição para o compromisso', description)
+  } else {
+    const commitment = document.createElement('li');
+    commitment.textContent = description;
+    commitments.appendChild(commitment);
+  }
+  commitmentInput.value = '';
 }
