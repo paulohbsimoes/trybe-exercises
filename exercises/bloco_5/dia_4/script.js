@@ -34,6 +34,10 @@ document.addEventListener('click', (event) => {
   preferencias.classList.remove('active-settings');
 });
 
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'Escape') preferencias.classList.remove('active-settings');
+});
+
 const settingsButton = document.querySelector('#preferencias span');
 settingsButton.addEventListener('click', (event) => {
   event.stopPropagation();
