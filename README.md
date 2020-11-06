@@ -36,9 +36,9 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 
 ##### Bloco 5: [JavaScript: DOM, Eventos e Web Storage](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_5)
 - [x] 5.1 - JavaScript - DOM e seletores
-- [ ] 5.2 - JavaScript - Trabalhando com elementos
-- [ ] 5.3 - JavaScript - Eventos
-- [ ] 5.4 - JavaScript - Web Storage
+- [x] 5.2 - JavaScript - Trabalhando com elementos
+- [x] 5.3 - JavaScript - Eventos
+- [x] 5.4 - JavaScript - Web Storage
 - [ ] 5.5 - Fundamentos - JavaScript - Projetos
 - [ ] 5.6 - Projeto - Meme Generator
 - [ ] 5.7 - Projeto - Arte com Pixels
