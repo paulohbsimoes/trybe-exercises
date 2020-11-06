@@ -34,6 +34,14 @@ body {
   transition: 0.3s;
 }
 
+#preferencias input::placeholder {
+  color: black;
+}
+
+#preferencias input:focus::placeholder {
+  color: white;
+}
+
 #preferencias span {
   display: block;
   position: absolute;
@@ -77,6 +85,3 @@ h1, h2 {
   color: white;
 }
 
-#preferencias input:focus::placeholder {
-  color: white;
-}
