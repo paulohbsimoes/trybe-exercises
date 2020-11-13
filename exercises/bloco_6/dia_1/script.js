@@ -16,11 +16,18 @@ fetch('https://servicodados.ibge.gov.br/api/v1/localidades/estados')
   });
 
 function validateDate(date) {
-  return /^(\d{2}\/){2}\d{4}$/.test(date);
+  if (!/^(\d{2}\/){2}\d{4}$/.test(date)) return false;
+  const day = parseInt(date.slice(0, 2))
+  const month = parseInt(date.slice(3, 5));
+  const year = parseInt(date.slice(6, 11));
+  if (day <= 0 || day > 31 ||
+    month <= 0 || month > 12 ||
+    year <= 0) return false;
+  return true;
 }
 
 const startDate = document.getElementById('data-de-inicio');
-startDate.addEventListener('change', function(event) {
+startDate.addEventListener('change', function (event) {
   const date = event.target.value;
   if (!validateDate(date)) {
     alert('A data inserida é inválida.');
@@ -43,8 +50,7 @@ function formatLabel(label) {
   return result;
 }
 
-
-previewButton.addEventListener('click', function(event){
+previewButton.addEventListener('click', function (event) {
   event.preventDefault();
 
   if (!checkRequired()) {
@@ -67,7 +73,7 @@ previewButton.addEventListener('click', function(event){
 
     fieldWrapper.appendChild(fieldLabel);
     fieldWrapper.appendChild(fieldValue);
-    
+
     previewDl.appendChild(fieldWrapper);
   }
 
@@ -94,7 +100,7 @@ function randomData() {
   const requiredFields = form.querySelectorAll('[required]');
   for (let index = 0; index < requiredFields.length; index += 1) {
     const field = requiredFields[index];
-    field.value = getRandomString(); 
+    field.value = getRandomString();
   }
 }
 
