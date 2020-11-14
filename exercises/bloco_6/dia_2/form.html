@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulários</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./css/pikaday.css">
+  <link rel="stylesheet" href="./css/validation.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1 class="my-4 text-center">Currículo</h1>
+    </header>
+    <main>
+      <section class="formulario">
+        <form id="myForm">
+          <fieldset id="dados-pessoais">
+            <div class="form-group">
+              <label for="name">Nome</label>
+              <input class="form-control form-control-lg validate" type="text" id="name" name="nome"
+                data-validate="required,name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input class="form-control form-control-lg validate" type="email" id="email" name="email"
+                data-validate="required,email">
+            </div>
+            <div class="form-group">
+              <label for="cpf">CPF</label>
+              <input class="form-control form-control-lg validate" type="text" id="cpf" name="cpf"
+                data-validate="required,cpf">
+            </div>
+            <div class="form-group">
+              <label for="endereco">Endereço</label>
+              <input class="form-control form-control-lg validate" type="text" id="endereco" name="endereco"
+                data-validate="required,address">
+            </div>
+            <div class="form-group">
+              <label for="cidade">Cidade</label>
+              <input class="form-control form-control-lg validate" type="text" id="cidade" name="cidade"
+                data-validate="required,city">
+            </div>
+            <div class="form-group">
+              <label for="estado">Estados</label>
+              <select class="form-control form-control-lg" id="estado" name="estado"></select>
+            </div>
+            <div class="form-group">
+              <p>Tipo de moradia</p>
+              <div class="form-check-inline">
+                <input class="form-check-input" type="radio" id="casa" name="tipo" value="Casa" checked>
+                <label class="form-check-label" for="casa">Casa</label>
+              </div>
+              <div class="form-check-inline">
+                <input class="form-check-input" type="radio" id="apartamento" name="tipo" value="Apartamento">
+                <label class="form-check-label" for="apartamento">Apartamento</label>
+              </div>
+            </div>
+          </fieldset>
+          <fieldset id="ulimo-emprego">
+            <div class="form-group">
+              <label for="resumo-do-curriculo validate">Resumo do currículo</label>
+              <textarea class="form-control form-control-lg validate" id="resumo-do-curriculo"
+                name="resumo-do-curriculo" data-validate="required,summary"></textarea>
+            </div>
+            <div class="form-group">
+              <label for="cargo">Cargo</label>
+              <input class="form-control form-control-lg validate" type="text" id="cargo" name="cargo"
+                data-validate="required,office">
+            </div>
+            <div class="form-group">
+              <label for="descricao-do-cargo">Descrição do cargo</label>
+              <input class="form-control form-control-lg validate" type="text" id="descricao-do-cargo"
+                name="descricao-do-cargo" data-validate="required,office-description">
+            </div>
+            <div class="form-group">
+              <label for="data-de-inicio">Data de início</label>
+              <input class="form-control form-control-lg validate" type="text" id="data-de-inicio" name="data-de-inicio"
+                autocomplete="off" data-validate="required,date">
+            </div>
+          </fieldset>
+          <button class="btn btn-primary my-4" id="preview-button">Visualizar dados</button>
+        </form>
+      </section>
+      <section class="preview-container col-sm-10 mx-auto shadow p-5 mb-5 bg-white rounded d-none">
+        <dl class="preview-dl"></dl>
+      </section>
+    </main>
+  </div>
+  <script src="./js/jquery-3.5.1.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/moment.min.js"></script>
+  <script src="./js/pikaday.js"></script>
+  <script src="./js/validation.min.js"></script>
+  <script src="./js/validationRules.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
