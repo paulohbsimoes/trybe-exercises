@@ -39,7 +39,7 @@ function checkRequired() {
   const requiredFields = form.querySelectorAll('[required]');
   for (let index = 0; index < requiredFields.length; index += 1) {
     const field = requiredFields[index];
-    if (!field.value) return false;
+    if (!field.checkValidity()) return false;
   }
   return true;
 }
