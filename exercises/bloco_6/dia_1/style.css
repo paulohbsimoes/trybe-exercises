@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+}
+
+.formulario {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+fieldset {
+  padding: 50px;
+  margin-bottom: 20px;
+  border: none;
+  background-color: rgba(21, 107, 21, 0.616);
+  color: white;
+  border-radius: 8px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 20px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0px 0px 2px inset black;
+  outline: none;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+select:focus,
+textarea:focus {
+  box-shadow: 0 0 4px black;
+}
+
+
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 15px 30px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 4px;
+  color: white;
+  transition: 0.2s;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.preview-container {
+  width: 80%;
+  margin: 0 auto;
+  /* background-color: rgb(18, 3, 37); */
+  padding: 20px;
+  border-radius: 8px;
+  display: none;
+}
+
+.field-wrapper {
+  margin-bottom: 15px;
+  display: flex;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0px 0px 2px black;
+}
+
+.field-label {
+  display: inline-block;
+  background-color: rgba(15, 6, 100, 0.5);
+  border-right: 2px solid lightgray;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  min-width: 100px;
+  max-width: 100px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.field-value {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px 15px;
+  font-size: 20px;
+  background-color: rgba(255 , 255 , 255 , 0.3);
+  font-size: 20px;
+  word-break: break-all;
+}
+
+.input-group-radios {
+  flex-direction: row;
+  align-items: center;
+}
+
+.input-group-radios input[type="radio"] {
+  margin: 10px;
+}
+
+.input-group-radios label {
+  margin-right: 15px;
+}

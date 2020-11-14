@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulários</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Currículo</h1>
+  </header>
+  <main>
+    <section class="formulario">
+      <form action="" method="POST">
+        <fieldset id="dados-pessoais">
+          <div class="input-group">
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="nome" maxlength="40" required>
+          </div>
+          <div class="input-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" maxlength="50" required>
+          </div>
+          <div class="input-group">
+            <label for="cpf">CPF</label>
+            <input type="text" id="cpf" name="cpf" maxlength="11" required>
+          </div>
+          <div class="input-group">
+            <label for="endereco">Endereço</label>
+            <input type="text" id="endereco" name="endereco" maxlength="200" required>
+          </div>
+          <div class="input-group">
+            <label for="cidade">Cidade</label>
+            <input type="text" id="cidade" name="cidade" maxlength="11" required>
+          </div>
+          <div class="input-group">
+            <label for="estado">Estados</label>
+            <select id="estado" name="estado" required></select>
+          </div>
+          <div class="input-group input-group-radios">
+            <input type="radio" id="casa" name="tipo" value="Casa" checked>
+            <label for="casa">Casa</label>
+            <input type="radio" id="apartamento" name="tipo" value="Apartamento">
+            <label for="apartamento">Apartamento</label>
+          </div>
+        </fieldset>
+        <fieldset id="ulimo-emprego">
+          <div class="input-group">
+            <label for="resumo-do-curriculo">Resumo do currículo</label>
+            <textarea id="resumo-do-curriculo" name="resumo-do-curriculo" cols="30" rows="10" maxlength="1000"
+              required></textarea>
+          </div>
+          <div class="input-group">
+            <label for="cargo">Cargo</label>
+            <input type="text" id="cargo" name="cargo" maxlength="40" required>
+          </div>
+          <div class="input-group">
+            <label for="descricao-do-cargo">Descrição do cargo</label>
+            <input type="text" id="descricao-do-cargo" name="descricao-do-cargo" maxlength="500" required></label>
+          </div>
+          <div class="input-group">
+            <label for="data-de-inicio">Data de início</label>
+            <input type="text" id="data-de-inicio" name="data-de-inicio" required>
+          </div>
+        </fieldset>
+        <button id="preview-button">Visualizar dados</button>
+      </form>
+    </section>
+    <section class="preview-container">
+      <dl class="preview-dl"></dl>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
