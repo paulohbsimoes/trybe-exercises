@@ -1,0 +1,14 @@
+.tower-group-1 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.tower-group-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.tower-group-3 {
+  display: flex;
+  justify-content: flex-end;
+}
