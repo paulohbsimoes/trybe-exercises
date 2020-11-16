@@ -1,0 +1,16 @@
+.tower-group-1 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.tower-group-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.tower-group-3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
