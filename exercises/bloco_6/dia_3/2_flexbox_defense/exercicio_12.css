@@ -1,0 +1,28 @@
+.tower-group-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tower-1-1 {
+  order: 1;
+}
+
+.tower-1-2 {
+  order: 1;
+  align-self: center;
+}
+
+.tower-1-3 {
+  order: 2;
+  align-self: center;
+}
+
+.tower-1-4 {
+  order: 1;
+  align-self: center;
+}
+
+.tower-1-5 {
+  order: 2;
+  align-self: flex-end;
+}
