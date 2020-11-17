@@ -17,3 +17,7 @@ Como os exercícios serão feitos na própria plataforma, crie um diretório em 
 2. Neste segundo [link](http://www.flexboxdefense.com/), complete os exercícios de 10 a 12. Seu objetivo aqui é posicionar as torres de defesa para que elas abatam os inimigos. Você terá de pensar qual é a melhor posição para cada torre.
 
 3. (Opcional) Para finalizar, escolha alguns exercícios antigos como, por exemplo, o portfólio ou até mesmo os projetos de HTML, CSS e JavaScript e estruture as páginas utilizando Flexbox.
+
+## Observação
+
+Como já havia terminado os exercícios de hoje na aula anterior, fiz outros exercícios, neste [site](https://mastery.games/flexboxzombies).
