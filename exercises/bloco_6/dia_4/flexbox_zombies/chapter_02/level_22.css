@@ -1,0 +1,5 @@
+/* Challenge answer */
+element.style {
+  flex-direction: column;
+  justify-content: space-around;
+}
