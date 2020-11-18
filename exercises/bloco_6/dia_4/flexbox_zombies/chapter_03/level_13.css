@@ -1,0 +1,12 @@
+/* Try it in this order:
+1. Turn on the crossbow,
+2. Aim it,
+3. Line them up along the red Justify Laser,
+4. Align them along the blue Alignment Lasers. */
+
+crossbow {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
