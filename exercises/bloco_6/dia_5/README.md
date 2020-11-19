@@ -163,7 +163,7 @@ Realize as seguintes tarefas:
 
 > Isso garante que estamos desenvolvendo uma experiência que funcionará para todos. Também tem um efeito colateral, que isso também nos ajuda a perceber qual o conteúdo é realmente importante na nossa página.
 
-**Dica: no Chrome você pode facilmente encontrar qual o tamanho da sua tela usando o "Inspecionar elemento". Abra-o e redimensione a janela, enquanto isso preste atenção no topo da tela: as dimensãoes de largura e altura irão aparecer conforme você redimensiona a tela.**
+**Dica: no Chrome você pode facilmente encontrar qual o tamanho da sua tela usando o "Inspecionar elemento". Abra-o e redimensione a janela, enquanto isso preste atenção no topo da tela: as dimensões de largura e altura irão aparecer conforme você redimensiona a tela.**
 
 * Comece a expandir a largura da sua tela. Faça isso até chegar em um ponto onde o design atual da página não funciona mais.
 
@@ -646,7 +646,7 @@ O objetivo deste exercício é usar media queries para fazer a página acima par
     
     * O elemento com id aside deve ser mostrado abaixo do conteúdo principal.
 
-    ![Urso](./imgs/1.png)
+    ![Urso](./assets/img/1.png)
     * Visualização da página antes da impressão
 
 * Adicione uma media query no arquivo CSS e as regras necessárias para que a página se pareça com as imagens abaixo quando a tela for redimensionada para larguras menores. Especificamente:
@@ -661,10 +661,10 @@ O objetivo deste exercício é usar media queries para fazer a página acima par
 
   * O elemento com id header deve ser fixo, de forma que ele fique aparecendo sempre no topo da tela mesmo apos o usuário rolar a página.
 
-  ![Tela pequena](./imgs/2.png)
+  ![Tela pequena](./assets/img/2.png)
   * 240x320: tela pequena
 
-  ![Tela smartphone](./imgs/3.png)
+  ![Tela smartphone](./assets/img/3.png)
   * 360x640 tela de smartphone
 
 ## Bônus (opcional)
