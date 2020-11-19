@@ -1,0 +1,21 @@
+@media screen and (max-width: 568px) {
+  #centro {
+    width: 100vw;
+  }
+
+  #topo {
+    background: #ff0;
+  }
+
+  #topo h1 {
+    color: #f00;
+  }
+
+  .colunas {
+    flex-direction: column;
+  }
+
+  .coluna {
+    margin-top: 5px;
+  }
+}

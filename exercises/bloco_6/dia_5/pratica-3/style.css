@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#centro {
+  width: 90vw;
+  height: 100vh;
+  background: #333;
+  margin: 0 auto;
+}
+
+#topo {
+  background: #f00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+
+#topo h1 {
+  color: #fff;
+  font-size: 2em;
+  text-align: center;
+}
+
+.colunas {
+  display: flex;
+}
+
+.coluna {
+  flex-grow: 1;
+  background: #999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+.coluna h1 {
+  padding: 10px;
+}
