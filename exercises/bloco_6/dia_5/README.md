@@ -6,7 +6,7 @@ Para começar mergulhando de cabeça, assista a este vídeo onde o autor demonst
 
 Obs: não se preocupe em reproduzir o código demonstrado no vídeo, faremos isso logo em seguida!
 
-[https://www.youtube.com/watch?v=AltqAPZzAqo](https://www.youtube.com/watch?v=AltqAPZzAqo&ab_channel=Origamid)
+[Como utilizar Media Queries para sites Responsivos](https://www.youtube.com/watch?v=AltqAPZzAqo)
 
 Vamos praticar um pouco!
 
@@ -199,7 +199,7 @@ Agora, você vai criar outro breakpoint para telas grandes. Redimensione sua tel
 
 Antes de começar, copie o template HTML e CSS abaixo, e salve em seus respectivos arquivos:
 
-*exercise2.html
+* exercise2.html
 
 ```html
 <!doctype html>
@@ -647,7 +647,7 @@ O objetivo deste exercício é usar media queries para fazer a página acima par
     * O elemento com id aside deve ser mostrado abaixo do conteúdo principal.
 
     ![Urso](./imgs/1.png)
-    Visualização da página antes da impressão
+    * Visualização da página antes da impressão
 
 * Adicione uma media query no arquivo CSS e as regras necessárias para que a página se pareça com as imagens abaixo quando a tela for redimensionada para larguras menores. Especificamente:
 
@@ -662,10 +662,10 @@ O objetivo deste exercício é usar media queries para fazer a página acima par
   * O elemento com id header deve ser fixo, de forma que ele fique aparecendo sempre no topo da tela mesmo apos o usuário rolar a página.
 
   ![Tela pequena](./imgs/2.png)
-  240x320: tela pequena
+  * 240x320: tela pequena
 
   ![Tela smartphone](./imgs/3.png)
-  360x640 tela de smartphone
+  * 360x640 tela de smartphone
 
 ## Bônus (opcional)
 
