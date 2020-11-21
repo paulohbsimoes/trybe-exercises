@@ -1,0 +1,200 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 24px;
+}
+
+header h1 {
+  font-size: 1.9rem;
+  text-align: center;
+  margin: 0;
+}
+
+header, h2 {
+  background: rgba(0, 0, 0, 0.863);
+  padding: 20px;
+  color: white;
+}
+
+h2 {
+  background: rgba(0, 0, 0, 0.863);
+  padding: 10px;
+  color: white;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(31, 1, 31, 0.575);
+  margin-bottom: 15px;
+}
+
+nav ul li {
+  padding: 10px;
+  color: white;
+  transition: 0.2s;
+  font-size: 1.5rem;
+}
+
+nav ul li:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+main {
+  font-size: 20px;
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto 0 auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+table {
+  text-align: center;
+  word-break: break-all;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+tr, td, th {
+  border: 1px solid black;
+  padding: 5px 10px;
+}
+
+ul, ol {
+  list-style-type: none;
+  list-style-position: inside;
+}
+
+h1, h2, h3 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+aside iframe {
+  margin: 15px;
+}
+
+footer {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: rgba(31, 1, 31, 0.575);
+  color: white;
+  text-align: center;
+}
+
+footer a {
+  color: orangered;
+  text-shadow: 0 0 4px black;
+}
+
+.wrapper .videos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper .videos iframe {
+  width: 560px;
+  height: 315px;
+}
+
+#references {
+  text-align: center;
+}
+
+@media (min-width: 1000px) {
+  h1, h2, h3 {
+    text-align: left;
+  }
+
+  img, table {
+    margin: 50px auto;
+  }
+
+  header {
+    padding: 30px;
+  }
+
+  header h1 {
+    font-size: 2.2rem;
+  }
+  
+  nav ul {
+    justify-content: center;
+  }
+
+  nav ul li {
+    font-size: 1.7rem;
+    padding: 15px;
+  }
+
+  #references {
+    text-align: left;
+  }
+}
+
+@media print {
+  body {
+    color: black;
+  }
+
+  img, aside, footer, header, nav {
+    display: none;
+  }
+  
+  h1, h3 {
+    text-align: left;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  section {
+    text-align: justify;
+  }
+
+  #references {
+    text-align: left;
+    word-break: break-all;
+  }
+
+  #references li {
+    margin-bottom: 10px;
+  }
+
+  #references a {
+    color: black;
+  }
+
+  #references a::after {
+    content: " (" attr(href) ") ";
+  }
+}
