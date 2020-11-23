@@ -89,8 +89,10 @@ Abaixo, você verá algumas especificações de algoritmos para desenvolver. É 
 
 *Exemplo:*
 
+```
 "Tryber x aqui!
 Minhas cinco principais habilidades são:
 JavaScript;
 HTML; ...
 #goTrybe".
+```
