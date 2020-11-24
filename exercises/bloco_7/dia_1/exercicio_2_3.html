@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="app"></div>
+
+  <script>
+    const app = document.querySelector('#app');
+    let clickCount = 0;
+
+    const counterParagraph = document.createElement('p');
+    counterParagraph.id = 'counter';
+    counterParagraph.textContent = clickCount;
+    app.appendChild(counterParagraph);
+
+    const triggerButton = document.createElement('button');
+    triggerButton.id = 'trigger';
+    triggerButton.textContent = 'Count';
+    app.appendChild(triggerButton);
+
+    triggerButton.addEventListener('click', (event) => {
+      clickCount += 1;
+      counterParagraph.textContent = clickCount;
+    })
+  </script>
+</body>
+</html>
