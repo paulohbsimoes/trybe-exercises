@@ -80,3 +80,13 @@ const verifyPair = (obj, key, value) => {
 
 console.log(verifyPair(lesson3, 'turno', 'noite'));
 console.log(verifyPair(lesson3, 'materia', 'Maria Clara'));
+
+// Bonus 1
+
+const countStundentPerLesson = lesson => {
+  return (Object.entries(allLessons)
+    .filter(([_, val]) => val.materia === lesson)
+    .reduce((acc, [_, val]) => acc + val.numeroEstudantes, 0));
+}
+
+console.log(countStundentPerLesson('Matemática'));
