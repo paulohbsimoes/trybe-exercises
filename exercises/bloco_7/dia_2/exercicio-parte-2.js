@@ -27,3 +27,9 @@ console.log(lesson2);
 addObjProperty(lesson2, 'turno', 'manhã');
 
 console.log(lesson2);
+
+// Exercício 2
+
+const listObjKeys = obj => Object.keys(obj).forEach(key => console.log(key));
+
+listObjKeys(lesson3);
