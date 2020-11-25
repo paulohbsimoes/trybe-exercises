@@ -45,3 +45,11 @@ console.log(getObjSize(lesson3));
 const listObjValues = obj => Object.values(obj).forEach(value => console.log(value));
 
 listObjValues(lesson3);
+
+// Exercício 5
+
+const allLessons = {
+  lesson1: Object.assign({}, lesson1),
+  lesson2: Object.assign({}, lesson2),
+  lesson3: Object.assign({}, lesson3)
+}
