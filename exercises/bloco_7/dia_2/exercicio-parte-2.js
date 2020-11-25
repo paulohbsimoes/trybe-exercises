@@ -65,3 +65,9 @@ const getStudentsNumber = () => {
 }
 
 console.log(getStudentsNumber());
+
+// Exercício 7
+
+const getValueByNumber = (obj, pos) => obj[Object.keys(obj)[pos]]
+
+console.log(getValueByNumber(lesson1, 0));
