@@ -55,3 +55,13 @@ const allLessons = {
 }
 
 console.log(allLessons);
+
+// Exercício 6
+
+const getStudentsNumber = () => {
+  return Object.entries(allLessons)
+    .map(([_, val]) => val.numeroEstudantes)
+    .reduce((acc, cur) => acc + cur);
+}
+
+console.log(getStudentsNumber());
