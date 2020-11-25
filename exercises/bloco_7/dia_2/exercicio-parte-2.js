@@ -71,3 +71,12 @@ console.log(getStudentsNumber());
 const getValueByNumber = (obj, pos) => obj[Object.keys(obj)[pos]]
 
 console.log(getValueByNumber(lesson1, 0));
+
+// Exercício 8
+
+const verifyPair = (obj, key, value) => {
+  return Object.entries(obj).some(([currentKey, currentValue]) => currentKey === key && currentValue === value);
+}
+
+console.log(verifyPair(lesson3, 'turno', 'noite'));
+console.log(verifyPair(lesson3, 'materia', 'Maria Clara'));
