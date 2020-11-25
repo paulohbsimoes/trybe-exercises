@@ -53,3 +53,5 @@ const allLessons = {
   lesson2: Object.assign({}, lesson2),
   lesson3: Object.assign({}, lesson3)
 }
+
+console.log(allLessons);
