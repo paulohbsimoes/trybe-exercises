@@ -14,3 +14,4 @@ new Promise((resolve, reject) => {
 })
   .then(result => console.log([2, 3, 5, 10].map(divisor => result / divisor)))
   .catch(result => console.log(result));
+  
