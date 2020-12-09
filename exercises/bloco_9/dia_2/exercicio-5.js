@@ -1,8 +1,8 @@
-function getRandomNumber(limit) {
+const getRandomNumber = (limit) => {
   return Math.floor(Math.random() * limit) + 1;
 }
 
-const myPromise = new Promise((resolve, reject) => {
+new Promise((resolve, reject) => {
   const numbers = [];
   while(numbers.length < 10) {
     numbers.push(getRandomNumber(50));
@@ -15,4 +15,3 @@ const myPromise = new Promise((resolve, reject) => {
   .then(result => [2, 3, 5, 10].map(divisor => result / divisor))
   .then(result => console.log(result.reduce((acc, cur) => acc + cur)))
   .catch(() => console.log('É mais de oito mil! Essa promise deve estar quebrada!'));
-  

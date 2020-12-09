@@ -1,8 +1,8 @@
-function getRandomNumber(limit) {
+const getRandomNumber = (limit) => {
   return Math.floor(Math.random() * limit) + 1;
 }
 
-const myPromise = new Promise((resolve, reject) => {
+new Promise((resolve, reject) => {
   const numbers = [];
   while(numbers.length < 10) {
     numbers.push(getRandomNumber(50));
