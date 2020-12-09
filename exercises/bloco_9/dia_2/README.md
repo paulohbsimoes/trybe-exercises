@@ -1,5 +1,19 @@
 # Exercícios
 
+## Para fixar
+
+* O que é um código que é executado de modo assíncrono? Qual é a diferença disso para um código que é executado de modo síncrono?
+
+* Quando você tem que enfileirar várias callbacks , que problema surge?
+
+* Por que as Promises são uma forma de se resolver esse problema?
+
+* Quando você vai se comunicar com uma API , tal comunicação deve ser síncrona ou assíncrona? Lembre-se de que o serviço ao qual você está se conectando pode demorar muito ou pouco para dar retorno, pode estar fora do ar etc.
+
+* Dada a resposta anterior, o que é fetch e para que ele serve?
+
+## Agora, a prática
+
 1. Como o primeiro exercício, vamos usar a função fetch , que vimos na aula ao vivo, para criar um site simples com um gerador de piadas ruins! . Como? Vamos fazer juntos!
 
 * Primeiro, veja o [manual da API do site icanhazdadjoke.com](https://icanhazdadjoke.com/api) . Ele esclarece como fazer as requisições ao serviço de piadas. Por hora, pode só passar o olho; agora vamos entender como funciona essa API :
@@ -88,3 +102,9 @@ fetch(API_URL, myObject)
 4. Quando a Promise for rejeitada, imprima, via `console.log` , a frase "É mais de oito mil! Essa promise deve estar quebrada!"
 
 5. Quando a Promise for bem-sucedida, encadeie nela uma segunda Promise que some os elementos do array.
+
+## Bônus
+
+* Utilize somente Higher Order Functions para fazer as operações com o array;
+
+* Refatore a Promise para utilizar somente async e await .
