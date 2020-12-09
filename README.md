@@ -69,7 +69,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 8.5 - Projeto - Zoo functions
 
 ##### Bloco 9: JavaScript Assíncrono e Promises
-- [ ] 9.1 - JavaScript Assíncrono e Callbacks
+- [x] 9.1 - JavaScript Assíncrono e Callbacks
 - [x] 9.2 - JavaScript Promises
 - [ ] 9.3 - Projeto - Carrinho de Compras
 
