@@ -2,7 +2,7 @@
 É um código que não bloqueia a aplicação enquanto é executado, o fluxo de execução continua. A diferença é que o código síncrono é executado em sequência, "travando" a execução até que seja concluído.
 
 ## 2. Quando você tem que enfileirar várias callbacks , que problema surge?
-Quando uma função assíncrona depende do resultado de outra função assíncrona, ou quando precisamos garantir que os resultados dessas funções estajam em determinada ordem, colocamos várias callbacks aninhadas, causando um problema conhecido como [callback hell](http://callbackhell.com/) que torna o código difícil de ler e manter.
+Quando uma função assíncrona depende do resultado de outra função assíncrona, ou quando precisamos garantir que os resultados dessas funções estajam em determinada ordem, colocamos várias callbacks aninhadas, causando um problema conhecido como [callback hell](http://callbackhell.com/), tornando o código difícil de ler e manter.
 
 <p align="center">
   <img width="500" src="./imgs/callback_hell.jpeg">
