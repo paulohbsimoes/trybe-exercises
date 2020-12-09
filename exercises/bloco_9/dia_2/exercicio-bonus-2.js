@@ -23,9 +23,9 @@ const getSum = async () => {
     .catch(() => 'É mais de oito mil! Essa promise deve estar quebrada!');
 }
 
-const verifySum = async () => {
+const logSum = async () => {
   const result = await getSum();
   console.log(result);
 }
 
-verifySum();
+logSum();
