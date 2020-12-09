@@ -17,4 +17,3 @@ new Promise((resolve, reject) => {
   .then(result => [2, 3, 5, 10].map(divisor => result / divisor))
   .then(result => console.log(result.reduce((acc, cur) => acc + cur)))
   .catch(() => console.log('É mais de oito mil! Essa promise deve estar quebrada!'));
-  
