@@ -74,7 +74,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 9.3 - Projeto - Carrinho de Compras
 
 ##### Bloco 10: Testes automatizados com Jest
-- [ ] 10.1 - Primeiros passos no Jest
+- [x] 10.1 - Primeiros passos no Jest
 - [ ] 10.2 - Jest - Testes Assíncronos
 - [ ] 10.3 - Jest - Simulando comportamentos
 - [ ] 10.4 - Projeto - Jest Assíncrono e Mocking
