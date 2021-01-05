@@ -6,19 +6,19 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 
 ## Fundamentos do Desenvolvimento Web :hourglass:
 
-##### Bloco 1: Unix, Bash e Shell Script
+##### Bloco 1: [Unix, Bash e Shell Script](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_01)
 - [x] 1.1 - Setup
 - [x] 1.2 - Fundamentos do Desenvolvimento Web
 - [x] 1.3 - Introdução - Unix & Shell
 - [x] 1.4 - Unix & Bash - Parte 1
 - [x] 1.5 - Unix & Bash - Parte 2
 
-##### Bloco 2: [Git, GitHub e Internet](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_2)
+##### Bloco 2: [Git, GitHub e Internet](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_02)
 - [x] 2.1 - Git & GitHub  - O que é e para que serve
 - [x] 2.2 - Git & GitHub - Entendendo os comandos
 - [x] 2.3 - Internet - Entendendo como ela funciona
 
-##### Bloco 3: [Introdução à HTML e CSS](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_3)
+##### Bloco 3: [Introdução à HTML e CSS](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_03)
 - [x] 3.1 - Introdução - HTML & CSS
 - [x] 3.1 - HTML & CSS - Estruturas de página
 - [x] 3.2 - HTML & CSS - Primeiros passos em CSS
@@ -26,7 +26,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 3.4 - HTML Semântico
 - [x] 3.5 - Projeto - Lessons Learned
 
-##### Bloco 4: [Introdução à JavaScript e Lógica de Programação](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_4)
+##### Bloco 4: [Introdução à JavaScript e Lógica de Programação](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_04)
 - [x] 4.1 - Introdução - JavaScript
 - [x] 4.1 - JavaScript - Primeiros passos
 - [x] 4.2 - JavaScript - Array e loop For
@@ -34,7 +34,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 4.4 - JavaScript - Objetos e funções
 - [x] 4.5 - Projeto - Playground Functions
 
-##### Bloco 5: [JavaScript: DOM, Eventos e Web Storage](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_5)
+##### Bloco 5: [JavaScript: DOM, Eventos e Web Storage](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_05)
 - [x] 5.1 - JavaScript - DOM e seletores
 - [x] 5.2 - JavaScript - Trabalhando com elementos
 - [x] 5.3 - JavaScript - Eventos
@@ -46,7 +46,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 5.8 - (Bônus) Projeto - Adivinhe a Cor
 - [x] 5.8 - (Bônus) Projeto - Carta Misteriosa
 
-##### Bloco 6: [HTML e CSS: Forms, Flexbox e Responsivo](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_6)
+##### Bloco 6: [HTML e CSS: Forms, Flexbox e Responsivo](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_06)
 - [x] 6.1 - HTML & CSS - Forms
 - [x] 6.2 - Bibliotecas JavaScript e Frameworks CSS
 - [x] 6.3 - Introdução - CSS Flexbox
@@ -55,25 +55,25 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 6.5 - CSS Responsivo - Mobile First
 - [x] 6.6 - Projeto - Página inicial do Facebook
 
-##### Bloco 7: [Introdução à JavaScript ES6 e Testes Unitários](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_7)
+##### Bloco 7: [Introdução à JavaScript ES6 e Testes Unitários](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_07)
 - [x] 7.1 - JavaScript ES6 - let, const, arrow functions e template literals
 - [x] 7.2 - JavaScript ES6 - Objects
 - [x] 7.3 - Testes unitários em JavaScript
 - [x] 7.4 - Projeto - JavaScript Testes Unitários
 
-##### Bloco 8: [Higher Order Functions do JavaScript ES6](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_8)
+##### Bloco 8: [Higher Order Functions do JavaScript ES6](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_08)
 - [x] 8.1 - JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
 - [x] 8.2 - JavaScript ES6 - Higher Order Functions - map e filter
 - [x] 8.3 - JavaScript ES6 - Higher Order Functions - reduce
 - [x] 8.4 - JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
 - [x] 8.5 - Projeto - Zoo functions
 
-##### Bloco 9: JavaScript Assíncrono e Promises
+##### Bloco 9: [JavaScript Assíncrono e Promises](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_09)
 - [x] 9.1 - JavaScript Assíncrono e Callbacks
 - [x] 9.2 - JavaScript Promises
 - [x] 9.3 - Projeto - Carrinho de Compras
 
-##### Bloco 10: Testes automatizados com Jest
+##### Bloco 10: [Testes automatizados com Jest](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_10)
 - [x] 10.1 - Primeiros passos no Jest
 - [ ] 10.2 - Jest - Testes Assíncronos
 - [ ] 10.3 - Jest - Simulando comportamentos
