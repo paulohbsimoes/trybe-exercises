@@ -18,9 +18,9 @@ O código abaixo utiliza uma API de piadas e implementa o fetchJoke , que é um 
 
 ```js
 {
-  'id': '7h3oGtrOfxc',
-  'joke': 'Whiteboards ... are remarkable.',
-  'status': 200
+  "id": "7h3oGtrOfxc",
+  "joke": "Whiteboards ... are remarkable.",
+  "status": 200
 }
 ```
 
