@@ -1,9 +1,8 @@
 const getRandom = require('../src/1-getRandom');
 
 describe('getRandom', () => {
-  getRandom.getRandom = jest.fn();
-  const spy = getRandom.getRandom;
-  afterEach(spy.mockRestore);
+  const spy = jest.spyOn(getRandom, 'getRandom');
+  afterEach(spy.mockReset);
 
   it('Utilizando o mock, defina o retorno padrão como 10. Teste se a função foi chamada, qual seu retorno e quantas vezes foi chamada', () => {
     spy.mockReturnValue(10);
