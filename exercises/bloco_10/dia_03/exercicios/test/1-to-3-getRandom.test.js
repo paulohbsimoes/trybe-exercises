@@ -1,4 +1,4 @@
-const getRandom = require('../src/1-getRandom');
+const getRandom = require('../src/1-to-3-getRandom');
 
 describe('getRandom', () => {
   const spy = jest.spyOn(getRandom, 'getRandom');
