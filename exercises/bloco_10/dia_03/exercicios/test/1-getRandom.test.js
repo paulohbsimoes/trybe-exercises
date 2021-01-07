@@ -16,4 +16,18 @@ describe('getRandom', () => {
     expect(spy).toHaveLastReturnedWith(10);
     expect(spy).toBeCalledTimes(2);
   });
+
+  it('Com a mesma função do exercício anterior, utilizando o mock, crie uma nova implementação, que deve receber dois parâmetros e retornar a divisão do primeiro pelo segundo. Essa implementação deve ocorrer uma única vez', () => {
+    spy.mockImplementationOnce((a, b) => a / b);
+
+    getRandom.getRandom(10, 2);  
+    expect(spy).toHaveBeenLastCalledWith(10, 2);
+    expect(spy).toHaveLastReturnedWith(5);
+    expect(spy).toBeCalledTimes(1);
+
+    getRandom.getRandom(10, 2);
+    expect(spy).toHaveBeenLastCalledWith(10, 2);
+    expect(spy).toHaveLastReturnedWith(undefined);
+    expect(spy).toBeCalledTimes(2);
+  });
 });
