@@ -1,26 +1,9 @@
 import Image from './Image';
 import Order from './Order';
+import UserProfile from './UserProfile';
 
-const orders = [
-  {
-    id: 102,
-    user: "cena@gmail.com",
-    product: "Razer Headphone",
-    price: {
-      value: 99.99,
-      currency: "dollars"
-    }
-  },
-  {
-    id: 77,
-    user: "cena@gmail.com",
-    product: "Monster 500mL",
-    price: {
-      value: 9.99,
-      currency: "dollars"
-    }
-  }
-];
+import { orders } from './orders';
+import { users } from './users';
 
 function App() {
   const img = {
@@ -41,8 +24,14 @@ function App() {
       <section>
         <h2>Para fixar - Composição de componentes</h2>
         <h3> Orders recently created </h3>
-        {orders.map(order => (
-          <Order order={order} />
+        {orders.map((order, index) => (
+          <Order order={order} key={index} />
+        ))}
+      </section>
+      <section>
+        <h2>Para fixar - Lista de componentes e chaves</h2>
+        {users.map((user, index) => (
+          <UserProfile user={user} key={user.id} />
         ))}
       </section>
     </div>
