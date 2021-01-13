@@ -24,13 +24,13 @@ function App() {
       <section>
         <h2>Para fixar - Composição de componentes</h2>
         <h3> Orders recently created </h3>
-        {orders.map((order, index) => (
-          <Order order={order} key={index} />
+        {orders.map((order) => (
+          <Order order={order} key={order.id} />
         ))}
       </section>
       <section>
         <h2>Para fixar - Lista de componentes e chaves</h2>
-        {users.map((user, index) => (
+        {users.map((user) => (
           <UserProfile user={user} key={user.id} />
         ))}
       </section>
