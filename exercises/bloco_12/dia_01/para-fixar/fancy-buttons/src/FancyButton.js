@@ -1,10 +1,20 @@
 import React, { Component } from 'react';
 
 class FancyButton extends Component {
+  constructor() {
+    super()
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  handleClick() {
+    const { text } = this.props;
+    console.log(text);
+  }
+
   render() { 
-    const { text, handleClick } = this.props;
+    const { text } = this.props;
     return (
-      <button onClick={() => handleClick(text)}>{text}</button>
+      <button onClick={this.handleClick}>{text}</button>
     );
   }
 }
