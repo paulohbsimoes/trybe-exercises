@@ -1,20 +1,23 @@
 import React, { Component } from 'react';
+import styles from './FancyButton.module.css'
 
 class FancyButton extends Component {
   constructor() {
     super()
+    this.state = { count: 0 };
     this.handleClick = this.handleClick.bind(this);
   }
 
   handleClick() {
-    const { text } = this.props;
-    console.log(text);
+    this.setState((previousState, _props) => {
+      this.setState({ count: previousState.count + 1 });
+    })
   }
 
   render() { 
-    const { text } = this.props;
+    const { count } = this.state;
     return (
-      <button onClick={this.handleClick}>{text}</button>
+      <button className={styles['fancy-button']} onClick={this.handleClick}>{count}</button>
     );
   }
 }
