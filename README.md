@@ -81,12 +81,12 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
-##### Bloco 11: Introdução à React
-- [ ] 11.1 - Introdução - Front-end
-- [ ] 11.2 - Introdução - React
-- [ ] 11.3 - 'Hello, world!' no React!
-- [ ] 11.4 - Componentes React
-- [ ] 11.5 - Projeto - Movie Cards Library
+##### Bloco 11: [Introdução à React](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_11)
+- [x] 11.1 - Introdução - Front-end
+- [x] 11.1 - Introdução - React
+- [x] 11.1 - 'Hello, world!' no React!
+- [x] 11.2 - Componentes React
+- [x] 11.3 - Projeto - Movie Cards Library
 
 ##### Bloco 12: Componentes com Estado, Eventos e Formulários com React
 - [ ] 12.1 - Componentes com estado e eventos
