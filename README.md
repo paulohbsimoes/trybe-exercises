@@ -88,8 +88,8 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 11.2 - Componentes React
 - [x] 11.3 - Projeto - Movie Cards Library
 
-##### Bloco 12: Componentes com Estado, Eventos e Formulários com React
-- [ ] 12.1 - Componentes com estado e eventos
+##### Bloco 12: [Componentes com Estado, Eventos e Formulários com React](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_12)
+- [x] 12.1 - Componentes com estado e eventos
 - [ ] 12.2 - Formulários no React
 - [ ] 12.3 - Projeto - Movie Cards Library Stateful
 
