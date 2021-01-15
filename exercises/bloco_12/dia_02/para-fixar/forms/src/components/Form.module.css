@@ -1,0 +1,8 @@
+.main-form {
+  display: flex;
+  flex-flow: column;
+}
+
+.main-form > * {
+  margin-bottom: 10px;
+}
