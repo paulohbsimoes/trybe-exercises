@@ -13,24 +13,29 @@ class Form extends Component {
   }
 
   handleFormData({ target }) {
-    const { name, value } = target;
+    const { name } = target;
+    const value = target.type === 'checkbox' ? target.checked : target.value;
     this.setState({
-      [name]: value
+      [name]: value 
     })
   }
   
   render() {
     return (
       <form className={styles["main-form"]} action="">
-        <select name="comida-favorita" id="comidas" onChange={this.handleFormData}>
-          <option value="Pizza">Pizza</option>
-          <option value="Sorvete">Sorvete</option>
-          <option value="Hambúrger">Hambúrger</option>
-          <option value="Açaí">Açaí</option>
-        </select>
-        <input name="inputA" type="text" onChange={this.handleFormData} />
-        <input name="inputB" type="text" onChange={this.handleFormData} />
-        <input name="inputB" type="text" />
+        <fieldset>
+          <legend>Usando fieldset</legend>
+          <select name="comida-favorita" id="comidas" onChange={this.handleFormData}>
+            <option value="Pizza">Pizza</option>
+            <option value="Sorvete">Sorvete</option>
+            <option value="Hambúrger">Hambúrger</option>
+            <option value="Açaí">Açaí</option>
+          </select>
+          <input name="inputA" type="text" onChange={this.handleFormData} />
+          <input name="inputB" type="text" onChange={this.handleFormData} />
+        </fieldset>
+        <input name="checkboxA" type="checkbox" onChange={this.handleFormData} />
+        <input type="file" />
         <textarea name="textarea" id="" cols="30" rows="10" onChange={this.handleFormData}></textarea>
       </form>  
     );

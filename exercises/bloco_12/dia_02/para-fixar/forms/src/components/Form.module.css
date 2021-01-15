@@ -3,6 +3,11 @@
   flex-flow: column;
 }
 
-.main-form > * {
+.main-form fieldset {
+  display: flex;
+  flex-flow: column;
+}
+
+.main-form * {
   margin-bottom: 10px;
 }
