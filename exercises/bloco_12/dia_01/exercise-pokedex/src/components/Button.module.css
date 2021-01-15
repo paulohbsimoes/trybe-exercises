@@ -1,0 +1,25 @@
+.button {
+  font-size: 1.3rem;
+  font-weight: 700;
+  min-width: 100px;
+  padding: 15px;
+  margin: 5px;
+  text-align: center;
+  border: none;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  transition: 0.1s;
+  color: white;
+  text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  outline: none;
+}
+
+.button:disabled {
+  background-color: #777 !important;
+}
+
+.button:enabled:hover {
+  transform: translateY(-1px) translateX(-1px);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
