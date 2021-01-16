@@ -1,0 +1,7 @@
+.error-message {
+  padding: 5px 10px;
+  background-color: rgba(255, 0, 0, 0.6);
+  color: white;
+  font-weight: 500;
+  margin: 5px 0;
+}
