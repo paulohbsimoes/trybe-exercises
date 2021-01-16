@@ -8,6 +8,6 @@
   flex-flow: column;
 }
 
-.main-form * {
+.main-form > * {
   margin-bottom: 10px;
 }
