@@ -90,8 +90,8 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 
 ##### Bloco 12: [Componentes com Estado, Eventos e Formulários com React](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_12)
 - [x] 12.1 - Componentes com estado e eventos
-- [ ] 12.2 - Formulários no React
-- [ ] 12.3 - Projeto - Movie Cards Library Stateful
+- [X] 12.2 - Formulários no React
+- [X] 12.3 - Projeto - Movie Cards Library Stateful
 
 ##### Bloco 13: Ciclo de Vida de Componentes e React Router
 - [ ] 13.1 - Ciclo de vida de componentes
