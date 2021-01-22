@@ -1,0 +1,9 @@
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+textarea {
+  height: 200px;
+  flex-grow: 1;
+}
