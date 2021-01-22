@@ -95,3 +95,11 @@ Vamos criar um formulário de cadastro de currículo com base na especificação
 4. Crie um botão **Limpar** que limpa todos os campos do formulário e a `<div>` com seu currículo também.
 
 Por último, vá até o formulário que você criou na aula **HTML & CSS - Forms** e veja as diferenças no código.
+
+## Bônus
+
+* Utilize [regex](https://www.regextester.com/100026) para validar o campo email.
+
+  * O formato esperado é: **trybe@gmail.com**.
+
+  * **Dica: Para estudar como o regex funciona, utilize o [link](https://regexone.com/)**.
