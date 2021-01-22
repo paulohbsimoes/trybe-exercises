@@ -27,7 +27,8 @@ class Form extends Component {
   }
 
   render() {
-    const { values, errors, handleChange, handleBlur, handleSubmit } = this.props;
+    const { values, errors, handleChange, handleBlur,
+      handleSubmit, handleClear } = this.props;
     const { estados } = this.state;
 
     return (
@@ -183,7 +184,16 @@ class Form extends Component {
           </div>
         </fieldset>
 
-        <button type="submit" className="btn btn-primary my-3">Submit</button>
+        <div className="buttons my-2">
+          <button type="submit" className="btn btn-primary">Enviar</button>
+          <button
+            type="button"
+            className="btn btn-primary mx-3"
+            onClick={handleClear}
+          >
+            Limpar
+          </button>
+        </div>
       </form>
     );
   }

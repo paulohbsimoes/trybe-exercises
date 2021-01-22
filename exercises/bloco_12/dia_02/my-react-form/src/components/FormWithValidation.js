@@ -15,17 +15,31 @@ const transforms = {
   }  
 }
 
+// const initialState = {
+//   values: {
+//     nome: 'PAULO HENRIQUE',
+//     email: 'paulo@email.com',
+//     cpf: '12312312311',
+//     endereco: 'Meu endereço',
+//     cidade: 'Minha cidade',
+//     estado: 'Meu estado',
+//     tipo: 'Casa',
+//     cargo: 'Procrastinador profissional',
+//     descricao: 'O dia inteiro lendo coisas aleatórias na internet',
+//   }
+// }
+
 const initialState = {
   values: {
-    nome: 'PAULO HENRIQUE',
-    email: 'paulo@email.com',
-    cpf: '12312312311',
-    endereco: 'Meu endereço',
-    cidade: 'Minha cidade',
-    estado: 'Meu estado',
-    tipo: 'Casa',
-    cargo: 'Procrastinador profissional',
-    descricao: 'O dia inteiro lendo coisas aleatórias na internet',
+    nome: '',
+    email: '',
+    cpf: '',
+    endereco: '',
+    cidade: '',
+    estado: '',
+    tipo: '',
+    cargo: '',
+    descricao: '',
   }
 }
 
@@ -46,7 +60,7 @@ class FormWithValidation extends Component {
       ...initialState,
       errors: {},
       touched: {},
-      submited: false,
+      showResume: false,
     }
   }
 
@@ -113,14 +127,21 @@ class FormWithValidation extends Component {
     )
 
     if (!Object.values(formValidation.errors).length) {
-      this.setState({ submited: true });
+      this.setState({ showResume: true });
     } else {
       alert('Formulário com erros, é necessário corrigir antes de enviar.');
     }
   }
 
+  handleClear = () => {
+    this.setState({
+      ...initialState,
+      showResume: false
+    })
+  }
+
   render() { 
-    const { values, errors, submited } = this.state;
+    const { values, errors, showResume } = this.state;
     return (
       <>
         <Form
@@ -129,8 +150,9 @@ class FormWithValidation extends Component {
           handleChange={this.handleChange}
           handleBlur={this.handleBlur}
           handleSubmit={this.handleSubmit}
+          handleClear={this.handleClear}
         />
-        { submited && <Resume values={ values } /> }
+        { showResume && <Resume values={ values } /> }
       </>
     );
   }
