@@ -1,0 +1,12 @@
+.dog-name {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  text-shadow: 0 0 2px black;
+  font-size: 1.2rem;
+  padding: 10px;
+  margin: 0;
+}
