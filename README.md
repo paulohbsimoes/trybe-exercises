@@ -93,8 +93,8 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [X] 12.2 - Formulários no React
 - [X] 12.3 - Projeto - Movie Cards Library Stateful
 
-##### Bloco 13: Ciclo de Vida de Componentes e React Router
-- [ ] 13.1 - Ciclo de vida de componentes
+##### Bloco 13: [Ciclo de Vida de Componentes e React Router](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_13)
+- [x] 13.1 - Ciclo de vida de componentes
 - [ ] 13.2 - React Router
 - [ ] 13.3 - Projeto - Movie Cards Library CRUD
 
