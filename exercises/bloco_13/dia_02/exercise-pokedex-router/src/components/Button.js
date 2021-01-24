@@ -5,7 +5,7 @@ import styles from './Button.module.css';
 const Button = ({ className, children, disabled, onClick }) => (
   <button
     onClick={onClick}
-    className={`${styles['button-text']} ${styles[className]}`}
+    className={`${styles.button} ${styles[className]}`}
     disabled={disabled}
   >
     {children}

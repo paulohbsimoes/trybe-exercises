@@ -1,24 +1,33 @@
-.button-text {
-  text-align: center;
-  font-size: 15px;
+.button {
+  text-decoration: none;
+  border: none;
+  font-size: 1.1rem;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 4px;
   color: white;
-  background-color: black;
-  font-weight: 599;
+  font-weight: bold;
+  background: rgba(255, 200, 0, 0.5);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  text-align: center;
 }
 
 .filter-button {
-  width: 80px;
+  /* width: 80px;
   height: 50px;
-  margin: 10px;
+  margin: 10px; */
   background-color: orange;
 }
 
 .pokedex-button {
-  width: 100px;
-  height: 50px;
+  /* width: 100px;
+  height: 50px; */
   background-color: green;
 }
 
 .pokedex-button:disabled {
   background-color: #D0D0D0;
+  cursor: auto;
 }
