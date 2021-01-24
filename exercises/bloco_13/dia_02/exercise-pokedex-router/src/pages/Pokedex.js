@@ -44,8 +44,7 @@ class Pokedex extends React.Component {
 
     return (
       <div className={ styles.pokedex }>
-        <h1> Pokedex </h1>
-        <Pokemon pokemon={pokemon} />
+        <Pokemon pokemon={pokemon} detailsLink />
         <div className={ styles['pokedex-buttons-panel'] }>
           <Button
             onClick={() => this.filterPokemons('all')}
