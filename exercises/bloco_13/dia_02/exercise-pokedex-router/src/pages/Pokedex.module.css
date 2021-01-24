@@ -1,0 +1,12 @@
+.pokedex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 10px 10px;
+  align-items: center;
+}
+
+.pokedex-buttons-panel {
+  display: flex;
+  flex-direction: row;
+}
