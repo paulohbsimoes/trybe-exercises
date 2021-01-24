@@ -1,0 +1,18 @@
+.controls {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  padding: 20px;
+}
+
+.controls > * {
+  margin-right: 10px;
+}
+
+.controls >:last-child {
+  margin-right: 0;
+}

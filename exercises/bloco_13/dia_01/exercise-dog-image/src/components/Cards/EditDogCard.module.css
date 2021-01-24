@@ -1,0 +1,25 @@
+.edit-dog {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit-dog input {
+  padding: 10px;
+  border-radius: 2px;
+  border: none;
+  font-size: 1rem;
+}
+
+.edit-dog input::placeholder {
+  font-size: 1rem;
+}
+
+.edit-dog input:focus {
+  outline: none;
+}

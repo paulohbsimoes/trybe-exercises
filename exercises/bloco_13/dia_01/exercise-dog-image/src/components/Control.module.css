@@ -1,0 +1,21 @@
+.control {
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  color: white;
+  background: rgba(255, 0, 50, 0.6);
+  width: 100px;
+  cursor: pointer;
+  transition: 0.2s;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.control:focus {
+  outline: none;
+}
+
+.control:hover {
+  background: rgba(255, 0, 50, 0.8);
+  transform: scale(1.05);
+}
