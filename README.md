@@ -95,7 +95,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 
 ##### Bloco 13: [Ciclo de Vida de Componentes e React Router](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_13)
 - [x] 13.1 - Ciclo de vida de componentes
-- [ ] 13.2 - React Router
+- [x] 13.2 - React Router
 - [ ] 13.3 - Projeto - Movie Cards Library CRUD
 
 ##### Bloco 14: Metodologias Ágeis
