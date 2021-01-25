@@ -22,7 +22,8 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    this.setState({ favorites: JSON.parse(localStorage.getItem('favorites')) });
+    const favorites = JSON.parse(localStorage.getItem('favorites'));
+    this.setState({ favorites: ( favorites || [] ) });
   }
   
   updateStorage = () => {
