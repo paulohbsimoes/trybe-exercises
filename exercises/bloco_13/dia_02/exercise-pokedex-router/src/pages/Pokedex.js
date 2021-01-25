@@ -41,10 +41,16 @@ class Pokedex extends React.Component {
     const filteredPokemons = this.fetchFilteredPokemons();
     const pokemonTypes = this.fetchPokemonTypes();
     const pokemon = filteredPokemons[this.state.pokemonIndex];
+    const { favorites, handleToggleFavorite } = this.props;
 
     return (
       <div className={ styles.pokedex }>
-        <Pokemon pokemon={pokemon} detailsLink />
+        <Pokemon
+          pokemon={pokemon}
+          detailsLink
+          favorite={ favorites.includes(+pokemon.id) }
+          handleToggleFavorite={ handleToggleFavorite }
+        />
         <div className={ styles['pokedex-buttons-panel'] }>
           <Button
             onClick={() => this.filterPokemons('all')}
@@ -60,12 +66,14 @@ class Pokedex extends React.Component {
             </Button>
           ))}
         </div>
-        <Button
-          className="pokedex-button"
-          onClick={() => this.nextPokemon(filteredPokemons.length)}
-          disabled={filteredPokemons.length <= 1}>
-          Próximo pokémon
-        </Button>
+        <div className={ styles['pokedex-buttons-panel'] }>
+          <Button
+            className="pokedex-button"
+            onClick={() => this.nextPokemon(filteredPokemons.length)}
+            disabled={filteredPokemons.length <= 1}>
+            Próximo pokémon
+          </Button>
+        </div>
       </div>
     );
   }

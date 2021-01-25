@@ -18,3 +18,13 @@ nav a {
   background: rgba(255, 200, 0, 0.5);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
 }
+
+@media (max-width: 400px) {
+  nav {
+    flex-direction: column;
+  }
+  
+  nav a {
+    margin-bottom: 6px;
+  }
+}

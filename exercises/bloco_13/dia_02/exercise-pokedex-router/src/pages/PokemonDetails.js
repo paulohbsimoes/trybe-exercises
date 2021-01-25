@@ -8,10 +8,16 @@ import styles from './PokemonDetails.module.css';
 
 class PokemonDetails extends Component {
   renderDetails(pokemon) {
+    const { favorites, handleToggleFavorite } = this.props;
     return (
       <div className="pokemon-details">
         <h2>{ pokemon.name } Details</h2>
-        <Pokemon detailsLink={ false } pokemon={ pokemon } />
+        <Pokemon
+          detailsLink={ false }
+          pokemon={ pokemon }
+          favorite={ favorites.includes(pokemon.id) }
+          handleToggleFavorite={ handleToggleFavorite }
+        />
       </div>
     );
   }
@@ -38,12 +44,32 @@ class PokemonDetails extends Component {
     );
   }
 
+  renderFavorite(pokemon) {
+    const { handleToggleFavorite, favorites } = this.props;
+    return (
+      <div className="pokemon-favorite">
+        <label htmlFor="favorite">
+          Pokemon favoritado? 
+          <input
+            id="favorite"
+            name="favorite"
+            type="checkbox"
+            checked={ favorites.includes(pokemon.id) }
+            data-id={ pokemon.id }
+            onChange={ handleToggleFavorite }
+          />
+        </label>
+      </div>
+    );
+  }
+
   renderPokemonInfo(pokemon) {
     return (
       <>
         { this.renderDetails(pokemon) }
         { this.renderSummary(pokemon) }
         { this.renderGameLocations(pokemon) }
+        { this.renderFavorite(pokemon) }
       </>
     );
   }

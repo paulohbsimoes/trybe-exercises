@@ -11,7 +11,7 @@ class About extends Component {
         <h1>About Pokedex</h1>
         <p>This application simulates a Pokedex, a digital encyclopedia containing all Pokemons </p>
         <p>One can filter Pokemons by type, and see more details for each one of them</p>
-        <img className={ styles.background } src={ aboutBackground } alt="Pokedex" />
+        <img className={ styles.image } src={ aboutBackground } alt="Pokedex" />
       </>
     );
   }
