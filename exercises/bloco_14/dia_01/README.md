@@ -28,3 +28,9 @@ Hoje aprendemos sobre Scrum e Kanban. Tivemos uma aula sobre como usar o GitHub 
 [Vídeo - Entenda o que são os métodos ágeis em 5 minutos [Decifrando Agile 2]](https://www.youtube.com/watch?v=ds_FydzsuO8)
 
 [Vídeo - Kanban: exemplo de uso no Trello. | Ep. 210.](https://www.youtube.com/watch?v=7JRB33f_M3k)
+
+## Livros recomendados
+
+<p align="center">
+  <img width="600" src="./images/livros.png">
+</p>
