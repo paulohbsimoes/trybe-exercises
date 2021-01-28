@@ -1,0 +1,9 @@
+.pokemon-info {
+  max-width: 900px;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+
+.pokemon-info > * {
+  margin-bottom: 50px;
+}

@@ -1,0 +1,24 @@
+.pokemon {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex: 1 1 auto;
+  align-self: stretch;
+  min-height: 200px;
+  /* width: 100%; */
+  padding: 20px;
+  margin: 10px;
+  border: 1px gray solid;
+  border-radius: 10px;
+}
+
+.favorited {
+  padding: 5px 10px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  cursor: pointer;
+  font-size: 2rem;
+  color: gold;
+}
