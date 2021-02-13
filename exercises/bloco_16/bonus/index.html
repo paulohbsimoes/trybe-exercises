@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./libs/redux.min.js"></script>
+  <link rel="stylesheet" href="./index.css">
+  <title>Redux FTW!</title>
+</head>
+<body>
+  <div class="counter-wrapper">
+    <p id="counter-display">0</p>
+    <input id="amount" type="number" placeholder="Amount" value="1">
+    <div class="controls">
+      <button id="increment"><span class="control-icon">+</span></button>
+      <button id="decrement"><span class="control-icon">-</span></button>
+    </div>
+  </div>
+  <section>
+    <p class="number-of-operations-title">
+      Operações realizadas:
+      <span id="number-of-operations">0</span>
+    </p>
+    <div class="operations-history">
+      <p class="operations-history-title">Histórico</p>
+      <ul id="operations-history-list"></ul>
+    </div>
+  </section>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
