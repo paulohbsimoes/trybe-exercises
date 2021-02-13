@@ -37,3 +37,15 @@ Você irá fazer 13 exercícios propostos pelo site **freecodecamp**, com objeti
 12. [Removendo itens de um array preservando a imutabilidade](https://www.freecodecamp.org/learn/front-end-libraries/redux/remove-an-item-from-an-array)
 
 13. [Trabalhando com Object.assign](https://www.freecodecamp.org/learn/front-end-libraries/redux/copy-an-object-with-object-assign)
+
+## Bônus
+
+Agora você irá incrementar o código que foi feito durante a aula ao vivo.
+
+* Faça um campo que recebe um valor e esse será o valor aplicado ao botão incremento.
+
+* Faça um campo que recebe um valor e esse será o valor aplicado ao botão decremento.
+
+* Armazene um outro valor no **state** , chamado **clickCount**. Este campo vai contar o número de vezes que qualquer botão na tela foi clicado.
+
+* Armazene um **array** no **state** que guarda o valor individual que foi adicionado a cada click em qualquer um dos três botões.
