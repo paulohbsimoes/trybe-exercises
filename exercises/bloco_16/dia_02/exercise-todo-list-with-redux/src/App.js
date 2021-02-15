@@ -1,43 +1,25 @@
 import React, { Component } from 'react';
 
-import InputTodo from './InputTodo';
-import Item from './Item';
+import InputTodo from './components/InputTodo';
+import TodoList from './components/TodoList';
+import TodoListControls from './components/TodoListControls';
+import Sticky from './components/Sticky';
 
-import { removeTodosAction } from './actions/todoListActions';
-import { connect } from 'react-redux';
+import GlobalStyles from './styles/global';
 
 class App extends Component {
   render() {
-    const { listTodo, removeTodos } = this.props;
     return (
       <div className="App">
+        <GlobalStyles />
         <InputTodo />
-        <input
-          disabled={ !Object.values(listTodo).find(({ selected }) => selected) }
-          type="button"
-          data-testid="id-remove"
-          value="Remover"
-          onClick={ () => removeTodos() } 
-        />
-        { listTodo &&
-          <ul>
-            { Object.values(listTodo).map((todo, index) => (
-                <li key={index + 1}>
-                  <Item content={todo} />
-                </li>
-              )) }
-          </ul> }
+        <Sticky>
+          <TodoListControls />
+        </Sticky>
+        <TodoList />
       </div>
     );
   }
 }
 
-const mapStateToProps = ({ todos }) => ({
-  listTodo: todos.listTodo,
-});
-
-const mapDispatchToProps = (dispatch) => ({
-  removeTodos: () => dispatch(removeTodosAction()),
-});
-
-export default connect (mapStateToProps, mapDispatchToProps)(App);
+export default App;

@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types'
 
-import { addTodoAction } from './actions/todoListActions';
+import { addTodoAction } from '../../actions/todoListActions';
 import { connect } from 'react-redux';
+
+import { StyledInputTodo, Input } from './styles';
 
 class InputTodo extends Component {
   constructor(props) {
@@ -27,9 +29,9 @@ class InputTodo extends Component {
     const { addTodo } = this.props;
     const { textTodo } = this.state;
     return (
-      <div className="InputTodo">
+      <StyledInputTodo>
         <label htmlFor="inputTodo">Tarefa:</label>
-        <input
+        <Input
           data-testid="input-todo"
           id="inputTodo"
           type="text"
@@ -43,7 +45,7 @@ class InputTodo extends Component {
           value="Adicionar"
           onClick={() => this.addItem(textTodo, addTodo)}
         />
-      </div>
+      </StyledInputTodo>
     );
   }
 }

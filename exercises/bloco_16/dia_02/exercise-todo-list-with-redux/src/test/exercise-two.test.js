@@ -1,7 +1,7 @@
 import React from 'react';
 import { fireEvent, cleanup } from '@testing-library/react';
 import App from '../App';
-import Item from '../Item';
+import Item from '../components/Item';
 
 import renderWithStore from '../helpers/renderWithStore';
 
