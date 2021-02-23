@@ -28,6 +28,6 @@ Você irá implementar funcionalidades ao código do cadastro de clientes.
 
 * Cada cadastro deve ser acompanhado de um botão com o texto X. Caso o botão seja clicado, o cadastro deve ser excluído.
 
-# Links Úteis
+## Links Úteis
 
 * [Métodos de Array - Mutação vs Clonagem](https://lorenstewart.me/2017/01/22/javascript-array-methods-mutating-vs-non-mutating/)
