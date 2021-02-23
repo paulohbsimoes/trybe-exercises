@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  padding-top: 40px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+#counter-display {
+  background-color: black;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  border-radius: 6px;
+  padding: 20px;
+}
+
+.control-icon {
+  font-size: 2rem;
+  font-weight: 700;
+  min-width: 40px;
+  display: inline-block;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+  flex: 1;
+}
+
+button:first-child {
+  margin-left: 0;
+}
+
+button:focus {
+  outline: none;
+}
+
+.controls {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.counter-wrapper {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 20px;
+  background: tomato;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+input::placeholder {
+  font-size: 1.2rem;
+}
+
+.number-of-operations-title {
+  font-size: 1.6rem;
+}
+
+.operations-history-title {
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 15px 0;
+}
+
+#operations-history-list {
+  text-align: center;
+}
