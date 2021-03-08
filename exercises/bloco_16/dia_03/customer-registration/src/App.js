@@ -1,8 +1,9 @@
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import React from 'react';
+import { Switch, Route } from 'react-router-dom';
+import PrivateRoute from './auth/PrivateRoute';
 
-import Home from './pages/Home';
-import UsersList from './pages/UsersList';
 import Login from './pages/Login';
+import DashBoard from './pages/DashBoard';
 
 import GlobalStyles from './styles/global';
 
@@ -10,13 +11,10 @@ function App() {
   return (
     <div>
       <GlobalStyles />
-      <Router>
-        <Switch>
-          <Route path="/users" component={ UsersList } />
-          <Route path="/login" component={ Login } />
-          <Route path="/" component={ Home } />
-        </Switch>      
-      </Router>
+      <Switch>
+        <PrivateRoute path="/dashboard" component={ DashBoard } />
+        <Route path="/" component={ Login } />
+      </Switch>
     </div>
   );
 }
