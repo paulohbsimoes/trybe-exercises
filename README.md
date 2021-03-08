@@ -99,22 +99,22 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 13.3 - Projeto - Movie Cards Library CRUD
 
 ##### Bloco 14: Metodologias Ágeis
-- [ ] 14.1 - Metodologias Ágeis
-- [ ] 14.2 - Projeto - Frontend Online Store
+- [x] 14.1 - Metodologias Ágeis
+- [x] 14.2 - Projeto - Frontend Online Store
 
 ##### Bloco 15: Testes automatizados com React Testing Library
-- [ ] 15.1 - RTL - Primeiros passos
-- [ ] 15.2 - RTL - Mocks e Inputs
-- [ ] 15.3 - RTL - Testando React Router
-- [ ] 15.4 - Projeto - Testes em React
+- [x] 15.1 - RTL - Primeiros passos
+- [x] 15.2 - RTL - Mocks e Inputs
+- [x] 15.3 - RTL - Testando React Router
+- [x] 15.4 - Projeto - Testes em React
 
 ##### Bloco 16: Gerenciamento de estado com Redux
-- [ ] 16.1 - Introdução ao Redux - O estado global da aplicação
-- [ ] 16.2 - Usando o Redux no React
-- [ ] 16.3 - Usando o Redux no React - Prática
-- [ ] 16.4 - Usando o Redux no React - Actions Assíncronas
-- [ ] 16.5 - Testes síncronos com React-Redux
-- [ ] 16.6 - Projeto - Tabela com filtros de dados
+- [x] 16.1 - Introdução ao Redux - O estado global da aplicação
+- [x] 16.2 - Usando o Redux no React
+- [x] 16.3 - Usando o Redux no React - Prática
+- [x] 16.4 - Usando o Redux no React - Actions Assíncronas
+- [x] 16.5 - Testes síncronos com React-Redux
+- [x] 16.6 - Projeto - Tabela com filtros de dados
 
 ##### Bloco 17: Projeto Jogo de Trivia
 - [ ] 17.1 - Projeto - Jogo de Trivia
