@@ -26,6 +26,7 @@ const character = (state = INITIAL_STATE, action) => {
       return {
         ...state,
         error: action.payload,
+        isFetching: false,
       }
 
     default: return state;

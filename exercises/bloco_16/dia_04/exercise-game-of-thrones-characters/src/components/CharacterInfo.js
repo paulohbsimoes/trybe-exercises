@@ -6,7 +6,7 @@ class CharacterInfo extends React.Component {
   render() {
     const { character, loading, error } = this.props;
 
-    if (!loading && character) {
+    if (!loading && !error && character) {
       return (
         <ul>
           <li>Name: {character.name}</li>
