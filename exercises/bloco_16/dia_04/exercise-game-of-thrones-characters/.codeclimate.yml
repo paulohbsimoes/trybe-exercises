@@ -1,0 +1,66 @@
+version: "2"         # required to adjust maintainability checks
+checks:
+  argument-count:
+    config:
+      threshold: 5
+  complex-logic:
+    config:
+      threshold: 4
+  file-lines:
+    config:
+      threshold: 250
+  method-complexity:
+    config:
+      threshold: 5
+  method-count:
+    config:
+      threshold: 20
+  method-lines:
+    config:
+      threshold: 25
+  nested-control-flow:
+    config:
+      threshold: 4
+  return-statements:
+    config:
+      threshold: 4
+  similar-code:
+    enabled: false
+  identical-code:
+    config:
+      threshold: # language-specific defaults. an override will affect all languages.
+exclude_patterns:
+  - "**/*.test.js"
+  - "src/serviceWorker.js"
+  - "src/index.css"
+  - "**/libs/*.css"
+  - "**/libs/*.js"
+plugins:
+  csslint:
+    enabled: true
+    checks:
+      box-sizing:
+        enabled: false
+      fallback-colors:
+        enabled: false
+      box-model:
+          enabled: false
+  editorconfig:
+    enabled: true
+  eslint:
+    enabled: true
+    checks:
+      no-undef:
+        enabled: false
+    config:
+      extensions:
+        - .js
+        - .jsx
+  fixme:
+    enabled: true
+  nodesecurity:
+    enabled: true
+  shellcheck:
+    enabled: true
+  stylelint:
+    enabled: true
