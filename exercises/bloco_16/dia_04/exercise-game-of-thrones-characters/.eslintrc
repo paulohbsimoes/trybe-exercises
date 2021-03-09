@@ -1,0 +1,35 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "no-console": "off",
+    "no-alert": "off",
+    "prefer-arrow-callback": "off",
+    "func-names": "off",
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ],
+    "react/prefer-stateless-function": 0,
+    "react/prop-types": 0,
+    "object-curly-newline": [
+      "error",
+      {
+        "multiline": true
+      }
+    ],
+    "arrow-parens": [
+      2,
+      "always"
+    ]
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true
+  }
+}

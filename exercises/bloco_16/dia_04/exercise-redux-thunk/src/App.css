@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(252,240,228);
+}
+
+h1 {
+  color: rgb(124, 101, 78);
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.App {
+  text-align: center;
+}
+
+
+.gallery-container img {
+  border-radius: 4px;
+  max-height: 700px;
+}
+
+button {
+  color: rgb(63, 49, 36);
+  background: transparent;
+  border: 2px solid rgb(203,143,98);
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 16px;
+  outline: none;
+  transition: all 300ms ease-in;
+  padding: 8px 16px;
+}
+
+button:hover {
+  transform: scale(1.3);
+}
