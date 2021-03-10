@@ -1,0 +1,9 @@
+.game-cell {
+  border: 1px solid black;
+  height: 38px;
+  width: 38px;
+}
+
+img {
+  width: 100%;
+}
