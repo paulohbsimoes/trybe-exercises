@@ -4,7 +4,7 @@ import redSignal from './images/redSignal.jpeg';
 import yellowSignal from './images/yellowSignal.jpeg';
 import greenSignal from './images/greenSignal.jpeg';
 
-import TrafficSignalContext from './contexts/trafficSignal';
+import TrafficSignalContext from './contexts/TrafficSignalContext';
 
 const renderSignal = (signalColor) => {
   if (signalColor === 'red') return redSignal;
@@ -16,6 +16,7 @@ const renderSignal = (signalColor) => {
 class TrafficSignal extends Component {
   render() {
     const { signalColor, changeSignal } = this.context;
+    
     return (
       <div>
         <div className="button-container">

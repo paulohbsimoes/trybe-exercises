@@ -1,31 +1,15 @@
 import React, { Component } from 'react';
-import './App.css';
-import CarsContext from './contexts/cars';
-
+import { CarsProvider } from './contexts/CarsContext';
 import Cars from './Cars';
 
+import './App.css';
+
 class App extends Component {
-  constructor() {
-    super();
-    
-    this.state = {
-      red: false,
-      blue: false,
-      yellow: false,
-    }
-
-    this.moveCar = this.moveCar.bind(this);
-  }
-
-  moveCar(car, side) {
-    this.setState({ [car]: side });
-  }
-
   render() {
     return (
-      <CarsContext.Provider value={ { ...this.state, moveCar: this.moveCar } }>
+      <CarsProvider>
         <Cars />
-      </CarsContext.Provider>
+      </CarsProvider>
     );
   }
 }

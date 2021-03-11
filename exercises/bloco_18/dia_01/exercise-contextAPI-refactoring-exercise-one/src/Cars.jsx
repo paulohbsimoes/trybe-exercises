@@ -4,7 +4,7 @@ import carBlue from './images/carBlue.jpeg';
 import carRed from './images/carRed.jpeg';
 import carYellow from './images/carYellow.jpeg';
 
-import CarsContext from './contexts/cars';
+import CarsContext from './contexts/CarsContext';
 
 class Cars extends Component  {
   render() {
