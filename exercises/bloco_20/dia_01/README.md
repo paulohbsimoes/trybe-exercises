@@ -20,10 +20,16 @@ Colunas:
   * **AnoLancamento** - não permite nulos, tipo int;
   * **Nota** - permite nulos, tipo int;
 
+**Resposta**:
+
 ![Criando tabela - Passo 1](images/criando_tabela_1.png);
 ![Criando tabela - Passo 2](images/criando_tabela_2.png);
 
 **Exercício 4**: Analise a tabela **city** e encontre a tabela à qual a coluna **country_id** faz referência.
+
+**Resposta**: A coluna country_id faz referência à coluna country_id da tabela country
+
+![Criando tabela - Passo 2](images/country_id.png)
 
 **Exercício 5**: Após resolver o exercício anterior, responda: qual tipo de relacionamento a tabela city faz com a tabela country?
 
