@@ -4,6 +4,8 @@ Agora vamos abrir o **Workbench** e fazer uma análise prática do banco de dado
 
 **Exercício 1**: Descubra como fazer uma pesquisa em qualquer tabela sem utilizar uma linha de código usando o **MySql Workbench**.
 
+**Resposta**: Depois de abrir a conexão com o banco de dados, navegamos na guia "Schemas" e clicamos com o botão direito na tabela que desejamos fazer a pesquisa, no menu haverá a opção "Select Rows - Limit 1000", clicamos nesta. Abrirá uma janela contendo os primeiros 1000 registros dessa tabela e um campo para fazer filtros. Outra opção que temos ao clicar com o botão direito na tabela é "Search Table Data", que também possibilita fazer pesquisas na tabela sem escrever código.
+
 **Exercício 2**: Descubra como é possível criar uma tabela sem usar código **SQL** usando o **MySql Workbench**.
 
 **Exercício 3**: Feito isso, crie uma tabela com as seguintes restrições:
