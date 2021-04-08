@@ -8,6 +8,8 @@ Agora vamos abrir o **Workbench** e fazer uma análise prática do banco de dado
 
 **Exercício 2**: Descubra como é possível criar uma tabela sem usar código **SQL** usando o **MySql Workbench**.
 
+**Resposta**: Na guita "Schemas" aos expandir a que se deseja criar a tabela, temos o agrupamento "Tables", ao clicar com o botão direito neste temos a opção "Create Table...", clicando nesta opção aparece uma janela em que podemos criar as colunas e selecionar contraints, entre outras opções.
+
 **Exercício 3**: Feito isso, crie uma tabela com as seguintes restrições:
 
 Nome da tabela: **Filme**
