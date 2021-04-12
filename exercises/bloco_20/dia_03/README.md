@@ -153,3 +153,48 @@ WHERE rating IN ('G', 'PG', 'PG-13')
 ORDER BY title
 LIMIT 500;
 ```
+
+# Para fixar - Datas
+
+1. Quantos pagamentos temos com a data de retorno 2005-05-25? Há múltiplas maneiras possíveis de encontrar a resposta.
+
+```sql
+SELECT * FROM sakila.payment
+WHERE DATE(payment_date) = '2005-05-25';
+```
+
+```sql
+SELECT * FROM sakila.payment
+WHERE payment_date LIKE '2005-05-25%';
+```
+
+2. Quantos pagamentos foram feitos entre 01/07/2005 e 22/08/2005?
+
+```sql
+SELECT * FROM sakila.payment
+WHERE payment_date BETWEEN DATE('2005-07-01') AND DATE('2005-08-22')
+```
+
+3. Usando a tabela rental, extraia data, ano, mês, dia, hora, minuto e segundo dos registros com rental_id = 10330. Utilize a coluna rental_date para extrair as informações.
+
+```sql
+SELECT
+  DATE(rental_date) AS DATA,
+  YEAR(rental_date) AS ANO,
+  MONTH(rental_date) AS MÊS,
+  DAY(rental_date) AS DIA,
+  HOUR(rental_date) AS HORA,
+  MINUTE(rental_date) AS MINUTO,
+  SECOND(rental_date) AS SEGUNDO
+FROM sakila.rental
+WHERE rental_id = '10330';
+```
+
+4. Monte uma query que retorne todos os dados do pagamento feito no dia 28/07/2005 a partir das 22 horas.
+
+```sql
+SELECT * FROM sakila.rental
+WHERE DATE(rental_date) = '2005-07-28'
+AND HOUR(rental_date) > 22
+ORDER BY rental_date;
+```
