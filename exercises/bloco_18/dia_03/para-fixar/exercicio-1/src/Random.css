@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+
+.randomizer {
+  text-align: center;
+  height: 150px;
+}
