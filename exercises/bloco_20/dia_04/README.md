@@ -108,3 +108,141 @@ SET rental_rate = (
 	END
 );
 ```
+
+# Para fixar - DELETE
+
+1. Exclua do banco de dados o ator com o nome de "KARL".
+
+```sql
+
+```
+
+2. Exclua do banco de dados os atores com o nome de "MATTHEW".
+
+```sql
+SELECT actor_id FROM sakila.actor
+WHERE first_name = 'KARL';
+
+DELETE FROM sakila.film_actor
+WHERE actor_id = 12;
+
+DELETE FROM sakila.actor
+WHERE actor_id = 12;
+```
+
+3. Exclua da tabela film_text todos os registros que possuem a palavra "saga" em suas descrições.
+
+```sql
+DELETE FROM sakila.film_text
+WHERE description LIKE '%saga%';
+```
+
+4. Apague da maneira mais performática possível todos os registros das tabelas film_actor e film_category .
+
+```sql
+TRUNCATE sakila.film_actor;
+TRUNCATE sakila.film_category;
+```
+
+5. Inspecione todas as tabelas do banco de dados sakila e analise quais restrições ON DELETE foram impostas em cada uma. Use o Table Inspector para fazer isso (aba DDL).
+
+`sakila`.`actor`
+```sql
+--Nenhuma
+```
+
+`sakila`.`address`
+```sql
+CONSTRAINT `fk_address_city` FOREIGN KEY (`city_id`) REFERENCES `city` (`city_id`) ON DELETE RESTRICT ON UPDATE CASCADE
+```
+
+`sakila`.`category`
+```sql
+--Nenhuma
+```
+
+`sakila`.`city`
+```sql
+CONSTRAINT `fk_city_country` FOREIGN KEY (`country_id`) REFERENCES `country` (`country_id`) ON DELETE RESTRICT ON UPDATE CASCADE
+```
+
+`sakila`.`country`
+```sql
+--Nenhuma
+```
+
+`sakila`.`customer`
+```sql
+CONSTRAINT `fk_customer_address` FOREIGN KEY (`address_id`) REFERENCES `address` (`address_id`) ON DELETE RESTRICT ON UPDATE CASCADE,
+CONSTRAINT `fk_customer_store` FOREIGN KEY (`store_id`) REFERENCES `store` (`store_id`) ON DELETE RESTRICT ON UPDATE CASCADE
+```
+
+`sakila`.`film`
+```sql
+CONSTRAINT `fk_film_language` FOREIGN KEY (`language_id`) REFERENCES `language` (`language_id`) ON DELETE RESTRICT ON UPDATE CASCADE,
+CONSTRAINT `fk_film_language_original` FOREIGN KEY (`original_language_id`) REFERENCES `language` (`language_id`) ON DELETE RESTRICT ON UPDATE CASCADE
+```
+
+`sakila`.`film_actor`
+```sql
+CONSTRAINT `fk_film_actor_actor` FOREIGN KEY (`actor_id`) REFERENCES `actor` (`actor_id`) ON DELETE RESTRICT ON UPDATE CASCADE,
+CONSTRAINT `fk_film_actor_film` FOREIGN KEY (`film_id`) REFERENCES `film` (`film_id`) ON DELETE RESTRICT ON UPDATE CASCADE
+```
+
+`sakila`.`film_category`
+```sql
+CONSTRAINT `fk_film_category_category` FOREIGN KEY (`category_id`) REFERENCES `category` (`category_id`) ON DELETE RESTRICT ON UPDATE CASCADE,
+CONSTRAINT `fk_film_category_film` FOREIGN KEY (`film_id`) REFERENCES `film` (`film_id`) ON DELETE RESTRICT ON UPDATE CASCADE
+```
+
+`sakila`.`film_text`
+```sql
+--Nenhuma
+```
+
+`sakila`.`inventory`
+```sql
+CONSTRAINT `fk_inventory_film` FOREIGN KEY (`film_id`) REFERENCES `film` (`film_id`) ON DELETE RESTRICT ON UPDATE CASCADE,
+CONSTRAINT `fk_inventory_store` FOREIGN KEY (`store_id`) REFERENCES `store` (`store_id`) ON DELETE RESTRICT ON UPDATE CASCADE
+```
+
+`sakila`.`language`
+```sql
+--Nenhuma
+```
+
+`sakila`.`payment`
+```sql
+CONSTRAINT `fk_payment_customer` FOREIGN KEY (`customer_id`) REFERENCES `customer` (`customer_id`) ON DELETE RESTRICT ON UPDATE CASCADE,
+CONSTRAINT `fk_payment_rental` FOREIGN KEY (`rental_id`) REFERENCES `rental` (`rental_id`) ON DELETE SET NULL ON UPDATE CASCADE,
+CONSTRAINT `fk_payment_staff` FOREIGN KEY (`staff_id`) REFERENCES `staff` (`staff_id`) ON DELETE RESTRICT ON UPDATE CASCADE
+```
+
+`sakila`.`rental`
+```sql
+CONSTRAINT `fk_rental_customer` FOREIGN KEY (`customer_id`) REFERENCES `customer` (`customer_id`) ON DELETE RESTRICT ON UPDATE CASCADE,
+CONSTRAINT `fk_rental_inventory` FOREIGN KEY (`inventory_id`) REFERENCES `inventory` (`inventory_id`) ON DELETE RESTRICT ON UPDATE CASCADE,
+CONSTRAINT `fk_rental_staff` FOREIGN KEY (`staff_id`) REFERENCES `staff` (`staff_id`) ON DELETE RESTRICT ON UPDATE CASCADE
+```
+
+`sakila`.`staff`
+```sql
+CONSTRAINT `fk_staff_address` FOREIGN KEY (`address_id`) REFERENCES `address` (`address_id`) ON DELETE RESTRICT ON UPDATE CASCADE,
+CONSTRAINT `fk_staff_store` FOREIGN KEY (`store_id`) REFERENCES `store` (`store_id`) ON DELETE RESTRICT ON UPDATE CASCADE
+```
+
+`sakila`.`store`
+```sql
+CONSTRAINT `fk_store_address` FOREIGN KEY (`address_id`) REFERENCES `address` (`address_id`) ON DELETE RESTRICT ON UPDATE CASCADE,
+CONSTRAINT `fk_store_staff` FOREIGN KEY (`manager_staff_id`) REFERENCES `staff` (`staff_id`) ON DELETE RESTRICT ON UPDATE CASCADE
+```
+
+6. Exclua o banco de dados e o recrie (use as instruções no início desta aula).
+
+```sql
+DROP DATABASE sakila;
+```
+
+```bash
+mysql -h localhost -u root -p < sakila.sql
+```
