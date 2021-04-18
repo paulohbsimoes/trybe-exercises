@@ -97,3 +97,31 @@ FROM sakila.film_actor AS FA
 INNER JOIN sakila.actor AS A ON FA.actor_id = A.actor_id
 INNER JOIN sakila.film AS F ON FA.film_id = F.film_id
 ```
+
+## Para fixar - SELF JOIN
+
+1. Queremos saber os **ids** e **custos de substituição** dos filmes que possuem o mesmo custo de substituição.
+
+```sql
+SELECT 
+  F1.film_id AS filmA,
+  F2.film_id AS filmB,
+  F1.replacement_cost
+FROM sakila.film AS F1, sakila.film AS F2
+WHERE F1.replacement_cost = F2.replacement_cost
+ORDER BY filmA, filmB;
+```
+
+2. Exiba o **título** e a **duração de empréstimo** dos filmes que possuem a mesma duração. Exiba apenas os filmes com a duração de empréstimo entre 2 e 4 dias.
+
+```sql
+SELECT 
+  F1.title AS titleA,
+  F2.title AS titleB,
+  F1.rental_duration
+FROM sakila.film AS F1, sakila.film AS F2
+WHERE F1.length = F2.length
+AND F1.rental_duration BETWEEN 2 AND 4
+AND F2.rental_duration BETWEEN 2 AND 4
+ORDER BY titleA, titleB;
+```
