@@ -166,3 +166,65 @@ UNION
 ORDER BY first_name
 LIMIT 15 OFFSET 45;
 ```
+
+## Para fixar - EXISTS
+
+Use o [banco de dados hotel](https://s3.us-east-2.amazonaws.com/assets.app.betrybe.com/back-end/sql/hotel-6969e872405a203072b3d984f5fbdea8.sql) para realizar os desafios a seguir:
+
+1. Usando o **EXISTS** na tabela **books_lent** e **books**, exiba o **id** e **título** dos livros que ainda não foram emprestados.
+
+```sql
+SELECT Id, Title FROM hotel.Books as B
+WHERE NOT EXISTS (
+	SELECT * FROM hotel.Books_Lent AS BL
+  WHERE BL.book_id = B.Id
+)
+```
+
+2. Usando o **EXISTS** na tabela **books_lent** e **books**, exiba o **id** e **título** dos livros estão atualmente emprestados e que contêm a palavra "lost" no título.
+
+```sql
+SELECT Id, Title FROM hotel.Books AS B
+WHERE EXISTS (
+  SELECT * FROM hotel.Books_Lent AS BL
+  WHERE BL.book_id = B.Id
+)
+AND Title LIKE '%lost%';
+```
+
+3. Usando a tabela **carsales** e **customers**, exiba apenas o nome dos clientes que ainda não compraram um carro.
+
+```sql
+SELECT `Name` FROM hotel.Customers AS C
+WHERE NOT EXISTS (
+  SELECT * FROM hotel.CarSales AS CS
+  WHERE CS.CustomerID = C.CustomerID
+);
+```
+
+4. Usando o comando **EXISTS** em conjunto com **JOIN** e as tabelas **cars**, **customers** e **carsales**, exiba o **nome do cliente** e o **modelo do carro** de todos os clientes que fizeram compras de carros.
+
+```sql
+-- Padrão de resposta esperado pela pessoa que fez o exercício
+SELECT CT.Name, C.Name FROM hotel.Cars as C
+INNER JOIN hotel.Customers as CT
+WHERE EXISTS (
+  SELECT * FROM hotel.CarSales AS CS
+  WHERE CS.CarID = C.Id AND CS.CustomerID = CT.CustomerId
+);
+
+-- Na minha opinião, não cabe INNER JOIN neste problema.
+SELECT CT.Name, C.Name
+FROM hotel.Cars as C, hotel.Customers as CT
+WHERE EXISTS (
+  SELECT * FROM hotel.CarSales AS CS
+  WHERE CS.CarID = C.Id AND CS.CustomerID = CT.CustomerId
+);
+
+-- Esta foi a reposta mais intuitiva pra mim. Sem usar EXISTS.
+SELECT CT.Name, C.Name FROM hotel.CarSales AS CS
+INNER JOIN hotel.Cars as C
+ON CS.CarID = C.Id
+INNER JOIN hotel.Customers as CT
+ON CS.CustomerID = CT.CustomerID
+```
