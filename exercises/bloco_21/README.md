@@ -38,7 +38,7 @@ SELECT LCASE('RUA NORTE 1500, SÃO PAULO, BRASIL');
 
 ```sql
 SELECT
-	film_id,
+  film_id,
   title,
   IF (
     title = 'ACE GOLDFINGER',
@@ -182,9 +182,9 @@ GROUP BY active;
 
 ```sql
 SELECT 
-	store_id AS 'ID da loja',
-	IF(`active`, 'Ativo', 'Inativo') AS 'Status',
-	COUNT(*) AS 'Quantidade de clientes'
+  store_id AS 'ID da loja',
+  IF(`active`, 'Ativo', 'Inativo') AS 'Status',
+  COUNT(*) AS 'Quantidade de clientes'
 FROM sakila.customer GROUP BY store_id, `active`
 ORDER BY store_id, `active` DESC;
 ```
@@ -292,9 +292,9 @@ SELECT SUM(SALARY) FROM hr.employees;
 
 ```sql
 SELECT
-	ROUND(MAX(SALARY), 2),
+  ROUND(MAX(SALARY), 2),
   ROUND(MIN(SALARY), 2),
-	ROUND(SUM(SALARY), 2),
+  ROUND(SUM(SALARY), 2),
   ROUND(AVG(SALARY), 2)
 FROM hr.employees;
 ```
@@ -361,7 +361,7 @@ WHERE LENGTH(FIRST_NAME) >= 8;
 
 ```sql
 SELECT 
-	EMPLOYEE_ID,
+  EMPLOYEE_ID,
   FIRST_NAME,
   YEAR(HIRE_DATE)
 FROM hr.employees;
@@ -371,7 +371,7 @@ FROM hr.employees;
 
 ```sql
 SELECT 
-	EMPLOYEE_ID,
+  EMPLOYEE_ID,
   FIRST_NAME,
   DAY(HIRE_DATE)
 FROM hr.employees;
@@ -381,7 +381,7 @@ FROM hr.employees;
 
 ```sql
 SELECT 
-	EMPLOYEE_ID,
+  EMPLOYEE_ID,
   FIRST_NAME,
   MONTH(HIRE_DATE)
 FROM hr.employees;
