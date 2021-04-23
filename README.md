@@ -79,7 +79,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 10.3 - Jest - Simulando comportamentos
 - [x] 10.4 - Projeto - Jest Assíncrono e Mocking
 
-## Desenvolvimento Front-end :hourglass_flowing_sand:
+## Desenvolvimento Front-end :heavy_check_mark:
 
 ##### Bloco 11: [Introdução à React](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_11)
 - [x] 11.1 - Introdução - Front-end
@@ -98,17 +98,17 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 13.2 - React Router
 - [x] 13.3 - Projeto - Movie Cards Library CRUD
 
-##### Bloco 14: Metodologias Ágeis
+##### Bloco 14: [Metodologias Ágeis](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_14)
 - [x] 14.1 - Metodologias Ágeis
 - [x] 14.2 - Projeto - Frontend Online Store
 
-##### Bloco 15: Testes automatizados com React Testing Library
+##### Bloco 15: [Testes automatizados com React Testing Library](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_15)
 - [x] 15.1 - RTL - Primeiros passos
 - [x] 15.2 - RTL - Mocks e Inputs
 - [x] 15.3 - RTL - Testando React Router
 - [x] 15.4 - Projeto - Testes em React
 
-##### Bloco 16: Gerenciamento de estado com Redux
+##### Bloco 16: [Gerenciamento de estado com Redux](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_16)
 - [x] 16.1 - Introdução ao Redux - O estado global da aplicação
 - [x] 16.2 - Usando o Redux no React
 - [x] 16.3 - Usando o Redux no React - Prática
@@ -117,33 +117,33 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 16.6 - Projeto - Tabela com filtros de dados
 
 ##### Bloco 17: Projeto Jogo de Trivia
-- [ ] 17.1 - Projeto - Jogo de Trivia
+- [x] 17.1 - Projeto - Jogo de Trivia
 
-##### Bloco 18: Context API e React Hooks
-- [ ] 18.1 - Context API do React
-- [ ] 18.2 - React Hooks - useState e useContext
-- [ ] 18.3 - React Hooks - useEffect e Hooks customizados
-- [ ] 18.4 - Projeto - StarWars Datatable com Context API e Hooks
+##### Bloco 18: [Context API e React Hooks](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_18)
+- [x] 18.1 - Context API do React
+- [x] 18.2 - React Hooks - useState e useContext
+- [x] 18.3 - React Hooks - useEffect e Hooks customizados
+- [x] 18.4 - Projeto - StarWars Datatable com Context API e Hooks
 
 ##### Bloco 19: Projeto App de Receitas
-- [ ] 19.1 - Projeto - App de Receitas
+- [x] 19.1 - Projeto - App de Receitas
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
-##### Bloco 20: Introdução à SQL
-- [ ] 20.1 - Introdução - Back-end
-- [ ] 20.2 - Introdução - Bancos de dados relacionais
-- [ ] 20.3 - Banco de dados SQL
-- [ ] 20.4 - Encontrando dados em um banco de dados
-- [ ] 20.5 - Filtrando dados de forma específica
-- [ ] 20.6 - Manipulando tabelas
-- [ ] 20.7 - Projeto - All For One
+##### Bloco 20: [Introdução à SQL](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_20)
+- [x] 20.1 - Introdução - Back-end
+- [x] 20.1 - Introdução - Bancos de dados relacionais
+- [x] 20.1 - Banco de dados SQL
+- [x] 20.2 - Encontrando dados em um banco de dados
+- [x] 20.3 - Filtrando dados de forma específica
+- [x] 20.4 - Manipulando tabelas
+- [x] 20.5 - Projeto - All For One
 
-##### Bloco 21: Funções SQL, Joins e Subqueries
-- [ ] 21.1 - Funções mais usadas no SQL
-- [ ] 21.2 - Descomplicando JOINs e UNIONs
-- [ ] 21.3 - Stored Routines & Subqueries
-- [ ] 21.4 - Projeto - Vocabulary Booster
+##### Bloco 21: [Funções SQL, Joins e Subqueries](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_21)
+- [x] 21.1 - Funções mais usadas no SQL
+- [x] 21.2 - Descomplicando JOINs e UNIONs
+- [x] 21.3 - Stored Routines & Subqueries
+- [x] 21.4 - Projeto - Vocabulary Booster
 
 ##### Bloco 22: Normalização e Modelagem de Banco de Dados
 - [ ] 22.1 - Transformando ideias em um modelo de banco de dados
