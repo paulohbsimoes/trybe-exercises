@@ -108,4 +108,48 @@ A: a) Total of 1 digit
 * Espécie;
 * Sexo;
 * Idade;
-* Localização. Cada animal também possui **um** cuidador, e cada cuidador pode ser responsável por mais de um animal. Além disso, cada cuidador possui **um** gerente, sendo que cada gerente pode ser responsável por mais de um cuidador. Siga os passos aprendidos no dia de hoje para modelar essa base de dados.
+* Localização.
+
+Cada animal também possui **um** cuidador, e cada cuidador pode ser responsável por mais de um animal. Além disso, cada cuidador possui **um** gerente, sendo que cada gerente pode ser responsável por mais de um cuidador. Siga os passos aprendidos no dia de hoje para modelar essa base de dados.
+
+![Diagrama entidade relacionamento do Zoológico](./images/zoo_diagram.png)
+
+```sql
+CREATE DATABASE IF NOT EXISTS animals;
+USE animals;
+
+CREATE TABLE specie (
+  specie_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  name VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE manager (
+  manager_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  name VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE location (
+  location_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  address VARCHAR(50)
+);
+
+CREATE TABLE caregiver (
+  caregiver_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  name VARCHAR(50) NOT NULL,
+  manager_id INT NOT NULL,
+  FOREIGN KEY (manager_id) REFERENCES manager(manager_id)
+);
+
+CREATE TABLE animal (
+  animal_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  name VARCHAR(50) NOT NULL,
+  sex VARCHAR(50) NOT NULL,
+  age VARCHAR(50) NOT NULL,
+  specie_id INT NOT NULL,
+  location_id INT NOT NULL,
+  caregiver_id INT NOT NULL,
+  FOREIGN KEY (specie_id) REFERENCES specie(specie_id),
+  FOREIGN KEY (location_id) REFERENCES location(location_id),
+  FOREIGN KEY (caregiver_id) REFERENCES caregiver(caregiver_id)
+);
+```
