@@ -11,12 +11,12 @@ USE albums;
 CREATE TABLE genre (
   genre_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
   name VARCHAR(50) NOT NULL
-);
+) ENGINE=InnoDB;
 
 CREATE TABLE artist (
   artist_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
   name VARCHAR(50) NOT NULL
-);
+) ENGINE=InnoDB;
 
 CREATE TABLE album (
   album_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
@@ -26,7 +26,7 @@ CREATE TABLE album (
   artist_id INT NOT NULL,
   FOREIGN KEY (genre_id) REFERENCES genre(genre_id),
   FOREIGN KEY (artist_id) REFERENCES artist(artist_id)
-);
+) ENGINE=InnoDB;
 
 CREATE TABLE song (
   song_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
@@ -34,7 +34,7 @@ CREATE TABLE song (
   duration_in_seconds INT NOT NULL,
   album_id INT NOT NULL,
   FOREIGN KEY (album_id) REFERENCES album(album_id)
-);
+) ENGINE=InnoDB;
 ```
 
 2. Faça [este quiz](https://www.sanfoundry.com/sql-mcqs-mysql-datatypes-1/) sobre tipos de dados no MySQL.
@@ -121,24 +121,24 @@ USE animals;
 CREATE TABLE specie (
   specie_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
   name VARCHAR(50) NOT NULL
-);
+) ENGINE=InnoDB;
 
 CREATE TABLE manager (
   manager_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
   name VARCHAR(50) NOT NULL
-);
+) ENGINE=InnoDB;
 
 CREATE TABLE location (
   location_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
   address VARCHAR(50)
-);
+) ENGINE=InnoDB;
 
 CREATE TABLE caregiver (
   caregiver_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
   name VARCHAR(50) NOT NULL,
   manager_id INT NOT NULL,
   FOREIGN KEY (manager_id) REFERENCES manager(manager_id)
-);
+) ENGINE=InnoDB;
 
 CREATE TABLE animal (
   animal_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
@@ -151,5 +151,5 @@ CREATE TABLE animal (
   FOREIGN KEY (specie_id) REFERENCES specie(specie_id),
   FOREIGN KEY (location_id) REFERENCES location(location_id),
   FOREIGN KEY (caregiver_id) REFERENCES caregiver(caregiver_id)
-);
+) ENGINE=InnoDB;
 ```
