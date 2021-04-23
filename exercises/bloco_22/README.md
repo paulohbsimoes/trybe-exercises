@@ -73,6 +73,35 @@ A: c) Text type
 
 3. Faça [este quiz](https://www.sanfoundry.com/sql-mcqs-mysql-datatypes-2/) sobre como escolher tipos de dados no MySQL.
 
+```
+1. What will happen if the data being loaded into a text column exceeds the maximum size of that type?
+A: c) Data will be truncated
+
+2. Which data type is more suitable for storing “small notes” in Mysql?
+A: c) Mediumtext
+
+3. Which data type is more suitable for storing “documents” in Mysql?
+A: b) Longtext
+
+4. “Numeric Data” is used to store ____________
+A: d) Both Whole and Natural numbers
+
+5. Which Numeric Data type has the largest range?
+A: c) Int
+
+6. What will be the storage pattern for “float(4,2)” in Mysql?
+A: a) Total of four digits, two to the left of decimal and two to the right of decimal
+
+7. Which among the following are the correct representation of “float(4,2)”?
+A: d) Both 24.33 and 124.4
+
+8. Which among the following is the correct representation of “float(5,0)”?
+A: c) 12345
+
+9. Which among the following is the correct representation of “float(1,1)”?
+A: a) Total of 1 digit
+```
+
 4. Um zoológico precisa de um banco de dados para armazenar informações sobre os seus animais. As informações a serem armazenadas sobre cada animal são:
 
 * Nome;
