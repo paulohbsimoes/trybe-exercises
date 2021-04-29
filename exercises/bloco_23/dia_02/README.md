@@ -49,3 +49,48 @@ db.restaurants.find({ rating: { $lt: 4 } }).count();
 ```javascript
 db.restaurants.find({ rating: { $nin: [5, 6, 7] } }).count();
 ```
+
+# Para fixar - Operadores Lógicos
+
+Faça os desafios 1 a 5 abaixo sobre os operadores lógicos utilizando a collection restaurants criada no tópico anterior.
+
+1. Selecione e faça a contagem dos restaurantes que não possuem avaliação menor ou igual a 5, essa query também deve retornar restaurantes que não possuem o campo avaliação.
+
+```javascript
+db.restaurants.find({ rating: { $not: { $gt: 5 } } }).pretty();
+```
+
+2. Selecione e faça a contagem dos restaurante em que a avaliação seja maior ou igual a 6, ou restaurantes localizados no bairro Brooklyn.
+
+```javascript
+db.restaurants.find({ $or: [ { rating: { $gte: 6 } }, { borough: "Brooklyn" } ] }).pretty();
+```
+
+3. Selecione e faça a contagem dos restaurantes localizados nos bairros Queens, Staten Island e Brooklyn e possuem avaliação maior que 4.
+
+```javascript
+db.restaurants.find({
+  $and: [
+    { borough: { $in: ["Queens", "Staten Island", "Brooklyn"] } },
+    { rating: { $gt: 4 } }
+  ]
+}).pretty();
+```
+
+4. Selecione e faça a contagem dos restaurantes onde nem o campo avaliação seja igual a 1, nem o campo culinária seja do tipo American.
+
+```javascript
+db.restaurants.find({ $nor: [{ rating: 1 }, { cuisine: "American" }] }).count();
+```
+
+5. Selecione e faça a contagem dos resturantes em que a avaliação seja maior que 6 e menor que 10, e esteja localizado no bairro Brooklyn ou não possuem culinária do tipo Delicatessen.
+
+```javascript
+db.restaurants.find({
+  $and: [
+    { rating: { $gt: 6, $lt: 10 } },
+    { borough: "Brooklyn" },
+    { cuisine: { $ne: "Delicatessen" } }
+  ]
+}).count();
+```
