@@ -94,3 +94,19 @@ db.restaurants.find({
   ]
 }).count();
 ```
+
+# Para fixar - Método Sort()
+
+Faça os desafios 1 e 2 abaixo sobre o sort utilizando a collection **restaurants** criada anteriormente.
+
+1. Ordene alfabeticamente os restaurantes pelo nome (campo **name**).
+
+```javascript
+db.restaurants.find().sort({ name: 1 }).pretty();
+```
+
+2. Ordene os restaurantes de forma descrescente baseado nas avaliações.
+
+```javascript
+db.restaurants.find().sort({ rating: -1 }).pretty().limit(3);
+```
