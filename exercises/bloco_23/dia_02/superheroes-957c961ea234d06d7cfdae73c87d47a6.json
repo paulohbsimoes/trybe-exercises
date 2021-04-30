@@ -1,0 +1,734 @@
+{"name": "A-Bomb", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "yellow", "hairColor": "No Hair", "height": 203.0, "weight": 200.0}, "publisher": "Marvel Comics"}
+{"name": "Abe Sapien", "alignment": "good", "gender": "Male", "race": "Icthyo Sapien", "aspects": {"eyeColor": "blue", "hairColor": "No Hair", "skinColor": "blue", "height": 191.0, "weight": 29.48}, "publisher": "Dark Horse Comics"}
+{"name": "Abin Sur", "alignment": "good", "gender": "Male", "race": "Ungaran", "aspects": {"eyeColor": "blue", "hairColor": "No Hair", "skinColor": "red", "height": 185.0, "weight": 40.82}, "publisher": "DC Comics"}
+{"name": "Abomination", "alignment": "bad", "gender": "Male", "race": "Human / Radiation", "aspects": {"eyeColor": "green", "hairColor": "No Hair", "height": 203.0, "weight": 200.0}, "publisher": "Marvel Comics"}
+{"name": "Abraxas", "alignment": "bad", "gender": "Male", "race": "Cosmic Entity", "aspects": {"eyeColor": "blue", "hairColor": "Black", "height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Absorbing Man", "alignment": "bad", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "No Hair", "height": 193.0, "weight": 55.33}, "publisher": "Marvel Comics"}
+{"name": "Adam Monroe", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": -99.0, "weight": -44.9}, "publisher": "NBC - Heroes"}
+{"name": "Adam Strange", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 185.0, "weight": 39.91}, "publisher": "DC Comics"}
+{"name": "Agent 13", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 173.0, "weight": 27.66}, "publisher": "Marvel Comics"}
+{"name": "Agent Bob", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "brown", "hairColor": "Brown", "height": 178.0, "weight": 36.73}, "publisher": "Marvel Comics"}
+{"name": "Agent Zero", "alignment": "good", "gender": "Male", "aspects": {"height": 191.0, "weight": 47.17}, "publisher": "Marvel Comics"}
+{"name": "Air-Walker", "alignment": "bad", "gender": "Male", "aspects": {"eyeColor": "blue", "hairColor": "White", "height": 188.0, "weight": 48.98}, "publisher": "Marvel Comics"}
+{"name": "Ajax", "alignment": "bad", "gender": "Male", "race": "Cyborg", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": 193.0, "weight": 40.82}, "publisher": "Marvel Comics"}
+{"name": "Alan Scott", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 180.0, "weight": 40.82}, "publisher": "DC Comics"}
+{"name": "Alex Mercer", "alignment": "bad", "gender": "Male", "race": "Human", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Wildstorm"}
+{"name": "Alex Woolsly", "alignment": "good", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "NBC - Heroes"}
+{"name": "Alfred Pennyworth", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Black", "height": 178.0, "weight": 32.65}, "publisher": "DC Comics"}
+{"name": "Alien", "alignment": "bad", "gender": "Male", "race": "Xenomorph XX121", "aspects": {"hairColor": "No Hair", "skinColor": "black", "height": 244.0, "weight": 76.64}, "publisher": "Dark Horse Comics"}
+{"name": "Allan Quatermain", "alignment": "good", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Wildstorm"}
+{"name": "Amazo", "alignment": "bad", "gender": "Male", "race": "Android", "aspects": {"eyeColor": "red", "height": 257.0, "weight": 78.46}, "publisher": "DC Comics"}
+{"name": "Ammo", "alignment": "bad", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": 188.0, "weight": 45.8}, "publisher": "Marvel Comics"}
+{"name": "Ando Masahashi", "alignment": "good", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "NBC - Heroes"}
+{"name": "Angel", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 183.0, "weight": 30.84}, "publisher": "Marvel Comics"}
+{"name": "Angel", "alignment": "good", "gender": "Male", "race": "Vampire", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Dark Horse Comics"}
+{"name": "Angel Dust", "alignment": "good", "gender": "Female", "race": "Mutant", "aspects": {"eyeColor": "yellow", "hairColor": "Black", "height": 165.0, "weight": 25.85}, "publisher": "Marvel Comics"}
+{"name": "Angel Salvadore", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": 163.0, "weight": 24.49}, "publisher": "Marvel Comics"}
+{"name": "Angela", "alignment": "bad", "gender": "Female", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Image Comics"}
+{"name": "Animal Man", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 183.0, "weight": 37.64}, "publisher": "DC Comics"}
+{"name": "Annihilus", "alignment": "bad", "gender": "Male", "aspects": {"eyeColor": "green", "hairColor": "No Hair", "height": 180.0, "weight": 40.82}, "publisher": "Marvel Comics"}
+{"name": "Ant-Man", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 211.0, "weight": 55.33}, "publisher": "Marvel Comics"}
+{"name": "Ant-Man II", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 183.0, "weight": 39.0}, "publisher": "Marvel Comics"}
+{"name": "Anti-Monitor", "alignment": "bad", "gender": "Male", "race": "God / Eternal", "aspects": {"eyeColor": "yellow", "hairColor": "No Hair", "height": 61.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Anti-Spawn", "alignment": "bad", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Image Comics"}
+{"name": "Anti-Venom", "alignment": "-", "gender": "Male", "race": "Symbiote", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 229.0, "weight": 162.36}, "publisher": "Marvel Comics"}
+{"name": "Apocalypse", "alignment": "bad", "gender": "Male", "race": "Mutant", "aspects": {"eyeColor": "red", "hairColor": "Black", "skinColor": "grey", "height": 213.0, "weight": 61.22}, "publisher": "Marvel Comics"}
+{"name": "Aquababy", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Aqualad", "alignment": "good", "gender": "Male", "race": "Atlantean", "aspects": {"eyeColor": "blue", "hairColor": "Black", "height": 178.0, "weight": 48.07}, "publisher": "DC Comics"}
+{"name": "Aquaman", "alignment": "good", "gender": "Male", "race": "Atlantean", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 185.0, "weight": 66.21}, "publisher": "DC Comics"}
+{"name": "Arachne", "alignment": "good", "gender": "Female", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 175.0, "weight": 28.57}, "publisher": "Marvel Comics"}
+{"name": "Archangel", "alignment": "good", "gender": "Male", "race": "Mutant", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "skinColor": "blue", "height": 183.0, "weight": 30.84}, "publisher": "Marvel Comics"}
+{"name": "Arclight", "alignment": "bad", "gender": "Female", "aspects": {"eyeColor": "violet", "hairColor": "Purple", "height": 173.0, "weight": 25.85}, "publisher": "Marvel Comics"}
+{"name": "Ardina", "alignment": "good", "gender": "Female", "race": "Alien", "aspects": {"eyeColor": "white", "hairColor": "Orange", "skinColor": "gold", "height": 193.0, "weight": 44.44}, "publisher": "Marvel Comics"}
+{"name": "Ares", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "brown", "hairColor": "Brown", "height": 185.0, "weight": 122.45}, "publisher": "Marvel Comics"}
+{"name": "Ariel", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "purple", "hairColor": "Pink", "height": 165.0, "weight": 26.76}, "publisher": "Marvel Comics"}
+{"name": "Armor", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "black", "hairColor": "Black", "height": 163.0, "weight": 22.68}, "publisher": "Marvel Comics"}
+{"name": "Arsenal", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Astro Boy", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": -99.0, "weight": -44.9}}
+{"name": "Atlas", "alignment": "good", "gender": "Male", "race": "Mutant", "aspects": {"eyeColor": "brown", "hairColor": "Red", "height": 183.0, "weight": 45.8}, "publisher": "Marvel Comics"}
+{"name": "Atlas", "alignment": "bad", "gender": "Male", "race": "God / Eternal", "aspects": {"eyeColor": "blue", "hairColor": "Brown", "height": 198.0, "weight": 57.14}, "publisher": "DC Comics"}
+{"name": "Atom", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "blue", "hairColor": "Red", "height": 178.0, "weight": 30.84}, "publisher": "DC Comics"}
+{"name": "Atom", "alignment": "good", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Atom Girl", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "black", "hairColor": "Black", "height": 168.0, "weight": 24.49}, "publisher": "DC Comics"}
+{"name": "Atom II", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "brown", "hairColor": "Auburn", "height": 183.0, "weight": 36.73}, "publisher": "DC Comics"}
+{"name": "Atom III", "alignment": "good", "gender": "Male", "aspects": {"hairColor": "Red", "height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Atom IV", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": -99.0, "weight": 32.65}, "publisher": "DC Comics"}
+{"name": "Aurora", "alignment": "good", "gender": "Female", "race": "Mutant", "aspects": {"eyeColor": "blue", "hairColor": "Black", "height": 180.0, "weight": 28.57}, "publisher": "Marvel Comics"}
+{"name": "Azazel", "alignment": "bad", "gender": "Male", "race": "Neyaphem", "aspects": {"eyeColor": "yellow", "hairColor": "Black", "skinColor": "red", "height": 183.0, "weight": 30.39}, "publisher": "Marvel Comics"}
+{"name": "Azrael", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Aztar", "alignment": "good", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Bane", "alignment": "bad", "gender": "Male", "race": "Human", "aspects": {"height": 203.0, "weight": 81.63}, "publisher": "DC Comics"}
+{"name": "Banshee", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "green", "hairColor": "Strawberry Blond", "height": 183.0, "weight": 34.92}, "publisher": "Marvel Comics"}
+{"name": "Bantam", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": 165.0, "weight": 24.49}, "publisher": "Marvel Comics"}
+{"name": "Batgirl", "alignment": "good", "gender": "Female", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Batgirl", "alignment": "good", "gender": "Female", "race": "Human", "aspects": {"eyeColor": "green", "hairColor": "Red", "height": 170.0, "weight": 25.85}, "publisher": "DC Comics"}
+{"name": "Batgirl III", "alignment": "good", "gender": "Female", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Batgirl IV", "alignment": "good", "gender": "Female", "race": "Human", "aspects": {"eyeColor": "green", "hairColor": "Black", "height": 165.0, "weight": 23.58}, "publisher": "DC Comics"}
+{"name": "Batgirl V", "alignment": "good", "gender": "Female", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Batgirl VI", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 168.0, "weight": 27.66}, "publisher": "DC Comics"}
+{"name": "Batman", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "black", "height": 188.0, "weight": 43.08}, "publisher": "DC Comics"}
+{"name": "Batman", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Black", "height": 178.0, "weight": 34.92}, "publisher": "DC Comics"}
+{"name": "Batman II", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Black", "height": 178.0, "weight": 35.83}, "publisher": "DC Comics"}
+{"name": "Battlestar", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": 198.0, "weight": 60.32}, "publisher": "Marvel Comics"}
+{"name": "Batwoman V", "alignment": "good", "gender": "Female", "race": "Human", "aspects": {"eyeColor": "green", "hairColor": "Red", "height": 178.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Beak", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "black", "hairColor": "White", "height": 175.0, "weight": 28.57}, "publisher": "Marvel Comics"}
+{"name": "Beast", "alignment": "good", "gender": "Male", "race": "Mutant", "aspects": {"eyeColor": "blue", "hairColor": "Blue", "skinColor": "blue", "height": 180.0, "weight": 82.09}, "publisher": "Marvel Comics"}
+{"name": "Beast Boy", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "green", "hairColor": "Green", "skinColor": "green", "height": 173.0, "weight": 30.84}, "publisher": "DC Comics"}
+{"name": "Beetle", "alignment": "bad", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Ben 10", "alignment": "good", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Beta Ray Bill", "alignment": "good", "gender": "Male", "aspects": {"hairColor": "No Hair", "height": 201.0, "weight": 97.96}, "publisher": "Marvel Comics"}
+{"name": "Beyonder", "alignment": "good", "gender": "Male", "race": "God / Eternal", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Big Barda", "alignment": "bad", "gender": "Female", "race": "New God", "aspects": {"eyeColor": "blue", "hairColor": "Black", "height": 188.0, "weight": 61.22}, "publisher": "DC Comics"}
+{"name": "Big Daddy", "alignment": "good", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Icon Comics"}
+{"name": "Big Man", "alignment": "bad", "gender": "Male", "aspects": {"eyeColor": "blue", "hairColor": "Brown", "height": 165.0, "weight": 32.2}, "publisher": "Marvel Comics"}
+{"name": "Bill Harken", "alignment": "good", "gender": "Male", "race": "Alpha", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "SyFy"}
+{"name": "Billy Kincaid", "alignment": "bad", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Image Comics"}
+{"name": "Binary", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 180.0, "weight": 24.49}, "publisher": "Marvel Comics"}
+{"name": "Bionic Woman", "alignment": "good", "gender": "Female", "race": "Cyborg", "aspects": {"eyeColor": "blue", "hairColor": "Black", "height": -99.0, "weight": -44.9}}
+{"name": "Bird-Brain", "alignment": "good", "gender": "-", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Bird-Man", "alignment": "bad", "gender": "Male", "race": "Human", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Bird-Man II", "alignment": "bad", "gender": "Male", "race": "Human", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Birdman", "alignment": "good", "gender": "Male", "race": "God / Eternal", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Hanna-Barbera"}
+{"name": "Bishop", "alignment": "good", "gender": "Male", "race": "Mutant", "aspects": {"eyeColor": "brown", "hairColor": "No Hair", "height": 198.0, "weight": 56.24}, "publisher": "Marvel Comics"}
+{"name": "Bizarro", "alignment": "neutral", "gender": "Male", "race": "Bizarro", "aspects": {"eyeColor": "black", "hairColor": "Black", "skinColor": "white", "height": 191.0, "weight": 70.29}, "publisher": "DC Comics"}
+{"name": "Black Abbott", "alignment": "bad", "gender": "Male", "aspects": {"eyeColor": "red", "hairColor": "Black", "height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Black Adam", "alignment": "bad", "gender": "Male", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": 191.0, "weight": 51.25}, "publisher": "DC Comics"}
+{"name": "Black Bolt", "alignment": "good", "gender": "Male", "race": "Inhuman", "aspects": {"eyeColor": "blue", "hairColor": "Black", "height": 188.0, "weight": 43.08}, "publisher": "Marvel Comics"}
+{"name": "Black Canary", "alignment": "good", "gender": "Female", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 165.0, "weight": 26.3}, "publisher": "DC Comics"}
+{"name": "Black Canary", "alignment": "good", "gender": "Female", "race": "Metahuman", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 170.0, "weight": 26.76}, "publisher": "DC Comics"}
+{"name": "Black Cat", "alignment": "good", "gender": "Female", "race": "Human", "aspects": {"eyeColor": "green", "hairColor": "Blond", "height": 178.0, "weight": 24.49}, "publisher": "Marvel Comics"}
+{"name": "Black Flash", "alignment": "neutral", "gender": "Male", "race": "God / Eternal", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Black Goliath", "alignment": "good", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Black Knight III", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "brown", "hairColor": "Brown", "height": 183.0, "weight": 39.0}, "publisher": "Marvel Comics"}
+{"name": "Black Lightning", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "brown", "hairColor": "No Hair", "height": 185.0, "weight": 40.82}, "publisher": "DC Comics"}
+{"name": "Black Mamba", "alignment": "bad", "gender": "Female", "aspects": {"eyeColor": "green", "hairColor": "Black", "height": 170.0, "weight": 23.58}, "publisher": "Marvel Comics"}
+{"name": "Black Manta", "alignment": "bad", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "black", "hairColor": "No Hair", "height": 188.0, "weight": 41.72}, "publisher": "DC Comics"}
+{"name": "Black Panther", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": 183.0, "weight": 40.82}, "publisher": "Marvel Comics"}
+{"name": "Black Widow", "alignment": "good", "gender": "Female", "race": "Human", "aspects": {"eyeColor": "green", "hairColor": "Auburn", "height": 170.0, "weight": 26.76}, "publisher": "Marvel Comics"}
+{"name": "Black Widow II", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 170.0, "weight": 27.66}, "publisher": "Marvel Comics"}
+{"name": "Blackout", "alignment": "bad", "gender": "Male", "race": "Demon", "aspects": {"eyeColor": "red", "hairColor": "White", "skinColor": "white", "height": 191.0, "weight": 47.17}, "publisher": "Marvel Comics"}
+{"name": "Blackwing", "alignment": "bad", "gender": "Male", "aspects": {"eyeColor": "blue", "hairColor": "Black", "height": 185.0, "weight": 39.0}, "publisher": "Marvel Comics"}
+{"name": "Blackwulf", "alignment": "-", "gender": "Male", "race": "Alien", "aspects": {"eyeColor": "red", "hairColor": "White", "height": 188.0, "weight": 39.91}, "publisher": "Marvel Comics"}
+{"name": "Blade", "alignment": "good", "gender": "Male", "race": "Vampire", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": 188.0, "weight": 43.99}, "publisher": "Marvel Comics"}
+{"name": "Blaquesmith", "alignment": "good", "gender": "-", "aspects": {"eyeColor": "black", "hairColor": "No Hair", "height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Bling!", "alignment": "good", "gender": "Female", "aspects": {"height": 168.0, "weight": 30.84}, "publisher": "Marvel Comics"}
+{"name": "Blink", "alignment": "good", "gender": "Female", "race": "Mutant", "aspects": {"eyeColor": "green", "hairColor": "Magenta", "skinColor": "pink", "height": 165.0, "weight": 25.4}, "publisher": "Marvel Comics"}
+{"name": "Blizzard", "alignment": "bad", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Blizzard", "alignment": "bad", "gender": "Male", "aspects": {"hairColor": "Brown", "height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Blizzard II", "alignment": "bad", "gender": "Male", "aspects": {"eyeColor": "brown", "hairColor": "Brown", "height": 175.0, "weight": 34.92}, "publisher": "Marvel Comics"}
+{"name": "Blob", "alignment": "bad", "gender": "Male", "aspects": {"eyeColor": "brown", "hairColor": "Brown", "height": 178.0, "weight": 104.31}, "publisher": "Marvel Comics"}
+{"name": "Bloodaxe", "alignment": "bad", "gender": "Female", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Brown", "height": 218.0, "weight": 224.49}, "publisher": "Marvel Comics"}
+{"name": "Bloodhawk", "alignment": "good", "gender": "Male", "race": "Mutant", "aspects": {"eyeColor": "black", "hairColor": "No Hair", "height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Bloodwraith", "alignment": "bad", "gender": "Male", "aspects": {"eyeColor": "white", "hairColor": "No Hair", "height": 30.5, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Blue Beetle", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "blue", "hairColor": "Brown", "height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Blue Beetle", "alignment": "good", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Blue Beetle II", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "blue", "hairColor": "Brown", "height": 183.0, "weight": 39.0}, "publisher": "DC Comics"}
+{"name": "Blue Beetle III", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Boba Fett", "alignment": "bad", "gender": "Male", "race": "Human / Clone", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": 183.0, "weight": -44.9}, "publisher": "George Lucas"}
+{"name": "Bolt", "alignment": "good", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Bomb Queen", "alignment": "bad", "gender": "Female", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Image Comics"}
+{"name": "Boom-Boom", "alignment": "good", "gender": "Female", "race": "Mutant", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 165.0, "weight": 24.94}, "publisher": "Marvel Comics"}
+{"name": "Boomer", "alignment": "good", "gender": "Female", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Booster Gold", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 196.0, "weight": 43.99}, "publisher": "DC Comics"}
+{"name": "Box", "alignment": "good", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Box III", "alignment": "good", "gender": "-", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 193.0, "weight": 49.89}, "publisher": "Marvel Comics"}
+{"name": "Box IV", "alignment": "good", "gender": "-", "aspects": {"eyeColor": "brown", "hairColor": "Brown / Black", "height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Brainiac", "alignment": "bad", "gender": "Male", "race": "Android", "aspects": {"eyeColor": "green", "hairColor": "No Hair", "skinColor": "green", "height": 198.0, "weight": 61.22}, "publisher": "DC Comics"}
+{"name": "Brainiac 5", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "green", "hairColor": "Blond", "height": 170.0, "weight": 27.66}, "publisher": "DC Comics"}
+{"name": "Brother Voodoo", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "brown", "hairColor": "Brown / White", "height": 183.0, "weight": 44.9}, "publisher": "Marvel Comics"}
+{"name": "Brundlefly", "alignment": "-", "gender": "Male", "race": "Mutant", "aspects": {"height": 193.0, "weight": -44.9}}
+{"name": "Buffy", "alignment": "good", "gender": "Female", "race": "Human", "aspects": {"eyeColor": "green", "hairColor": "Blond", "height": 157.0, "weight": 23.58}, "publisher": "Dark Horse Comics"}
+{"name": "Bullseye", "alignment": "bad", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "blond", "height": 183.0, "weight": 40.82}, "publisher": "Marvel Comics"}
+{"name": "Bumblebee", "alignment": "good", "gender": "Female", "race": "Human", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": 170.0, "weight": 26.76}, "publisher": "DC Comics"}
+{"name": "Bumbleboy", "alignment": "good", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Bushido", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Cable", "alignment": "good", "gender": "Male", "race": "Mutant", "aspects": {"eyeColor": "blue", "hairColor": "White", "height": 203.0, "weight": 71.66}, "publisher": "Marvel Comics"}
+{"name": "Callisto", "alignment": "bad", "gender": "Female", "aspects": {"eyeColor": "blue", "hairColor": "Black", "height": 175.0, "weight": 33.56}, "publisher": "Marvel Comics"}
+{"name": "Cameron Hicks", "alignment": "good", "gender": "Male", "race": "Alpha", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "SyFy"}
+{"name": "Cannonball", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 183.0, "weight": 36.73}, "publisher": "Marvel Comics"}
+{"name": "Captain America", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "blond", "height": 188.0, "weight": 48.98}, "publisher": "Marvel Comics"}
+{"name": "Captain Atom", "alignment": "good", "gender": "Male", "race": "Human / Radiation", "aspects": {"eyeColor": "blue", "hairColor": "Silver", "skinColor": "silver", "height": 193.0, "weight": 40.82}, "publisher": "DC Comics"}
+{"name": "Captain Britain", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 198.0, "weight": 52.61}, "publisher": "Marvel Comics"}
+{"name": "Captain Cold", "alignment": "neutral", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "brown", "hairColor": "Brown", "height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Captain Epic", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "blue", "hairColor": "Brown", "height": 188.0, "weight": -44.9}, "publisher": "Team Epic TV"}
+{"name": "Captain Hindsight", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"hairColor": "Black", "height": -99.0, "weight": -44.9}, "publisher": "South Park"}
+{"name": "Captain Mar-vell", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 188.0, "weight": 48.98}, "publisher": "Marvel Comics"}
+{"name": "Captain Marvel", "alignment": "good", "gender": "Female", "race": "Human-Kree", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 180.0, "weight": 33.56}, "publisher": "Marvel Comics"}
+{"name": "Captain Marvel", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Black", "height": 193.0, "weight": 45.8}, "publisher": "DC Comics"}
+{"name": "Captain Marvel II", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Black", "height": 175.0, "weight": 33.56}, "publisher": "DC Comics"}
+{"name": "Captain Midnight", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Dark Horse Comics"}
+{"name": "Captain Planet", "alignment": "good", "gender": "Male", "race": "God / Eternal", "aspects": {"eyeColor": "red", "hairColor": "Green", "height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Captain Universe", "alignment": "good", "gender": "-", "race": "God / Eternal", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Carnage", "alignment": "bad", "gender": "Male", "race": "Symbiote", "aspects": {"eyeColor": "green", "hairColor": "Red", "height": 185.0, "weight": 39.0}, "publisher": "Marvel Comics"}
+{"name": "Cat", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 173.0, "weight": 27.66}, "publisher": "Marvel Comics"}
+{"name": "Cat II", "alignment": "good", "gender": "Female", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Catwoman", "alignment": "good", "gender": "Female", "race": "Human", "aspects": {"eyeColor": "green", "hairColor": "Black", "height": 175.0, "weight": 27.66}, "publisher": "DC Comics"}
+{"name": "Cecilia Reyes", "alignment": "good", "gender": "-", "aspects": {"eyeColor": "brown", "hairColor": "Brown", "height": 170.0, "weight": 28.12}, "publisher": "Marvel Comics"}
+{"name": "Century", "alignment": "good", "gender": "Male", "race": "Alien", "aspects": {"eyeColor": "white", "hairColor": "White", "skinColor": "grey", "height": 201.0, "weight": 43.99}, "publisher": "Marvel Comics"}
+{"name": "Cerebra", "alignment": "good", "gender": "Female", "race": "Mutant", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Chamber", "alignment": "good", "gender": "Male", "race": "Mutant", "aspects": {"eyeColor": "brown", "hairColor": "Brown", "height": 175.0, "weight": 28.57}, "publisher": "Marvel Comics"}
+{"name": "Chameleon", "alignment": "bad", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Changeling", "alignment": "bad", "gender": "Male", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": 180.0, "weight": 36.73}, "publisher": "Marvel Comics"}
+{"name": "Cheetah", "alignment": "bad", "gender": "Female", "race": "Human", "aspects": {"eyeColor": "green", "hairColor": "Blond", "height": 163.0, "weight": 22.68}, "publisher": "DC Comics"}
+{"name": "Cheetah II", "alignment": "bad", "gender": "Female", "race": "Human", "aspects": {"eyeColor": "green", "hairColor": "Brown", "height": 170.0, "weight": 24.94}, "publisher": "DC Comics"}
+{"name": "Cheetah III", "alignment": "bad", "gender": "Female", "race": "Human", "aspects": {"eyeColor": "brown", "hairColor": "Brown", "height": 175.0, "weight": 24.49}, "publisher": "DC Comics"}
+{"name": "Chromos", "alignment": "bad", "gender": "Male", "aspects": {"eyeColor": "brown", "hairColor": "Red / Grey", "height": 185.0, "weight": 39.0}, "publisher": "Team Epic TV"}
+{"name": "Chuck Norris", "alignment": "good", "gender": "Male", "aspects": {"height": 178.0, "weight": -44.9}}
+{"name": "Citizen Steel", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "green", "hairColor": "Red", "height": 183.0, "weight": 77.1}, "publisher": "DC Comics"}
+{"name": "Claire Bennet", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": -99.0, "weight": -44.9}, "publisher": "NBC - Heroes"}
+{"name": "Clea", "alignment": "good", "gender": "-", "aspects": {"hairColor": "White", "height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Cloak", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "brown", "hairColor": "black", "height": 226.0, "weight": 31.75}, "publisher": "Marvel Comics"}
+{"name": "Clock King", "alignment": "bad", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Black", "height": 178.0, "weight": 35.37}, "publisher": "DC Comics"}
+{"name": "Cogliostro", "alignment": "bad", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Image Comics"}
+{"name": "Colin Wagner", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "grey", "hairColor": "Brown", "height": -99.0, "weight": -44.9}, "publisher": "HarperCollins"}
+{"name": "Colossal Boy", "alignment": "good", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Colossus", "alignment": "good", "gender": "Male", "race": "Mutant", "aspects": {"eyeColor": "silver", "hairColor": "Black", "height": 226.0, "weight": 102.04}, "publisher": "Marvel Comics"}
+{"name": "Copycat", "alignment": "neutral", "gender": "Female", "race": "Mutant", "aspects": {"eyeColor": "red", "hairColor": "White", "skinColor": "blue", "height": 183.0, "weight": 30.39}, "publisher": "Marvel Comics"}
+{"name": "Corsair", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "brown", "hairColor": "Brown", "height": 191.0, "weight": 35.83}, "publisher": "Marvel Comics"}
+{"name": "Cottonmouth", "alignment": "bad", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": 183.0, "weight": 44.9}, "publisher": "Marvel Comics"}
+{"name": "Crimson Crusader", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "blue", "hairColor": "Strawberry Blond", "height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Crimson Dynamo", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "brown", "hairColor": "No Hair", "height": 180.0, "weight": 47.17}, "publisher": "Marvel Comics"}
+{"name": "Crystal", "alignment": "good", "gender": "Female", "race": "Inhuman", "aspects": {"eyeColor": "green", "hairColor": "Red", "height": 168.0, "weight": 22.68}, "publisher": "Marvel Comics"}
+{"name": "Curse", "alignment": "bad", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Image Comics"}
+{"name": "Cy-Gor", "alignment": "bad", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Image Comics"}
+{"name": "Cyborg", "alignment": "good", "gender": "Male", "race": "Cyborg", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": 198.0, "weight": 78.46}, "publisher": "DC Comics"}
+{"name": "Cyborg Superman", "alignment": "bad", "gender": "Male", "race": "Cyborg", "aspects": {"eyeColor": "blue", "hairColor": "Black", "height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Cyclops", "alignment": "good", "gender": "Male", "race": "Mutant", "aspects": {"eyeColor": "brown", "hairColor": "Brown", "height": 191.0, "weight": 39.91}, "publisher": "Marvel Comics"}
+{"name": "Cypher", "alignment": "good", "gender": "-", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 175.0, "weight": 30.84}, "publisher": "Marvel Comics"}
+{"name": "Dagger", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 165.0, "weight": 23.58}, "publisher": "Marvel Comics"}
+{"name": "Danny Cooper", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "brown", "hairColor": "Blond", "height": -99.0, "weight": -44.9}, "publisher": "HarperCollins"}
+{"name": "Daphne Powell", "alignment": "good", "gender": "Female", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "ABC Studios"}
+{"name": "Daredevil", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Red", "height": 183.0, "weight": 40.82}, "publisher": "Marvel Comics"}
+{"name": "Darkhawk", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "brown", "hairColor": "Brown", "height": 185.0, "weight": 36.73}, "publisher": "Marvel Comics"}
+{"name": "Darkman", "alignment": "good", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Universal Studios"}
+{"name": "Darkseid", "alignment": "bad", "gender": "Male", "race": "New God", "aspects": {"eyeColor": "red", "hairColor": "No Hair", "skinColor": "grey", "height": 267.0, "weight": 370.52}, "publisher": "DC Comics"}
+{"name": "Darkside", "alignment": "bad", "gender": "-", "aspects": {"height": -99.0, "weight": -44.9}}
+{"name": "Darkstar", "alignment": "good", "gender": "Female", "race": "Mutant", "aspects": {"eyeColor": "brown", "hairColor": "Blond", "height": 168.0, "weight": 25.4}, "publisher": "Marvel Comics"}
+{"name": "Darth Maul", "alignment": "bad", "gender": "Male", "race": "Dathomirian Zabrak", "aspects": {"eyeColor": "yellow / red", "skinColor": "red / black", "height": 170.0, "weight": -44.9}, "publisher": "George Lucas"}
+{"name": "Darth Vader", "alignment": "bad", "gender": "Male", "race": "Cyborg", "aspects": {"eyeColor": "yellow", "hairColor": "No Hair", "height": 198.0, "weight": 61.22}, "publisher": "George Lucas"}
+{"name": "Dash", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 122.0, "weight": 12.24}, "publisher": "Dark Horse Comics"}
+{"name": "Data", "alignment": "good", "gender": "Male", "race": "Android", "aspects": {"eyeColor": "yellow", "hairColor": "Brown", "height": -99.0, "weight": -44.9}, "publisher": "Star Trek"}
+{"name": "Dazzler", "alignment": "good", "gender": "Female", "race": "Mutant", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 173.0, "weight": 23.58}, "publisher": "Marvel Comics"}
+{"name": "Deadman", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Black", "height": 183.0, "weight": 40.82}, "publisher": "DC Comics"}
+{"name": "Deadpool", "alignment": "neutral", "gender": "Male", "race": "Mutant", "aspects": {"eyeColor": "brown", "hairColor": "No Hair", "height": 188.0, "weight": 43.08}, "publisher": "Marvel Comics"}
+{"name": "Deadshot", "alignment": "bad", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "brown", "hairColor": "Brown", "height": 185.0, "weight": 41.27}, "publisher": "DC Comics"}
+{"name": "Deathlok", "alignment": "good", "gender": "Male", "race": "Cyborg", "aspects": {"eyeColor": "brown", "hairColor": "Grey", "height": 193.0, "weight": 80.73}, "publisher": "Marvel Comics"}
+{"name": "Deathstroke", "alignment": "neutral", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "White", "height": 193.0, "weight": 45.8}, "publisher": "DC Comics"}
+{"name": "Demogoblin", "alignment": "bad", "gender": "Male", "race": "Demon", "aspects": {"eyeColor": "red", "hairColor": "No Hair", "height": 185.0, "weight": 43.08}, "publisher": "Marvel Comics"}
+{"name": "Destroyer", "alignment": "bad", "gender": "Male", "aspects": {"height": 188.0, "weight": 173.7}, "publisher": "Marvel Comics"}
+{"name": "Diamondback", "alignment": "bad", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": 193.0, "weight": 40.82}, "publisher": "Marvel Comics"}
+{"name": "DL Hawkins", "alignment": "good", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "NBC - Heroes"}
+{"name": "Doc Samson", "alignment": "good", "gender": "Male", "race": "Human / Radiation", "aspects": {"eyeColor": "blue", "hairColor": "Green", "height": 198.0, "weight": 77.55}, "publisher": "Marvel Comics"}
+{"name": "Doctor Doom", "alignment": "bad", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "brown", "hairColor": "Brown", "height": 201.0, "weight": 84.81}, "publisher": "Marvel Comics"}
+{"name": "Doctor Doom II", "alignment": "bad", "gender": "Male", "aspects": {"eyeColor": "brown", "hairColor": "Brown", "height": 201.0, "weight": 59.86}, "publisher": "Marvel Comics"}
+{"name": "Doctor Fate", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 188.0, "weight": 40.36}, "publisher": "DC Comics"}
+{"name": "Doctor Octopus", "alignment": "bad", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "brown", "hairColor": "Brown", "height": 175.0, "weight": 49.89}, "publisher": "Marvel Comics"}
+{"name": "Doctor Strange", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "grey", "hairColor": "Black", "height": 188.0, "weight": 36.73}, "publisher": "Marvel Comics"}
+{"name": "Domino", "alignment": "good", "gender": "Female", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Black", "skinColor": "white", "height": 173.0, "weight": 24.49}, "publisher": "Marvel Comics"}
+{"name": "Donatello", "alignment": "good", "gender": "Male", "race": "Mutant", "aspects": {"eyeColor": "green", "hairColor": "No Hair", "skinColor": "green", "height": -99.0, "weight": -44.9}, "publisher": "IDW Publishing"}
+{"name": "Donna Troy", "alignment": "good", "gender": "Female", "race": "Amazon", "aspects": {"eyeColor": "blue", "hairColor": "Black", "height": 175.0, "weight": 28.57}, "publisher": "DC Comics"}
+{"name": "Doomsday", "alignment": "bad", "gender": "Male", "race": "Alien", "aspects": {"eyeColor": "red", "hairColor": "White", "height": 244.0, "weight": 186.85}, "publisher": "DC Comics"}
+{"name": "Doppelganger", "alignment": "bad", "gender": "Male", "aspects": {"eyeColor": "white", "hairColor": "No Hair", "height": 196.0, "weight": 47.17}, "publisher": "Marvel Comics"}
+{"name": "Dormammu", "alignment": "bad", "gender": "Male", "aspects": {"eyeColor": "yellow", "hairColor": "No Hair", "height": 185.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Dr Manhattan", "alignment": "good", "gender": "Male", "race": "Human / Cosmic", "aspects": {"eyeColor": "white", "hairColor": "No Hair", "skinColor": "blue", "height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Drax the Destroyer", "alignment": "good", "gender": "Male", "race": "Human / Altered", "aspects": {"eyeColor": "red", "hairColor": "No Hair", "skinColor": "green", "height": 193.0, "weight": 138.78}, "publisher": "Marvel Comics"}
+{"name": "Ego", "alignment": "bad", "gender": "-", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Elastigirl", "alignment": "good", "gender": "Female", "race": "Human", "aspects": {"eyeColor": "brown", "hairColor": "Brown", "height": 168.0, "weight": 25.4}, "publisher": "Dark Horse Comics"}
+{"name": "Electro", "alignment": "bad", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Auburn", "height": 180.0, "weight": 33.56}, "publisher": "Marvel Comics"}
+{"name": "Elektra", "alignment": "good", "gender": "Female", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Black", "height": 175.0, "weight": 26.76}, "publisher": "Marvel Comics"}
+{"name": "Elle Bishop", "alignment": "bad", "gender": "Female", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": -99.0, "weight": -44.9}, "publisher": "NBC - Heroes"}
+{"name": "Elongated Man", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "blue", "hairColor": "Red", "height": 185.0, "weight": 36.28}, "publisher": "DC Comics"}
+{"name": "Emma Frost", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 178.0, "weight": 29.48}, "publisher": "Marvel Comics"}
+{"name": "Enchantress", "alignment": "good", "gender": "Female", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 168.0, "weight": 25.85}, "publisher": "DC Comics"}
+{"name": "Energy", "alignment": "good", "gender": "Female", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "HarperCollins"}
+{"name": "ERG-1", "alignment": "good", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Ethan Hunt", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "brown", "hairColor": "Brown", "height": 168.0, "weight": -44.9}}
+{"name": "Etrigan", "alignment": "neutral", "gender": "Male", "race": "Demon", "aspects": {"eyeColor": "red", "hairColor": "No Hair", "skinColor": "yellow", "height": 193.0, "weight": 92.06}, "publisher": "DC Comics"}
+{"name": "Evil Deadpool", "alignment": "bad", "gender": "Male", "race": "Mutant", "aspects": {"eyeColor": "white", "hairColor": "Red", "height": 188.0, "weight": 43.08}, "publisher": "Marvel Comics"}
+{"name": "Evilhawk", "alignment": "bad", "gender": "Male", "race": "Alien", "aspects": {"eyeColor": "red", "hairColor": "Black", "skinColor": "green", "height": 191.0, "weight": 48.07}, "publisher": "Marvel Comics"}
+{"name": "Exodus", "alignment": "bad", "gender": "Male", "race": "Mutant", "aspects": {"eyeColor": "blue", "hairColor": "Black", "skinColor": "red", "height": 183.0, "weight": 39.91}, "publisher": "Marvel Comics"}
+{"name": "Fabian Cortez", "alignment": "bad", "gender": "-", "aspects": {"eyeColor": "blue", "hairColor": "Brown", "height": 196.0, "weight": 43.54}, "publisher": "Marvel Comics"}
+{"name": "Falcon", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": 188.0, "weight": 48.98}, "publisher": "Marvel Comics"}
+{"name": "Fallen One II", "alignment": "bad", "gender": "Male", "aspects": {"eyeColor": "black", "hairColor": "Blue", "height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Faora", "alignment": "bad", "gender": "Female", "race": "Kryptonian", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Feral", "alignment": "good", "gender": "-", "aspects": {"eyeColor": "yellow (without irises)", "hairColor": "Orange / White", "height": 175.0, "weight": 22.68}, "publisher": "Marvel Comics"}
+{"name": "Fighting Spirit", "alignment": "good", "gender": "Female", "aspects": {"hairColor": "Red", "height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Fin Fang Foom", "alignment": "good", "gender": "Male", "race": "Kakarantharaian", "aspects": {"eyeColor": "red", "hairColor": "No Hair", "skinColor": "green", "height": 975.0, "weight": 8.16}, "publisher": "Marvel Comics"}
+{"name": "Firebird", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": 165.0, "weight": 25.4}, "publisher": "Marvel Comics"}
+{"name": "Firelord", "alignment": "good", "gender": "-", "aspects": {"eyeColor": "white", "hairColor": "Yellow", "height": 193.0, "weight": 44.9}, "publisher": "Marvel Comics"}
+{"name": "Firestar", "alignment": "good", "gender": "Female", "race": "Mutant", "aspects": {"eyeColor": "green", "hairColor": "Red", "height": 173.0, "weight": 25.4}, "publisher": "Marvel Comics"}
+{"name": "Firestorm", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Firestorm", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Auburn", "height": 188.0, "weight": 41.27}, "publisher": "DC Comics"}
+{"name": "Fixer", "alignment": "bad", "gender": "-", "aspects": {"eyeColor": "red", "hairColor": "No Hair", "height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Flash", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Brown / White", "height": 180.0, "weight": 36.73}, "publisher": "DC Comics"}
+{"name": "Flash Gordon", "alignment": "good", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}}
+{"name": "Flash II", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 183.0, "weight": 39.91}, "publisher": "DC Comics"}
+{"name": "Flash III", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"height": 183.0, "weight": 39.0}, "publisher": "DC Comics"}
+{"name": "Flash IV", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "yellow", "hairColor": "Auburn", "height": 157.0, "weight": 23.58}, "publisher": "DC Comics"}
+{"name": "Forge", "alignment": "good", "gender": "-", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": 183.0, "weight": 36.73}, "publisher": "Marvel Comics"}
+{"name": "Franklin Richards", "alignment": "good", "gender": "Male", "race": "Mutant", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 142.0, "weight": 20.41}, "publisher": "Marvel Comics"}
+{"name": "Franklin Storm", "alignment": "good", "gender": "-", "aspects": {"eyeColor": "blue", "hairColor": "Grey", "height": 188.0, "weight": 41.72}, "publisher": "Marvel Comics"}
+{"name": "Frenzy", "alignment": "bad", "gender": "Female", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": 211.0, "weight": 47.17}, "publisher": "Marvel Comics"}
+{"name": "Frigga", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "blue", "hairColor": "White", "height": 180.0, "weight": 75.74}, "publisher": "Marvel Comics"}
+{"name": "Galactus", "alignment": "neutral", "gender": "Male", "race": "Cosmic Entity", "aspects": {"eyeColor": "black", "hairColor": "Black", "height": 876.0, "weight": 7.26}, "publisher": "Marvel Comics"}
+{"name": "Gambit", "alignment": "good", "gender": "Male", "race": "Mutant", "aspects": {"eyeColor": "red", "hairColor": "Brown", "height": 185.0, "weight": 36.73}, "publisher": "Marvel Comics"}
+{"name": "Gamora", "alignment": "good", "gender": "Female", "race": "Zen-Whoberian", "aspects": {"eyeColor": "yellow", "hairColor": "Black", "skinColor": "green", "height": 183.0, "weight": 34.92}, "publisher": "Marvel Comics"}
+{"name": "Garbage Man", "alignment": "good", "gender": "Male", "race": "Mutant", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Gary Bell", "alignment": "good", "gender": "Male", "race": "Alpha", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "SyFy"}
+{"name": "General Zod", "alignment": "bad", "gender": "Male", "race": "Kryptonian", "aspects": {"eyeColor": "black", "hairColor": "Black", "height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Genesis", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 185.0, "weight": 39.0}, "publisher": "Marvel Comics"}
+{"name": "Ghost Rider", "alignment": "good", "gender": "Male", "race": "Demon", "aspects": {"eyeColor": "red", "hairColor": "No Hair", "height": 188.0, "weight": 44.9}, "publisher": "Marvel Comics"}
+{"name": "Ghost Rider II", "alignment": "good", "gender": "-", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Giant-Man", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Giant-Man II", "alignment": "good", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Giganta", "alignment": "bad", "gender": "Female", "aspects": {"eyeColor": "green", "hairColor": "Red", "height": 62.5, "weight": 285.71}, "publisher": "DC Comics"}
+{"name": "Gladiator", "alignment": "neutral", "gender": "Male", "race": "Strontian", "aspects": {"eyeColor": "blue", "hairColor": "Blue", "skinColor": "purple", "height": 198.0, "weight": 121.54}, "publisher": "Marvel Comics"}
+{"name": "Goblin Queen", "alignment": "bad", "gender": "Female", "aspects": {"eyeColor": "green", "hairColor": "Red", "height": 168.0, "weight": 22.68}, "publisher": "Marvel Comics"}
+{"name": "Godzilla", "alignment": "bad", "gender": "-", "race": "Kaiju", "aspects": {"skinColor": "grey", "height": 108.0, "weight": -1}}
+{"name": "Gog", "alignment": "bad", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Goku", "alignment": "good", "gender": "Male", "race": "Saiyan", "aspects": {"height": 175.0, "weight": 28.12}, "publisher": "Shueisha"}
+{"name": "Goliath", "alignment": "good", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Goliath", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Goliath", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Goliath IV", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": 183.0, "weight": 40.82}, "publisher": "Marvel Comics"}
+{"name": "Gorilla Grodd", "alignment": "bad", "gender": "Male", "race": "Gorilla", "aspects": {"eyeColor": "yellow", "hairColor": "Black", "height": 198.0, "weight": 122.45}, "publisher": "DC Comics"}
+{"name": "Granny Goodness", "alignment": "bad", "gender": "Female", "aspects": {"eyeColor": "blue", "hairColor": "White", "height": 178.0, "weight": 52.15}, "publisher": "DC Comics"}
+{"name": "Gravity", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Brown", "height": 178.0, "weight": 35.83}, "publisher": "Marvel Comics"}
+{"name": "Greedo", "alignment": "bad", "gender": "Male", "race": "Rodian", "aspects": {"eyeColor": "purple", "skinColor": "green", "height": 170.0, "weight": -44.9}, "publisher": "George Lucas"}
+{"name": "Green Arrow", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "green", "hairColor": "Blond", "height": 188.0, "weight": 39.91}, "publisher": "DC Comics"}
+{"name": "Green Goblin", "alignment": "bad", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Auburn", "height": 180.0, "weight": 37.64}, "publisher": "Marvel Comics"}
+{"name": "Green Goblin II", "alignment": "bad", "gender": "Male", "aspects": {"eyeColor": "blue", "hairColor": "Auburn", "height": 178.0, "weight": 34.92}, "publisher": "Marvel Comics"}
+{"name": "Green Goblin III", "alignment": "good", "gender": "Male", "aspects": {"height": 183.0, "weight": 39.91}, "publisher": "Marvel Comics"}
+{"name": "Green Goblin IV", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "green", "hairColor": "Brown", "height": 178.0, "weight": 35.83}, "publisher": "Marvel Comics"}
+{"name": "Groot", "alignment": "good", "gender": "Male", "race": "Flora Colossus", "aspects": {"eyeColor": "yellow", "height": 701.0, "weight": 1.81}, "publisher": "Marvel Comics"}
+{"name": "Guardian", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Guy Gardner", "alignment": "good", "gender": "Male", "race": "Human-Vuldarian", "aspects": {"eyeColor": "blue", "hairColor": "Red", "height": 188.0, "weight": 43.08}, "publisher": "DC Comics"}
+{"name": "Hal Jordan", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "brown", "hairColor": "Brown", "height": 188.0, "weight": 40.82}, "publisher": "DC Comics"}
+{"name": "Han Solo", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "brown", "hairColor": "Brown", "height": 183.0, "weight": 35.83}, "publisher": "George Lucas"}
+{"name": "Hancock", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": 188.0, "weight": -44.9}, "publisher": "Sony Pictures"}
+{"name": "Harley Quinn", "alignment": "bad", "gender": "Female", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 170.0, "weight": 28.57}, "publisher": "DC Comics"}
+{"name": "Harry Potter", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "green", "hairColor": "Black", "height": -99.0, "weight": -44.9}, "publisher": "J. K. Rowling"}
+{"name": "Havok", "alignment": "good", "gender": "Male", "race": "Mutant", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 183.0, "weight": 35.83}, "publisher": "Marvel Comics"}
+{"name": "Hawk", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "red", "hairColor": "Brown", "height": 185.0, "weight": 40.36}, "publisher": "DC Comics"}
+{"name": "Hawkeye", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 191.0, "weight": 47.17}, "publisher": "Marvel Comics"}
+{"name": "Hawkeye II", "alignment": "good", "gender": "Female", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Black", "height": 165.0, "weight": 25.85}, "publisher": "Marvel Comics"}
+{"name": "Hawkgirl", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "green", "hairColor": "Red", "height": 175.0, "weight": 27.66}, "publisher": "DC Comics"}
+{"name": "Hawkman", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "blue", "hairColor": "Brown", "height": 185.0, "weight": 39.91}, "publisher": "DC Comics"}
+{"name": "Hawkwoman", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "green", "hairColor": "Red", "height": 175.0, "weight": 24.49}, "publisher": "DC Comics"}
+{"name": "Hawkwoman II", "alignment": "good", "gender": "Female", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Hawkwoman III", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "blue", "hairColor": "Red", "height": 170.0, "weight": 29.48}, "publisher": "DC Comics"}
+{"name": "Heat Wave", "alignment": "bad", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "No Hair", "height": 180.0, "weight": 36.73}, "publisher": "DC Comics"}
+{"name": "Hela", "alignment": "bad", "gender": "Female", "race": "Asgardian", "aspects": {"eyeColor": "green", "hairColor": "Black", "height": 213.0, "weight": 102.04}, "publisher": "Marvel Comics"}
+{"name": "Hellboy", "alignment": "good", "gender": "Male", "race": "Demon", "aspects": {"eyeColor": "gold", "hairColor": "Black", "height": 259.0, "weight": 71.66}, "publisher": "Dark Horse Comics"}
+{"name": "Hellcat", "alignment": "good", "gender": "Female", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Red", "height": 173.0, "weight": 27.66}, "publisher": "Marvel Comics"}
+{"name": "Hellstorm", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "red", "hairColor": "Red", "height": 185.0, "weight": 36.73}, "publisher": "Marvel Comics"}
+{"name": "Hercules", "alignment": "good", "gender": "Male", "race": "Demi-God", "aspects": {"eyeColor": "blue", "hairColor": "Brown", "height": 196.0, "weight": 66.21}, "publisher": "Marvel Comics"}
+{"name": "Hiro Nakamura", "alignment": "good", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "NBC - Heroes"}
+{"name": "Hit-Girl", "alignment": "good", "gender": "Female", "race": "Human", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Icon Comics"}
+{"name": "Hobgoblin", "alignment": "bad", "gender": "Male", "aspects": {"eyeColor": "blue", "hairColor": "Grey", "height": 180.0, "weight": 37.64}, "publisher": "Marvel Comics"}
+{"name": "Hollow", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "blue", "hairColor": "Red", "height": 170.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Hope Summers", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "green", "hairColor": "Red", "height": 168.0, "weight": 21.77}, "publisher": "Marvel Comics"}
+{"name": "Howard the Duck", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "brown", "hairColor": "Yellow", "height": 79.0, "weight": 8.16}, "publisher": "Marvel Comics"}
+{"name": "Hulk", "alignment": "good", "gender": "Male", "race": "Human / Radiation", "aspects": {"eyeColor": "green", "hairColor": "Green", "skinColor": "green", "height": 244.0, "weight": 285.71}, "publisher": "Marvel Comics"}
+{"name": "Human Torch", "alignment": "good", "gender": "Male", "race": "Human / Radiation", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 178.0, "weight": 34.92}, "publisher": "Marvel Comics"}
+{"name": "Huntress", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "blue", "hairColor": "Black", "height": 180.0, "weight": 26.76}, "publisher": "DC Comics"}
+{"name": "Husk", "alignment": "good", "gender": "Female", "race": "Mutant", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 170.0, "weight": 26.3}, "publisher": "Marvel Comics"}
+{"name": "Hybrid", "alignment": "good", "gender": "Male", "race": "Symbiote", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": 175.0, "weight": 34.92}, "publisher": "Marvel Comics"}
+{"name": "Hydro-Man", "alignment": "bad", "gender": "Male", "aspects": {"eyeColor": "brown", "hairColor": "Brown", "height": 188.0, "weight": 53.97}, "publisher": "Marvel Comics"}
+{"name": "Hyperion", "alignment": "good", "gender": "Male", "race": "Eternal", "aspects": {"eyeColor": "blue", "hairColor": "Red", "height": 183.0, "weight": 93.88}, "publisher": "Marvel Comics"}
+{"name": "Iceman", "alignment": "good", "gender": "Male", "race": "Mutant", "aspects": {"eyeColor": "brown", "hairColor": "Brown", "height": 173.0, "weight": 29.48}, "publisher": "Marvel Comics"}
+{"name": "Impulse", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "yellow", "hairColor": "Auburn", "height": 170.0, "weight": 29.48}, "publisher": "DC Comics"}
+{"name": "Indiana Jones", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"height": 183.0, "weight": 35.83}, "publisher": "George Lucas"}
+{"name": "Indigo", "alignment": "neutral", "gender": "Female", "race": "Alien", "aspects": {"hairColor": "Purple", "height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Ink", "alignment": "good", "gender": "Male", "race": "Mutant", "aspects": {"eyeColor": "blue", "hairColor": "No Hair", "height": 180.0, "weight": 36.73}, "publisher": "Marvel Comics"}
+{"name": "Invisible Woman", "alignment": "good", "gender": "Female", "race": "Human / Radiation", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 168.0, "weight": 24.49}, "publisher": "Marvel Comics"}
+{"name": "Iron Fist", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 180.0, "weight": 35.83}, "publisher": "Marvel Comics"}
+{"name": "Iron Man", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Black", "height": 198.0, "weight": 86.62}, "publisher": "Marvel Comics"}
+{"name": "Iron Monger", "alignment": "bad", "gender": "Male", "aspects": {"eyeColor": "blue", "hairColor": "No Hair", "height": -99.0, "weight": 0.91}, "publisher": "Marvel Comics"}
+{"name": "Isis", "alignment": "good", "gender": "Female", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Jack Bauer", "alignment": "good", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}}
+{"name": "Jack of Hearts", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue / white", "hairColor": "Brown", "height": 155.0, "weight": 35.83}, "publisher": "Marvel Comics"}
+{"name": "Jack-Jack", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Brown", "height": 71.0, "weight": 6.35}, "publisher": "Dark Horse Comics"}
+{"name": "James Bond", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 183.0, "weight": -44.9}, "publisher": "Titan Books"}
+{"name": "James T. Kirk", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "hazel", "hairColor": "Brown", "height": 178.0, "weight": 34.92}, "publisher": "Star Trek"}
+{"name": "Jar Jar Binks", "alignment": "good", "gender": "Male", "race": "Gungan", "aspects": {"eyeColor": "yellow", "skinColor": "orange / white", "height": 193.0, "weight": -44.9}, "publisher": "George Lucas"}
+{"name": "Jason Bourne", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"height": -99.0, "weight": -44.9}}
+{"name": "Jean Grey", "alignment": "good", "gender": "Female", "race": "Mutant", "aspects": {"eyeColor": "green", "hairColor": "Red", "height": 168.0, "weight": 23.58}, "publisher": "Marvel Comics"}
+{"name": "Jean-Luc Picard", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Star Trek"}
+{"name": "Jennifer Kale", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 168.0, "weight": 24.94}, "publisher": "Marvel Comics"}
+{"name": "Jesse Quick", "alignment": "good", "gender": "Female", "race": "Human", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Jessica Cruz", "alignment": "good", "gender": "Female", "race": "Human", "aspects": {"eyeColor": "green", "hairColor": "Brown", "height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Jessica Jones", "alignment": "good", "gender": "Female", "race": "Human", "aspects": {"eyeColor": "brown", "hairColor": "Brown", "height": 170.0, "weight": 25.4}, "publisher": "Marvel Comics"}
+{"name": "Jessica Sanders", "alignment": "good", "gender": "Female", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "NBC - Heroes"}
+{"name": "Jigsaw", "alignment": "bad", "gender": "Male", "aspects": {"eyeColor": "blue", "hairColor": "Black", "height": 188.0, "weight": 51.25}, "publisher": "Marvel Comics"}
+{"name": "Jim Powell", "alignment": "good", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "ABC Studios"}
+{"name": "JJ Powell", "alignment": "good", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "ABC Studios"}
+{"name": "Johann Krauss", "alignment": "good", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Dark Horse Comics"}
+{"name": "John Constantine", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 183.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "John Stewart", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "green", "hairColor": "Black", "height": 185.0, "weight": 40.82}, "publisher": "DC Comics"}
+{"name": "John Wraith", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": 183.0, "weight": 39.91}, "publisher": "Marvel Comics"}
+{"name": "Joker", "alignment": "bad", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "green", "hairColor": "Green", "skinColor": "white", "height": 196.0, "weight": 39.0}, "publisher": "DC Comics"}
+{"name": "Jolt", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "blue", "hairColor": "Black", "height": 165.0, "weight": 22.22}, "publisher": "Marvel Comics"}
+{"name": "Jubilee", "alignment": "good", "gender": "Female", "race": "Mutant", "aspects": {"eyeColor": "red", "hairColor": "Black", "height": 165.0, "weight": 23.58}, "publisher": "Marvel Comics"}
+{"name": "Judge Dredd", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"height": 188.0, "weight": -44.9}, "publisher": "Rebellion"}
+{"name": "Juggernaut", "alignment": "neutral", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Red", "height": 287.0, "weight": 387.76}, "publisher": "Marvel Comics"}
+{"name": "Junkpile", "alignment": "bad", "gender": "Male", "race": "Mutant", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Justice", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "hazel", "hairColor": "Brown", "height": 178.0, "weight": 36.73}, "publisher": "Marvel Comics"}
+{"name": "Jyn Erso", "alignment": "good", "gender": "Female", "race": "Human", "aspects": {"eyeColor": "green", "hairColor": "Brown", "height": -99.0, "weight": -44.9}, "publisher": "George Lucas"}
+{"name": "K-2SO", "alignment": "good", "gender": "Male", "race": "Android", "aspects": {"eyeColor": "white", "hairColor": "No Hair", "skinColor": "gray", "height": 213.0, "weight": -44.9}, "publisher": "George Lucas"}
+{"name": "Kang", "alignment": "bad", "gender": "Male", "aspects": {"eyeColor": "brown", "hairColor": "Brown", "height": 191.0, "weight": 47.17}, "publisher": "Marvel Comics"}
+{"name": "Karate Kid", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "brown", "hairColor": "Brown", "height": 173.0, "weight": 32.65}, "publisher": "DC Comics"}
+{"name": "Kathryn Janeway", "alignment": "good", "gender": "Female", "race": "Human", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Star Trek"}
+{"name": "Katniss Everdeen", "alignment": "good", "gender": "Female", "race": "Human", "aspects": {"height": -99.0, "weight": -44.9}}
+{"name": "Kevin 11", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"hairColor": "Black", "height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Kick-Ass", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": -99.0, "weight": -44.9}, "publisher": "Icon Comics"}
+{"name": "Kid Flash", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "green", "hairColor": "Red", "height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Kid Flash II", "alignment": "good", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Killer Croc", "alignment": "bad", "gender": "Male", "race": "Metahuman", "aspects": {"eyeColor": "red", "hairColor": "No Hair", "skinColor": "green", "height": 244.0, "weight": 161.45}, "publisher": "DC Comics"}
+{"name": "Killer Frost", "alignment": "bad", "gender": "Female", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "skinColor": "blue", "height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Kilowog", "alignment": "good", "gender": "Male", "race": "Bolovaxian", "aspects": {"eyeColor": "red", "hairColor": "No Hair", "skinColor": "pink", "height": 234.0, "weight": 146.94}, "publisher": "DC Comics"}
+{"name": "King Kong", "alignment": "good", "gender": "Male", "race": "Animal", "aspects": {"eyeColor": "yellow", "hairColor": "Black", "height": 30.5, "weight": -1}}
+{"name": "King Shark", "alignment": "bad", "gender": "Male", "race": "Animal", "aspects": {"eyeColor": "black", "hairColor": "No Hair", "height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Kingpin", "alignment": "bad", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "No Hair", "height": 201.0, "weight": 92.06}, "publisher": "Marvel Comics"}
+{"name": "Klaw", "alignment": "bad", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "red", "hairColor": "No Hair", "skinColor": "red", "height": 188.0, "weight": 43.99}, "publisher": "Marvel Comics"}
+{"name": "Kool-Aid Man", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "black", "hairColor": "No Hair", "skinColor": "red", "height": -99.0, "weight": -44.9}}
+{"name": "Kraven II", "alignment": "bad", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": 191.0, "weight": 44.9}, "publisher": "Marvel Comics"}
+{"name": "Kraven the Hunter", "alignment": "bad", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": 183.0, "weight": 48.07}, "publisher": "Marvel Comics"}
+{"name": "Krypto", "alignment": "good", "gender": "Male", "race": "Kryptonian", "aspects": {"eyeColor": "blue", "hairColor": "White", "height": 64.0, "weight": 8.16}, "publisher": "DC Comics"}
+{"name": "Kyle Rayner", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "green", "hairColor": "Black", "height": 180.0, "weight": 35.83}, "publisher": "DC Comics"}
+{"name": "Kylo Ren", "alignment": "bad", "gender": "Male", "race": "Human", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "George Lucas"}
+{"name": "Lady Bullseye", "alignment": "bad", "gender": "Female", "aspects": {"hairColor": "Black", "height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Lady Deathstrike", "alignment": "bad", "gender": "Female", "race": "Cyborg", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": 175.0, "weight": 26.3}, "publisher": "Marvel Comics"}
+{"name": "Leader", "alignment": "bad", "gender": "Male", "aspects": {"eyeColor": "green", "hairColor": "No Hair", "height": 178.0, "weight": 28.57}, "publisher": "Marvel Comics"}
+{"name": "Leech", "alignment": "good", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Legion", "alignment": "good", "gender": "Male", "race": "Mutant", "aspects": {"eyeColor": "green / blue", "hairColor": "Black", "height": 175.0, "weight": 26.76}, "publisher": "Marvel Comics"}
+{"name": "Leonardo", "alignment": "good", "gender": "Male", "race": "Mutant", "aspects": {"eyeColor": "blue", "hairColor": "No Hair", "skinColor": "green", "height": -99.0, "weight": -44.9}, "publisher": "IDW Publishing"}
+{"name": "Lex Luthor", "alignment": "bad", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "green", "hairColor": "No Hair", "height": 188.0, "weight": 43.08}, "publisher": "DC Comics"}
+{"name": "Light Lass", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "blue", "hairColor": "Red", "height": 165.0, "weight": 24.49}, "publisher": "DC Comics"}
+{"name": "Lightning Lad", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "blue", "hairColor": "Red", "height": 155.0, "weight": 29.48}, "publisher": "DC Comics"}
+{"name": "Lightning Lord", "alignment": "bad", "gender": "Male", "aspects": {"eyeColor": "blue", "hairColor": "Red", "height": 191.0, "weight": 43.08}, "publisher": "DC Comics"}
+{"name": "Living Brain", "alignment": "bad", "gender": "-", "aspects": {"eyeColor": "yellow", "height": 198.0, "weight": 163.27}, "publisher": "Marvel Comics"}
+{"name": "Living Tribunal", "alignment": "neutral", "gender": "-", "race": "Cosmic Entity", "aspects": {"eyeColor": "blue", "hairColor": "No Hair", "skinColor": "gold", "height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Liz Sherman", "alignment": "good", "gender": "Female", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Dark Horse Comics"}
+{"name": "Lizard", "alignment": "bad", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "red", "hairColor": "No Hair", "height": 203.0, "weight": 104.31}, "publisher": "Marvel Comics"}
+{"name": "Lobo", "alignment": "neutral", "gender": "Male", "race": "Czarnian", "aspects": {"eyeColor": "red", "hairColor": "Black", "skinColor": "blue-white", "height": 229.0, "weight": 130.61}, "publisher": "DC Comics"}
+{"name": "Loki", "alignment": "bad", "gender": "Male", "race": "Asgardian", "aspects": {"eyeColor": "green", "hairColor": "Black", "height": 193.0, "weight": 107.03}, "publisher": "Marvel Comics"}
+{"name": "Longshot", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 188.0, "weight": 16.33}, "publisher": "Marvel Comics"}
+{"name": "Luke Cage", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": 198.0, "weight": 86.62}, "publisher": "Marvel Comics"}
+{"name": "Luke Campbell", "alignment": "bad", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "NBC - Heroes"}
+{"name": "Luke Skywalker", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 168.0, "weight": 34.92}, "publisher": "George Lucas"}
+{"name": "Luna", "alignment": "good", "gender": "Female", "race": "Human", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Lyja", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "green", "hairColor": "Green", "height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Mach-IV", "alignment": "bad", "gender": "Male", "aspects": {"eyeColor": "brown", "hairColor": "Brown", "height": 180.0, "weight": 35.83}, "publisher": "Marvel Comics"}
+{"name": "Machine Man", "alignment": "good", "gender": "-", "aspects": {"eyeColor": "red", "hairColor": "Black", "height": 183.0, "weight": 173.7}, "publisher": "Marvel Comics"}
+{"name": "Magneto", "alignment": "bad", "gender": "Male", "race": "Mutant", "aspects": {"eyeColor": "grey", "hairColor": "White", "height": 188.0, "weight": 39.0}, "publisher": "Marvel Comics"}
+{"name": "Magog", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Magus", "alignment": "bad", "gender": "Male", "aspects": {"eyeColor": "black", "height": 183.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Man of Miracles", "alignment": "-", "gender": "-", "race": "God / Eternal", "aspects": {"eyeColor": "blue", "hairColor": "Silver", "height": -99.0, "weight": -44.9}, "publisher": "Image Comics"}
+{"name": "Man-Bat", "alignment": "neutral", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "brown", "hairColor": "Brown", "height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Man-Thing", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "red", "hairColor": "No Hair", "skinColor": "green", "height": 213.0, "weight": 102.04}, "publisher": "Marvel Comics"}
+{"name": "Man-Wolf", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "brown", "hairColor": "Auburn", "height": 188.0, "weight": 40.82}, "publisher": "Marvel Comics"}
+{"name": "Mandarin", "alignment": "bad", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "White", "height": 188.0, "weight": 43.99}, "publisher": "Marvel Comics"}
+{"name": "Mantis", "alignment": "good", "gender": "Female", "race": "Human-Kree", "aspects": {"eyeColor": "green", "hairColor": "Black", "skinColor": "green", "height": 168.0, "weight": 23.58}, "publisher": "Marvel Comics"}
+{"name": "Martian Manhunter", "alignment": "good", "gender": "Male", "race": "Martian", "aspects": {"eyeColor": "red", "hairColor": "No Hair", "skinColor": "green", "height": 201.0, "weight": 61.22}, "publisher": "DC Comics"}
+{"name": "Marvel Girl", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "green", "hairColor": "Red", "height": 170.0, "weight": 25.4}, "publisher": "Marvel Comics"}
+{"name": "Master Brood", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "blue", "hairColor": "Black", "height": 183.0, "weight": 36.73}, "publisher": "Team Epic TV"}
+{"name": "Master Chief", "alignment": "good", "gender": "Male", "race": "Human / Altered", "aspects": {"eyeColor": "brown", "hairColor": "Brown", "height": 213.0, "weight": -44.9}, "publisher": "Microsoft"}
+{"name": "Match", "alignment": "bad", "gender": "Male", "aspects": {"eyeColor": "black", "hairColor": "Black", "height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Matt Parkman", "alignment": "good", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "NBC - Heroes"}
+{"name": "Maverick", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "blue", "hairColor": "Black", "height": 193.0, "weight": 49.89}, "publisher": "Marvel Comics"}
+{"name": "Maxima", "alignment": "bad", "gender": "Female", "aspects": {"eyeColor": "brown", "hairColor": "Red", "height": 180.0, "weight": 32.65}, "publisher": "DC Comics"}
+{"name": "Maya Herrera", "alignment": "good", "gender": "Female", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "NBC - Heroes"}
+{"name": "Medusa", "alignment": "good", "gender": "Female", "race": "Inhuman", "aspects": {"eyeColor": "green", "hairColor": "Red", "height": 180.0, "weight": 26.76}, "publisher": "Marvel Comics"}
+{"name": "Meltdown", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 165.0, "weight": 24.49}, "publisher": "Marvel Comics"}
+{"name": "Mephisto", "alignment": "bad", "gender": "Male", "aspects": {"eyeColor": "white", "hairColor": "Black", "height": 198.0, "weight": 63.49}, "publisher": "Marvel Comics"}
+{"name": "Mera", "alignment": "good", "gender": "Female", "race": "Atlantean", "aspects": {"eyeColor": "blue", "hairColor": "Red", "height": 175.0, "weight": 32.65}, "publisher": "DC Comics"}
+{"name": "Metallo", "alignment": "bad", "gender": "Male", "race": "Android", "aspects": {"eyeColor": "green", "hairColor": "Brown", "height": 196.0, "weight": 40.82}, "publisher": "DC Comics"}
+{"name": "Metamorpho", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "black", "hairColor": "No Hair", "height": 185.0, "weight": 40.82}, "publisher": "DC Comics"}
+{"name": "Meteorite", "alignment": "good", "gender": "Female", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Metron", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "blue", "hairColor": "Black", "height": 185.0, "weight": 39.0}, "publisher": "DC Comics"}
+{"name": "Micah Sanders", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": -99.0, "weight": -44.9}, "publisher": "NBC - Heroes"}
+{"name": "Michelangelo", "alignment": "good", "gender": "Male", "race": "Mutant", "aspects": {"eyeColor": "blue", "skinColor": "green", "height": -99.0, "weight": -44.9}, "publisher": "IDW Publishing"}
+{"name": "Micro Lad", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "grey", "hairColor": "Brown", "height": 183.0, "weight": 34.92}, "publisher": "DC Comics"}
+{"name": "Mimic", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "brown", "hairColor": "Brown", "height": 188.0, "weight": 45.8}, "publisher": "Marvel Comics"}
+{"name": "Minna Murray", "alignment": "good", "gender": "Female", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Wildstorm"}
+{"name": "Misfit", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "blue", "hairColor": "Red", "height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Miss Martian", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "red", "hairColor": "Red", "height": 178.0, "weight": 27.66}, "publisher": "DC Comics"}
+{"name": "Mister Fantastic", "alignment": "good", "gender": "Male", "race": "Human / Radiation", "aspects": {"eyeColor": "brown", "hairColor": "Brown", "height": 185.0, "weight": 36.73}, "publisher": "Marvel Comics"}
+{"name": "Mister Freeze", "alignment": "bad", "gender": "Male", "race": "Human", "aspects": {"height": 183.0, "weight": 39.0}, "publisher": "DC Comics"}
+{"name": "Mister Knife", "alignment": "bad", "gender": "Male", "race": "Spartoi", "aspects": {"eyeColor": "blue", "hairColor": "Brown", "height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Mister Mxyzptlk", "alignment": "bad", "gender": "Male", "race": "God / Eternal", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Mister Sinister", "alignment": "bad", "gender": "Male", "race": "Human / Altered", "aspects": {"eyeColor": "red", "hairColor": "Black", "height": 196.0, "weight": 58.05}, "publisher": "Marvel Comics"}
+{"name": "Mister Zsasz", "alignment": "bad", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Mockingbird", "alignment": "good", "gender": "Female", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 175.0, "weight": 27.66}, "publisher": "Marvel Comics"}
+{"name": "MODOK", "alignment": "bad", "gender": "Male", "race": "Cyborg", "aspects": {"eyeColor": "white", "hairColor": "Brownn", "height": 366.0, "weight": 153.29}, "publisher": "Marvel Comics"}
+{"name": "Mogo", "alignment": "good", "gender": "Male", "race": "Planet", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Mohinder Suresh", "alignment": "good", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "NBC - Heroes"}
+{"name": "Moloch", "alignment": "bad", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Molten Man", "alignment": "bad", "gender": "Male", "aspects": {"eyeColor": "gold", "hairColor": "Gold", "height": 196.0, "weight": 112.47}, "publisher": "Marvel Comics"}
+{"name": "Monarch", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "blue", "hairColor": "White", "height": 193.0, "weight": 40.82}, "publisher": "DC Comics"}
+{"name": "Monica Dawson", "alignment": "good", "gender": "Female", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "NBC - Heroes"}
+{"name": "Moon Knight", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "brown", "hairColor": "Brown", "height": 188.0, "weight": 45.8}, "publisher": "Marvel Comics"}
+{"name": "Moonstone", "alignment": "bad", "gender": "Female", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 180.0, "weight": 26.76}, "publisher": "Marvel Comics"}
+{"name": "Morlun", "alignment": "bad", "gender": "Male", "aspects": {"eyeColor": "white / red", "hairColor": "Black", "height": 188.0, "weight": 35.83}, "publisher": "Marvel Comics"}
+{"name": "Morph", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "white", "hairColor": "No Hair", "height": 178.0, "weight": 35.83}, "publisher": "Marvel Comics"}
+{"name": "Moses Magnum", "alignment": "bad", "gender": "Male", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": 175.0, "weight": 32.65}, "publisher": "Marvel Comics"}
+{"name": "Mr Immortal", "alignment": "good", "gender": "Male", "race": "Mutant", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 188.0, "weight": 31.75}, "publisher": "Marvel Comics"}
+{"name": "Mr Incredible", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 201.0, "weight": 71.66}, "publisher": "Dark Horse Comics"}
+{"name": "Ms Marvel II", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "blue", "hairColor": "Red", "height": 173.0, "weight": 27.66}, "publisher": "Marvel Comics"}
+{"name": "Multiple Man", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "blue", "hairColor": "Brown", "height": 180.0, "weight": 31.75}, "publisher": "Marvel Comics"}
+{"name": "Mysterio", "alignment": "bad", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "brown", "hairColor": "No Hair", "height": 180.0, "weight": 35.83}, "publisher": "Marvel Comics"}
+{"name": "Mystique", "alignment": "bad", "gender": "Female", "race": "Mutant", "aspects": {"eyeColor": "yellow (without irises)", "hairColor": "Red / Orange", "skinColor": "blue", "height": 178.0, "weight": 24.49}, "publisher": "Marvel Comics"}
+{"name": "Namor", "alignment": "good", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Namor", "alignment": "good", "gender": "Male", "race": "Atlantean", "aspects": {"eyeColor": "grey", "hairColor": "Black", "height": 188.0, "weight": 56.69}, "publisher": "Marvel Comics"}
+{"name": "Namora", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 180.0, "weight": 38.55}, "publisher": "Marvel Comics"}
+{"name": "Namorita", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 168.0, "weight": 45.8}, "publisher": "Marvel Comics"}
+{"name": "Naruto Uzumaki", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"height": 168.0, "weight": 24.49}, "publisher": "Shueisha"}
+{"name": "Nathan Petrelli", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "brown", "height": -99.0, "weight": -44.9}, "publisher": "NBC - Heroes"}
+{"name": "Nebula", "alignment": "bad", "gender": "Female", "race": "Luphomoid", "aspects": {"eyeColor": "blue", "hairColor": "No Hair", "skinColor": "blue", "height": 185.0, "weight": 37.64}, "publisher": "Marvel Comics"}
+{"name": "Negasonic Teenage Warhead", "alignment": "good", "gender": "Female", "race": "Mutant", "aspects": {"eyeColor": "black", "hairColor": "Black", "height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Nick Fury", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "brown", "hairColor": "Brown / White", "height": 185.0, "weight": 44.9}, "publisher": "Marvel Comics"}
+{"name": "Nightcrawler", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "yellow", "hairColor": "Indigo", "height": 175.0, "weight": 39.91}, "publisher": "Marvel Comics"}
+{"name": "Nightwing", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Black", "height": 178.0, "weight": 35.83}, "publisher": "DC Comics"}
+{"name": "Niki Sanders", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": -99.0, "weight": -44.9}, "publisher": "NBC - Heroes"}
+{"name": "Nina Theroux", "alignment": "good", "gender": "Female", "race": "Alpha", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "SyFy"}
+{"name": "Nite Owl II", "alignment": "good", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Northstar", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "blue", "hairColor": "Black", "height": 180.0, "weight": 37.64}, "publisher": "Marvel Comics"}
+{"name": "Nova", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "brown", "hairColor": "Brown", "height": 185.0, "weight": 39.0}, "publisher": "Marvel Comics"}
+{"name": "Nova", "alignment": "good", "gender": "Female", "race": "Human / Cosmic", "aspects": {"eyeColor": "white", "hairColor": "Red", "skinColor": "gold", "height": 163.0, "weight": 26.76}, "publisher": "Marvel Comics"}
+{"name": "Odin", "alignment": "good", "gender": "Male", "race": "God / Eternal", "aspects": {"eyeColor": "blue", "hairColor": "White", "height": 206.0, "weight": 132.88}, "publisher": "Marvel Comics"}
+{"name": "Offspring", "alignment": "good", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Omega Red", "alignment": "bad", "gender": "Male", "aspects": {"eyeColor": "red", "hairColor": "Blond", "height": 211.0, "weight": 86.62}, "publisher": "Marvel Comics"}
+{"name": "Omniscient", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": 180.0, "weight": 29.48}, "publisher": "Team Epic TV"}
+{"name": "One Punch Man", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"hairColor": "No Hair", "height": 175.0, "weight": 31.29}, "publisher": "Shueisha"}
+{"name": "One-Above-All", "alignment": "neutral", "gender": "-", "race": "Cosmic Entity", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Onslaught", "alignment": "bad", "gender": "Male", "race": "Mutant", "aspects": {"eyeColor": "red", "hairColor": "No Hair", "height": 305.0, "weight": 183.67}, "publisher": "Marvel Comics"}
+{"name": "Oracle", "alignment": "good", "gender": "Female", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Red", "height": 178.0, "weight": 26.76}, "publisher": "DC Comics"}
+{"name": "Osiris", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "brown", "hairColor": "Brown", "height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Overtkill", "alignment": "bad", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Image Comics"}
+{"name": "Ozymandias", "alignment": "bad", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Parademon", "alignment": "bad", "gender": "-", "race": "Parademon", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Paul Blart", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"height": 170.0, "weight": 53.06}, "publisher": "Sony Pictures"}
+{"name": "Penance", "alignment": "good", "gender": "-", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Penance I", "alignment": "good", "gender": "Female", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Penance II", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 183.0, "weight": 40.36}, "publisher": "Marvel Comics"}
+{"name": "Penguin", "alignment": "bad", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Black", "height": 157.0, "weight": 35.83}, "publisher": "DC Comics"}
+{"name": "Peter Petrelli", "alignment": "good", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "NBC - Heroes"}
+{"name": "Phantom", "alignment": "good", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Phantom Girl", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "blue", "hairColor": "Black", "height": 168.0, "weight": 24.49}, "publisher": "DC Comics"}
+{"name": "Phoenix", "alignment": "good", "gender": "Female", "race": "Mutant", "aspects": {"eyeColor": "green", "hairColor": "Red", "height": 168.0, "weight": 23.58}, "publisher": "Marvel Comics"}
+{"name": "Plantman", "alignment": "bad", "gender": "Male", "race": "Mutant", "aspects": {"eyeColor": "green", "hairColor": "Grey", "height": 183.0, "weight": 39.46}, "publisher": "Marvel Comics"}
+{"name": "Plastic Lad", "alignment": "good", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Plastic Man", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Black", "height": 185.0, "weight": 36.28}, "publisher": "DC Comics"}
+{"name": "Plastique", "alignment": "bad", "gender": "Female", "aspects": {"eyeColor": "blue", "hairColor": "Red", "height": 168.0, "weight": 24.94}, "publisher": "DC Comics"}
+{"name": "Poison Ivy", "alignment": "bad", "gender": "Female", "race": "Human", "aspects": {"eyeColor": "green", "hairColor": "Red", "skinColor": "green", "height": 168.0, "weight": 22.68}, "publisher": "DC Comics"}
+{"name": "Polaris", "alignment": "good", "gender": "Female", "race": "Mutant", "aspects": {"eyeColor": "green", "hairColor": "Green", "height": 170.0, "weight": 23.58}, "publisher": "Marvel Comics"}
+{"name": "Power Girl", "alignment": "good", "gender": "Female", "race": "Kryptonian", "aspects": {"eyeColor": "blue", "hairColor": "blond", "height": 180.0, "weight": 36.73}, "publisher": "DC Comics"}
+{"name": "Power Man", "alignment": "good", "gender": "Male", "race": "Mutant", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Predator", "alignment": "bad", "gender": "Male", "race": "Yautja", "aspects": {"height": 213.0, "weight": 106.12}, "publisher": "Dark Horse Comics"}
+{"name": "Professor X", "alignment": "good", "gender": "Male", "race": "Mutant", "aspects": {"eyeColor": "blue", "hairColor": "No Hair", "height": 183.0, "weight": 39.0}, "publisher": "Marvel Comics"}
+{"name": "Professor Zoom", "alignment": "bad", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Strawberry Blond", "height": 180.0, "weight": 36.73}, "publisher": "DC Comics"}
+{"name": "Proto-Goblin", "alignment": "bad", "gender": "Male", "aspects": {"eyeColor": "green", "hairColor": "Blond", "height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Psylocke", "alignment": "good", "gender": "Female", "race": "Mutant", "aspects": {"eyeColor": "blue", "hairColor": "Purple", "height": 180.0, "weight": 31.75}, "publisher": "Marvel Comics"}
+{"name": "Punisher", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Black", "height": 183.0, "weight": 40.82}, "publisher": "Marvel Comics"}
+{"name": "Purple Man", "alignment": "bad", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "purple", "hairColor": "Purple", "skinColor": "purple", "height": 180.0, "weight": 33.56}, "publisher": "Marvel Comics"}
+{"name": "Pyro", "alignment": "bad", "gender": "Male", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 178.0, "weight": 30.84}, "publisher": "Marvel Comics"}
+{"name": "Q", "alignment": "-", "gender": "Male", "race": "God / Eternal", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Star Trek"}
+{"name": "Quantum", "alignment": "good", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "HarperCollins"}
+{"name": "Question", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 188.0, "weight": 37.64}, "publisher": "DC Comics"}
+{"name": "Quicksilver", "alignment": "good", "gender": "Male", "race": "Mutant", "aspects": {"eyeColor": "blue", "hairColor": "Silver", "height": 183.0, "weight": 35.83}, "publisher": "Marvel Comics"}
+{"name": "Quill", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "brown", "hairColor": "Brown", "height": 163.0, "weight": 25.4}, "publisher": "Marvel Comics"}
+{"name": "Ra's Al Ghul", "alignment": "bad", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "green", "hairColor": "Grey", "height": 193.0, "weight": 43.99}, "publisher": "DC Comics"}
+{"name": "Rachel Pirzad", "alignment": "good", "gender": "Female", "race": "Alpha", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "SyFy"}
+{"name": "Rambo", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": 178.0, "weight": 37.64}}
+{"name": "Raphael", "alignment": "good", "gender": "Male", "race": "Mutant", "aspects": {"hairColor": "No Hair", "skinColor": "green", "height": -99.0, "weight": -44.9}, "publisher": "IDW Publishing"}
+{"name": "Raven", "alignment": "neutral", "gender": "Female", "race": "Human", "aspects": {"eyeColor": "indigo", "hairColor": "Black", "height": 165.0, "weight": 22.68}, "publisher": "DC Comics"}
+{"name": "Ray", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "green", "hairColor": "Red", "height": 178.0, "weight": 31.75}, "publisher": "DC Comics"}
+{"name": "Razor-Fist II", "alignment": "bad", "gender": "Male", "aspects": {"eyeColor": "blue", "hairColor": "No Hair", "height": 191.0, "weight": 53.06}, "publisher": "Marvel Comics"}
+{"name": "Red Arrow", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "green", "hairColor": "Red", "height": 180.0, "weight": 37.64}, "publisher": "DC Comics"}
+{"name": "Red Hood", "alignment": "neutral", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Black", "height": 183.0, "weight": 36.73}, "publisher": "DC Comics"}
+{"name": "Red Hulk", "alignment": "neutral", "gender": "Male", "race": "Human / Radiation", "aspects": {"eyeColor": "yellow", "hairColor": "Black", "skinColor": "red", "height": 213.0, "weight": 285.71}, "publisher": "Marvel Comics"}
+{"name": "Red Mist", "alignment": "bad", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Icon Comics"}
+{"name": "Red Robin", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Black", "height": 165.0, "weight": 25.4}, "publisher": "DC Comics"}
+{"name": "Red Skull", "alignment": "bad", "gender": "Male", "aspects": {"eyeColor": "blue", "hairColor": "No Hair", "height": 188.0, "weight": 48.98}, "publisher": "Marvel Comics"}
+{"name": "Red Tornado", "alignment": "good", "gender": "Male", "race": "Android", "aspects": {"eyeColor": "green", "hairColor": "No Hair", "height": 185.0, "weight": 66.21}, "publisher": "DC Comics"}
+{"name": "Redeemer II", "alignment": "bad", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Image Comics"}
+{"name": "Redeemer III", "alignment": "bad", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Image Comics"}
+{"name": "Renata Soliz", "alignment": "good", "gender": "Female", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "HarperCollins"}
+{"name": "Rey", "alignment": "good", "gender": "Female", "race": "Human", "aspects": {"eyeColor": "hazel", "hairColor": "Brown", "height": 297.0, "weight": -44.9}, "publisher": "George Lucas"}
+{"name": "Rhino", "alignment": "bad", "gender": "Male", "race": "Human / Radiation", "aspects": {"eyeColor": "brown", "hairColor": "Brown", "height": 196.0, "weight": 145.12}, "publisher": "Marvel Comics"}
+{"name": "Rick Flag", "alignment": "bad", "gender": "Male", "aspects": {"eyeColor": "blue", "hairColor": "Brown", "height": 185.0, "weight": 38.55}, "publisher": "DC Comics"}
+{"name": "Riddler", "alignment": "bad", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Rip Hunter", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Ripcord", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "green", "hairColor": "Black", "height": 180.0, "weight": 32.65}, "publisher": "Marvel Comics"}
+{"name": "Robin", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Black", "height": 178.0, "weight": 35.83}, "publisher": "DC Comics"}
+{"name": "Robin II", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Red", "height": 183.0, "weight": 45.8}, "publisher": "DC Comics"}
+{"name": "Robin III", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Black", "height": 165.0, "weight": 25.4}, "publisher": "DC Comics"}
+{"name": "Robin V", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Black", "height": 137.0, "weight": 17.23}, "publisher": "DC Comics"}
+{"name": "Robin VI", "alignment": "neutral", "gender": "Female", "race": "Human", "aspects": {"eyeColor": "green", "hairColor": "Red", "height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Rocket Raccoon", "alignment": "good", "gender": "Male", "race": "Animal", "aspects": {"eyeColor": "brown", "hairColor": "Brown", "height": 122.0, "weight": 11.34}, "publisher": "Marvel Comics"}
+{"name": "Rogue", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "green", "hairColor": "Brown / White", "height": 173.0, "weight": 24.49}, "publisher": "Marvel Comics"}
+{"name": "Ronin", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 191.0, "weight": 47.17}, "publisher": "Marvel Comics"}
+{"name": "Rorschach", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Red", "height": 168.0, "weight": 28.57}, "publisher": "DC Comics"}
+{"name": "Sabretooth", "alignment": "bad", "gender": "Male", "race": "Mutant", "aspects": {"eyeColor": "amber", "hairColor": "Blond", "height": 198.0, "weight": 77.55}, "publisher": "Marvel Comics"}
+{"name": "Sage", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "blue", "hairColor": "Black", "height": 170.0, "weight": 27.66}, "publisher": "Marvel Comics"}
+{"name": "Sandman", "alignment": "neutral", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "brown", "hairColor": "Brown", "height": 185.0, "weight": 92.06}, "publisher": "Marvel Comics"}
+{"name": "Sasquatch", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "red", "hairColor": "Orange", "height": 305.0, "weight": 408.16}, "publisher": "Marvel Comics"}
+{"name": "Sauron", "alignment": "bad", "gender": "Male", "race": "Maiar", "aspects": {"height": 279.0, "weight": -44.9}, "publisher": "J. R. R. Tolkien"}
+{"name": "Savage Dragon", "alignment": "good", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Image Comics"}
+{"name": "Scarecrow", "alignment": "bad", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Brown", "height": 183.0, "weight": 28.57}, "publisher": "DC Comics"}
+{"name": "Scarlet Spider", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 178.0, "weight": 33.56}, "publisher": "Marvel Comics"}
+{"name": "Scarlet Spider II", "alignment": "good", "gender": "Male", "race": "Clone", "aspects": {"eyeColor": "brown", "hairColor": "Brown", "height": 193.0, "weight": 51.25}, "publisher": "Marvel Comics"}
+{"name": "Scarlet Witch", "alignment": "bad", "gender": "Female", "race": "Mutant", "aspects": {"eyeColor": "blue", "hairColor": "Brown", "height": 170.0, "weight": 26.76}, "publisher": "Marvel Comics"}
+{"name": "Scorpia", "alignment": "bad", "gender": "Female", "aspects": {"eyeColor": "green", "hairColor": "Red", "height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Scorpion", "alignment": "bad", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "brown", "hairColor": "Brown", "height": 211.0, "weight": 140.59}, "publisher": "Marvel Comics"}
+{"name": "Sebastian Shaw", "alignment": "bad", "gender": "Male", "race": "Mutant", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Sentry", "alignment": "neutral", "gender": "Male", "race": "Mutant", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 188.0, "weight": 39.46}, "publisher": "Marvel Comics"}
+{"name": "Shadow King", "alignment": "good", "gender": "-", "aspects": {"eyeColor": "red", "height": 185.0, "weight": 67.57}, "publisher": "Marvel Comics"}
+{"name": "Shadow Lass", "alignment": "good", "gender": "Female", "race": "Talokite", "aspects": {"eyeColor": "black", "hairColor": "Black", "skinColor": "blue", "height": 173.0, "weight": 24.49}, "publisher": "DC Comics"}
+{"name": "Shadowcat", "alignment": "good", "gender": "Female", "race": "Mutant", "aspects": {"eyeColor": "hazel", "hairColor": "Brown", "height": 168.0, "weight": 22.68}, "publisher": "Marvel Comics"}
+{"name": "Shang-Chi", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": 178.0, "weight": 35.83}, "publisher": "Marvel Comics"}
+{"name": "Shatterstar", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "brown", "hairColor": "Red", "height": 191.0, "weight": 39.91}, "publisher": "Marvel Comics"}
+{"name": "She-Hulk", "alignment": "good", "gender": "Female", "race": "Human", "aspects": {"eyeColor": "green", "hairColor": "Green", "height": 201.0, "weight": 142.86}, "publisher": "Marvel Comics"}
+{"name": "She-Thing", "alignment": "good", "gender": "Female", "race": "Human / Radiation", "aspects": {"eyeColor": "blue", "hairColor": "No Hair", "height": 183.0, "weight": 69.39}, "publisher": "Marvel Comics"}
+{"name": "Shocker", "alignment": "bad", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "brown", "hairColor": "Brown", "height": 175.0, "weight": 35.83}, "publisher": "Marvel Comics"}
+{"name": "Shriek", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "yellow / blue", "hairColor": "Black", "height": 173.0, "weight": 23.58}, "publisher": "Marvel Comics"}
+{"name": "Shrinking Violet", "alignment": "good", "gender": "Female", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Sif", "alignment": "good", "gender": "Female", "race": "Asgardian", "aspects": {"eyeColor": "blue", "hairColor": "Black", "height": 188.0, "weight": 86.62}, "publisher": "Marvel Comics"}
+{"name": "Silk", "alignment": "good", "gender": "Female", "race": "Human", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Silk Spectre", "alignment": "good", "gender": "Female", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Silk Spectre II", "alignment": "good", "gender": "Female", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Silver Surfer", "alignment": "good", "gender": "Male", "race": "Alien", "aspects": {"eyeColor": "white", "hairColor": "No Hair", "skinColor": "silver", "height": 193.0, "weight": 45.8}, "publisher": "Marvel Comics"}
+{"name": "Silverclaw", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": 157.0, "weight": 22.68}, "publisher": "Marvel Comics"}
+{"name": "Simon Baz", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "bown", "hairColor": "Black", "height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Sinestro", "alignment": "neutral", "gender": "Male", "race": "Korugaran", "aspects": {"eyeColor": "black", "hairColor": "Black", "skinColor": "red", "height": 201.0, "weight": 41.72}, "publisher": "DC Comics"}
+{"name": "Siren", "alignment": "bad", "gender": "Female", "race": "Atlantean", "aspects": {"eyeColor": "blue", "hairColor": "Purple", "height": 175.0, "weight": 32.65}, "publisher": "DC Comics"}
+{"name": "Siren II", "alignment": "bad", "gender": "Female", "aspects": {"eyeColor": "black", "height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Siryn", "alignment": "bad", "gender": "Female", "aspects": {"eyeColor": "blue", "hairColor": "Strawberry Blond", "height": 168.0, "weight": 23.58}, "publisher": "Marvel Comics"}
+{"name": "Skaar", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "green", "hairColor": "Black", "height": 198.0, "weight": 81.63}, "publisher": "Marvel Comics"}
+{"name": "Snake-Eyes", "alignment": "bad", "gender": "Male", "race": "Animal", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Snowbird", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "white", "hairColor": "Blond", "height": 178.0, "weight": 22.22}, "publisher": "Marvel Comics"}
+{"name": "Sobek", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "white", "hairColor": "No Hair", "height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Solomon Grundy", "alignment": "bad", "gender": "Male", "race": "Zombie", "aspects": {"eyeColor": "black", "hairColor": "White", "height": 279.0, "weight": 198.19}, "publisher": "DC Comics"}
+{"name": "Songbird", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "green", "hairColor": "Red / White", "height": 165.0, "weight": 29.48}, "publisher": "Marvel Comics"}
+{"name": "Space Ghost", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"height": 188.0, "weight": 51.25}, "publisher": "DC Comics"}
+{"name": "Spawn", "alignment": "good", "gender": "Male", "race": "Demon", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": 211.0, "weight": 183.67}, "publisher": "Image Comics"}
+{"name": "Spectre", "alignment": "good", "gender": "Male", "race": "God / Eternal", "aspects": {"eyeColor": "white", "hairColor": "No Hair", "skinColor": "white", "height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Speedball", "alignment": "good", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Speedy", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Speedy", "alignment": "good", "gender": "Female", "race": "Human", "aspects": {"eyeColor": "green", "hairColor": "Brown", "height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Spider-Carnage", "alignment": "bad", "gender": "Male", "race": "Symbiote", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Spider-Girl", "alignment": "good", "gender": "Female", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Brown", "height": 170.0, "weight": 24.49}, "publisher": "Marvel Comics"}
+{"name": "Spider-Gwen", "alignment": "good", "gender": "Female", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 165.0, "weight": 25.4}, "publisher": "Marvel Comics"}
+{"name": "Spider-Man", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "hazel", "hairColor": "Brown", "height": 178.0, "weight": 33.56}, "publisher": "Marvel Comics"}
+{"name": "Spider-Man", "alignment": "good", "gender": "-", "race": "Human", "aspects": {"eyeColor": "red", "hairColor": "Brown", "height": 178.0, "weight": 34.92}, "publisher": "Marvel Comics"}
+{"name": "Spider-Man", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": 157.0, "weight": 25.4}, "publisher": "Marvel Comics"}
+{"name": "Spider-Woman", "alignment": "good", "gender": "Female", "race": "Human", "aspects": {"eyeColor": "green", "hairColor": "Black", "height": 178.0, "weight": 26.76}, "publisher": "Marvel Comics"}
+{"name": "Spider-Woman II", "alignment": "good", "gender": "Female", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Spider-Woman III", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "brown", "hairColor": "Brown", "height": 173.0, "weight": 24.94}, "publisher": "Marvel Comics"}
+{"name": "Spider-Woman IV", "alignment": "bad", "gender": "Female", "aspects": {"eyeColor": "red", "hairColor": "White", "height": 178.0, "weight": 26.3}, "publisher": "Marvel Comics"}
+{"name": "Spock", "alignment": "good", "gender": "Male", "race": "Human-Vulcan", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": 185.0, "weight": 36.73}, "publisher": "Star Trek"}
+{"name": "Spyke", "alignment": "good", "gender": "Male", "race": "Mutant", "aspects": {"eyeColor": "brown", "hairColor": "Blond", "height": 183.0, "weight": 37.64}, "publisher": "Marvel Comics"}
+{"name": "Stacy X", "alignment": "good", "gender": "Female", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Star-Lord", "alignment": "good", "gender": "Male", "race": "Human-Spartoi", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 188.0, "weight": 35.83}, "publisher": "Marvel Comics"}
+{"name": "Stardust", "alignment": "good", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Starfire", "alignment": "good", "gender": "Female", "race": "Tamaranean", "aspects": {"eyeColor": "green", "hairColor": "Auburn", "skinColor": "orange", "height": 193.0, "weight": 32.2}, "publisher": "DC Comics"}
+{"name": "Stargirl", "alignment": "good", "gender": "Female", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 165.0, "weight": 28.12}, "publisher": "DC Comics"}
+{"name": "Static", "alignment": "good", "gender": "Male", "race": "Mutant", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": 170.0, "weight": 28.57}, "publisher": "DC Comics"}
+{"name": "Steel", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "brown", "hairColor": "No Hair", "height": 201.0, "weight": 59.41}, "publisher": "DC Comics"}
+{"name": "Stephanie Powell", "alignment": "good", "gender": "Female", "aspects": {"hairColor": "Blond", "height": -99.0, "weight": -44.9}, "publisher": "ABC Studios"}
+{"name": "Steppenwolf", "alignment": "bad", "gender": "Male", "race": "New God", "aspects": {"eyeColor": "red", "hairColor": "Black", "skinColor": "white", "height": 183.0, "weight": 41.27}, "publisher": "DC Comics"}
+{"name": "Storm", "alignment": "good", "gender": "Female", "race": "Mutant", "aspects": {"eyeColor": "blue", "hairColor": "White", "height": 180.0, "weight": 25.85}, "publisher": "Marvel Comics"}
+{"name": "Stormtrooper", "alignment": "bad", "gender": "Male", "race": "Human", "aspects": {"height": 183.0, "weight": -44.9}, "publisher": "George Lucas"}
+{"name": "Sunspot", "alignment": "good", "gender": "Male", "race": "Mutant", "aspects": {"eyeColor": "brown", "hairColor": "black", "height": 173.0, "weight": 34.92}, "publisher": "Marvel Comics"}
+{"name": "Superboy", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "blue", "hairColor": "Black", "height": 170.0, "weight": 30.84}, "publisher": "DC Comics"}
+{"name": "Superboy-Prime", "alignment": "bad", "gender": "Male", "race": "Kryptonian", "aspects": {"eyeColor": "blue", "hairColor": "Black / Blue", "height": 180.0, "weight": 34.92}, "publisher": "DC Comics"}
+{"name": "Supergirl", "alignment": "good", "gender": "Female", "race": "Kryptonian", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 165.0, "weight": 24.49}, "publisher": "DC Comics"}
+{"name": "Superman", "alignment": "good", "gender": "Male", "race": "Kryptonian", "aspects": {"eyeColor": "blue", "hairColor": "Black", "height": 191.0, "weight": 45.8}, "publisher": "DC Comics"}
+{"name": "Swamp Thing", "alignment": "bad", "gender": "Male", "race": "God / Eternal", "aspects": {"eyeColor": "red", "hairColor": "No Hair", "skinColor": "green", "height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Swarm", "alignment": "bad", "gender": "Male", "race": "Mutant", "aspects": {"eyeColor": "yellow", "hairColor": "No Hair", "skinColor": "yellow", "height": 196.0, "weight": 21.32}, "publisher": "Marvel Comics"}
+{"name": "Sylar", "alignment": "bad", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "NBC - Heroes"}
+{"name": "Synch", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": 180.0, "weight": 33.56}, "publisher": "Marvel Comics"}
+{"name": "T-1000", "alignment": "bad", "gender": "Male", "race": "Android", "aspects": {"skinColor": "silver", "height": 183.0, "weight": 66.21}, "publisher": "Dark Horse Comics"}
+{"name": "T-800", "alignment": "bad", "gender": "Male", "race": "Cyborg", "aspects": {"eyeColor": "red", "height": -99.0, "weight": 79.82}, "publisher": "Dark Horse Comics"}
+{"name": "T-850", "alignment": "bad", "gender": "Male", "race": "Cyborg", "aspects": {"eyeColor": "red", "height": -99.0, "weight": 89.8}, "publisher": "Dark Horse Comics"}
+{"name": "T-X", "alignment": "bad", "gender": "Female", "race": "Cyborg", "aspects": {"skinColor": "silver", "height": -99.0, "weight": 67.57}, "publisher": "Dark Horse Comics"}
+{"name": "Taskmaster", "alignment": "bad", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "brown", "hairColor": "Brown", "height": 188.0, "weight": 44.9}, "publisher": "Marvel Comics"}
+{"name": "Tempest", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": 163.0, "weight": 24.49}, "publisher": "Marvel Comics"}
+{"name": "Thanos", "alignment": "bad", "gender": "Male", "race": "Eternal", "aspects": {"eyeColor": "red", "hairColor": "No Hair", "skinColor": "purple", "height": 201.0, "weight": 200.91}, "publisher": "Marvel Comics"}
+{"name": "The Cape", "alignment": "good", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}}
+{"name": "The Comedian", "alignment": "neutral", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": 188.0, "weight": 45.8}, "publisher": "DC Comics"}
+{"name": "Thing", "alignment": "good", "gender": "Male", "race": "Human / Radiation", "aspects": {"eyeColor": "blue", "hairColor": "No Hair", "height": 183.0, "weight": 102.04}, "publisher": "Marvel Comics"}
+{"name": "Thor", "alignment": "good", "gender": "Male", "race": "Asgardian", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 198.0, "weight": 130.61}, "publisher": "Marvel Comics"}
+{"name": "Thor Girl", "alignment": "good", "gender": "Female", "race": "Asgardian", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 175.0, "weight": 64.85}, "publisher": "Marvel Comics"}
+{"name": "Thunderbird", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": 185.0, "weight": 45.8}, "publisher": "Marvel Comics"}
+{"name": "Thunderbird II", "alignment": "good", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Thunderbird III", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": 175.0, "weight": 33.56}, "publisher": "Marvel Comics"}
+{"name": "Thunderstrike", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 198.0, "weight": 130.61}, "publisher": "Marvel Comics"}
+{"name": "Thundra", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "green", "hairColor": "Red", "height": 218.0, "weight": 71.66}, "publisher": "Marvel Comics"}
+{"name": "Tiger Shark", "alignment": "bad", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "grey", "hairColor": "No Hair", "skinColor": "grey", "height": 185.0, "weight": 92.06}, "publisher": "Marvel Comics"}
+{"name": "Tigra", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "green", "hairColor": "Auburn", "height": 178.0, "weight": 36.73}, "publisher": "Marvel Comics"}
+{"name": "Tinkerer", "alignment": "bad", "gender": "Male", "aspects": {"eyeColor": "brown", "hairColor": "White", "height": 163.0, "weight": 24.49}, "publisher": "Marvel Comics"}
+{"name": "Titan", "alignment": "good", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "HarperCollins"}
+{"name": "Toad", "alignment": "neutral", "gender": "Male", "race": "Mutant", "aspects": {"eyeColor": "black", "hairColor": "Brown", "skinColor": "green", "height": 175.0, "weight": 34.47}, "publisher": "Marvel Comics"}
+{"name": "Toxin", "alignment": "good", "gender": "Male", "race": "Symbiote", "aspects": {"eyeColor": "blue", "hairColor": "Brown", "height": 188.0, "weight": 43.99}, "publisher": "Marvel Comics"}
+{"name": "Toxin", "alignment": "good", "gender": "Male", "race": "Symbiote", "aspects": {"eyeColor": "black", "hairColor": "Blond", "height": 191.0, "weight": 53.06}, "publisher": "Marvel Comics"}
+{"name": "Tracy Strauss", "alignment": "good", "gender": "Female", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "NBC - Heroes"}
+{"name": "Trickster", "alignment": "-", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 183.0, "weight": 36.73}, "publisher": "DC Comics"}
+{"name": "Trigon", "alignment": "bad", "gender": "Male", "race": "God / Eternal", "aspects": {"eyeColor": "yellow", "hairColor": "Black", "skinColor": "red", "height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Triplicate Girl", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "purple", "hairColor": "Brown", "height": 168.0, "weight": 26.76}, "publisher": "DC Comics"}
+{"name": "Triton", "alignment": "good", "gender": "Male", "race": "Inhuman", "aspects": {"eyeColor": "green", "hairColor": "No Hair", "skinColor": "green", "height": 188.0, "weight": 39.0}, "publisher": "Marvel Comics"}
+{"name": "Two-Face", "alignment": "bad", "gender": "Male", "aspects": {"height": 183.0, "weight": 37.19}, "publisher": "DC Comics"}
+{"name": "Ultragirl", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 168.0, "weight": 47.62}, "publisher": "Marvel Comics"}
+{"name": "Ultron", "alignment": "bad", "gender": "Male", "race": "Android", "aspects": {"eyeColor": "red", "skinColor": "silver", "height": 206.0, "weight": 150.11}, "publisher": "Marvel Comics"}
+{"name": "Utgard-Loki", "alignment": "bad", "gender": "Male", "race": "Frost Giant", "aspects": {"eyeColor": "blue", "hairColor": "White", "height": 15.2, "weight": 26.3}, "publisher": "Marvel Comics"}
+{"name": "Vagabond", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "blue", "hairColor": "Strawberry Blond", "height": 168.0, "weight": 24.49}, "publisher": "Marvel Comics"}
+{"name": "Valerie Hart", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "hazel", "hairColor": "Black", "height": 175.0, "weight": 25.4}, "publisher": "Team Epic TV"}
+{"name": "Valkyrie", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 191.0, "weight": 97.05}, "publisher": "Marvel Comics"}
+{"name": "Vanisher", "alignment": "bad", "gender": "Male", "aspects": {"eyeColor": "green", "hairColor": "No Hair", "height": 165.0, "weight": 35.83}, "publisher": "Marvel Comics"}
+{"name": "Vegeta", "alignment": "bad", "gender": "Male", "race": "Saiyan", "aspects": {"hairColor": "Black", "height": 168.0, "weight": 33.11}, "publisher": "Shueisha"}
+{"name": "Venom", "alignment": "bad", "gender": "Male", "race": "Symbiote", "aspects": {"eyeColor": "blue", "hairColor": "Strawberry Blond", "height": 191.0, "weight": 53.06}, "publisher": "Marvel Comics"}
+{"name": "Venom II", "alignment": "bad", "gender": "Male", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": 175.0, "weight": 22.68}, "publisher": "Marvel Comics"}
+{"name": "Venom III", "alignment": "bad", "gender": "Male", "race": "Symbiote", "aspects": {"eyeColor": "brown", "hairColor": "Brown", "height": 229.0, "weight": 151.47}, "publisher": "Marvel Comics"}
+{"name": "Venompool", "alignment": "-", "gender": "Male", "race": "Symbiote", "aspects": {"height": 226.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Vertigo II", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "blue", "hairColor": "Silver", "height": 168.0, "weight": 23.58}, "publisher": "Marvel Comics"}
+{"name": "Vibe", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": 178.0, "weight": 32.2}, "publisher": "DC Comics"}
+{"name": "Vindicator", "alignment": "good", "gender": "Female", "race": "Human", "aspects": {"eyeColor": "green", "hairColor": "Red", "height": 165.0, "weight": 24.49}, "publisher": "Marvel Comics"}
+{"name": "Vindicator", "alignment": "good", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Violator", "alignment": "bad", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Image Comics"}
+{"name": "Violet Parr", "alignment": "good", "gender": "Female", "race": "Human", "aspects": {"eyeColor": "violet", "hairColor": "Black", "height": 137.0, "weight": 18.59}, "publisher": "Dark Horse Comics"}
+{"name": "Vision", "alignment": "good", "gender": "Male", "race": "Android", "aspects": {"eyeColor": "gold", "hairColor": "No Hair", "skinColor": "red", "height": 191.0, "weight": 61.22}, "publisher": "Marvel Comics"}
+{"name": "Vision II", "alignment": "good", "gender": "-", "aspects": {"eyeColor": "red", "hairColor": "No Hair", "height": 191.0, "weight": 61.22}, "publisher": "Marvel Comics"}
+{"name": "Vixen", "alignment": "good", "gender": "Female", "race": "Human", "aspects": {"eyeColor": "amber", "hairColor": "Black", "height": 175.0, "weight": 28.57}, "publisher": "DC Comics"}
+{"name": "Vulcan", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "black", "hairColor": "Black", "height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Vulture", "alignment": "bad", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "brown", "hairColor": "No Hair", "height": 180.0, "weight": 35.83}, "publisher": "Marvel Comics"}
+{"name": "Walrus", "alignment": "bad", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Black", "height": 183.0, "weight": 73.47}, "publisher": "Marvel Comics"}
+{"name": "War Machine", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "brown", "hairColor": "Brown", "height": 185.0, "weight": 43.08}, "publisher": "Marvel Comics"}
+{"name": "Warbird", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 180.0, "weight": 24.49}, "publisher": "Marvel Comics"}
+{"name": "Warlock", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "red", "hairColor": "Blond", "height": 188.0, "weight": 48.98}, "publisher": "Marvel Comics"}
+{"name": "Warp", "alignment": "bad", "gender": "Male", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": 173.0, "weight": 30.39}, "publisher": "DC Comics"}
+{"name": "Warpath", "alignment": "good", "gender": "Male", "race": "Mutant", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": 218.0, "weight": 71.66}, "publisher": "Marvel Comics"}
+{"name": "Wasp", "alignment": "good", "gender": "Female", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Auburn", "height": 163.0, "weight": 22.68}, "publisher": "Marvel Comics"}
+{"name": "Watcher", "alignment": "good", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Weapon XI", "alignment": "bad", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "White Canary", "alignment": "bad", "gender": "Female", "race": "Human", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "White Queen", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 178.0, "weight": 29.48}, "publisher": "Marvel Comics"}
+{"name": "Wildfire", "alignment": "good", "gender": "Male", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "DC Comics"}
+{"name": "Winter Soldier", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "brown", "hairColor": "Brown", "height": 175.0, "weight": 53.06}, "publisher": "Marvel Comics"}
+{"name": "Wiz Kid", "alignment": "good", "gender": "-", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": 140.0, "weight": 17.69}, "publisher": "Marvel Comics"}
+{"name": "Wolfsbane", "alignment": "good", "gender": "Female", "aspects": {"eyeColor": "green", "hairColor": "Auburn", "height": 366.0, "weight": 214.51}, "publisher": "Marvel Comics"}
+{"name": "Wolverine", "alignment": "good", "gender": "Male", "race": "Mutant", "aspects": {"eyeColor": "blue", "hairColor": "Black", "height": 160.0, "weight": 61.22}, "publisher": "Marvel Comics"}
+{"name": "Wonder Girl", "alignment": "good", "gender": "Female", "race": "Demi-God", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 165.0, "weight": 23.13}, "publisher": "DC Comics"}
+{"name": "Wonder Man", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "red", "hairColor": "Black", "height": 188.0, "weight": 77.55}, "publisher": "Marvel Comics"}
+{"name": "Wonder Woman", "alignment": "good", "gender": "Female", "race": "Amazon", "aspects": {"eyeColor": "blue", "hairColor": "Black", "height": 183.0, "weight": 33.56}, "publisher": "DC Comics"}
+{"name": "Wondra", "alignment": "good", "gender": "Female", "aspects": {"height": -99.0, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Wyatt Wingfoot", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "brown", "hairColor": "Black", "height": 196.0, "weight": 53.06}, "publisher": "Marvel Comics"}
+{"name": "X-23", "alignment": "good", "gender": "Female", "race": "Mutant / Clone", "aspects": {"eyeColor": "green", "hairColor": "Black", "height": 155.0, "weight": 22.68}, "publisher": "Marvel Comics"}
+{"name": "X-Man", "alignment": "good", "gender": "Male", "aspects": {"eyeColor": "blue", "hairColor": "Brown", "height": 175.0, "weight": 27.66}, "publisher": "Marvel Comics"}
+{"name": "Yellow Claw", "alignment": "bad", "gender": "Male", "aspects": {"eyeColor": "blue", "hairColor": "No Hair", "height": 188.0, "weight": 43.08}, "publisher": "Marvel Comics"}
+{"name": "Yellowjacket", "alignment": "good", "gender": "Male", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Blond", "height": 183.0, "weight": 37.64}, "publisher": "Marvel Comics"}
+{"name": "Yellowjacket II", "alignment": "good", "gender": "Female", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Strawberry Blond", "height": 165.0, "weight": 23.58}, "publisher": "Marvel Comics"}
+{"name": "Ymir", "alignment": "good", "gender": "Male", "race": "Frost Giant", "aspects": {"eyeColor": "white", "hairColor": "No Hair", "skinColor": "white", "height": 304.8, "weight": -44.9}, "publisher": "Marvel Comics"}
+{"name": "Yoda", "alignment": "good", "gender": "Male", "race": "Yoda's species", "aspects": {"eyeColor": "brown", "hairColor": "White", "skinColor": "green", "height": 66.0, "weight": 7.71}, "publisher": "George Lucas"}
+{"name": "Zatanna", "alignment": "good", "gender": "Female", "race": "Human", "aspects": {"eyeColor": "blue", "hairColor": "Black", "height": 170.0, "weight": 25.85}, "publisher": "DC Comics"}
+{"name": "Zoom", "alignment": "bad", "gender": "Male", "aspects": {"eyeColor": "red", "hairColor": "Brown", "height": 185.0, "weight": 36.73}, "publisher": "DC Comics"}
