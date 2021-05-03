@@ -127,3 +127,34 @@ VALUES
   (14, 2),
   (15, 5);
 ```
+
+## Para fixar - dump
+
+Selecione um dos bancos de dados já existentes no seu servidor local ( **w3schools**, **northwind**, **sakila**, **hr**, etc.) e faça os passos a seguir:
+
+1. Exporte **a estrutura e os dados** (tabelas, triggers, procedures, functions e o schema ) para um dump em formato de arquivo SQL, como foi exibido nas instruções anteriores. Faça o dump através da linha de comando e usando o **MySQL Workbench**.
+
+```bash
+mysqldump -u root -p --triggers --routines --databases --add-drop-table w3schools > w3schools.sql
+```
+
+Pelo **MySQL Workbench** o dump é feito em Administration > Data Export.
+
+2. Após ter feito isso, abra o arquivo usando algum editor de texto e altere as duas linhas iniciais, mudando o nome do banco a ser criado e do banco a ser usado. Assim seu script vai restaurar um banco novo e não sobrescrever o atual.
+
+  * No exemplo abaixo, foi feito o backup do banco de dados **hotel**. Após ser gerado o backup, o arquivo foi aberto, e o nome do banco a ser criado foi alterado para **hotel2**. A linha `USE hotel` também foi alterada para `USE hotel2`.
+
+![Tabela](./images/dump-1.png)
+
+```bash
+sed -i -e 's/w3schools/w3schoolsClone/g' w3schools.sql
+mysql -u root -p < w3schools.sql
+```
+
+3. Confira que, ao executar os comandos para restaurar o **dump**, um novo banco de dados foi criado, como na imagem abaixo.
+
+![Tabela](./images/dump-2.png)
+
+Resultado:
+
+![w3schools Clone](./images/w3schoolsClone.png)
