@@ -390,3 +390,7 @@ VALUES
   (2, 5, 4.9),
   (2, 4, 5);
 ```
+
+## Bônus
+
+5. Faça os exercícios sobre normalização (em inglês) [deste link](https://www.javaguicodexample.com/normalizationnotes.pdf).
