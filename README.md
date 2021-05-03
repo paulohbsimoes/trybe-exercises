@@ -145,17 +145,17 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 21.3 - Stored Routines & Subqueries
 - [x] 21.4 - Projeto - Vocabulary Booster
 
-##### Bloco 22: Normalização e Modelagem de Banco de Dados
-- [ ] 22.1 - Transformando ideias em um modelo de banco de dados
-- [ ] 22.2 - Normalização, Formas Normais e Dumps
+##### Bloco 22: [Normalização e Modelagem de Banco de Dados](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_22)
+- [x] 22.1 - Transformando ideias em um modelo de banco de dados
+- [x] 22.2 - Normalização, Formas Normais e Dumps
 - [ ] 22.3 - Transformando ideias em um modelo de banco de dados - Parte 2
-- [ ] 22.4 - Projeto - One For All
+- [x] 22.4 - Projeto - One For All
 
-##### Bloco 23: Introdução ao MongoDB
-- [ ] 23.1 - Introdução - NoSQL
-- [ ] 23.2 - MongoDB - Introdução
-- [ ] 23.3 - Filter Operators
-- [ ] 23.4 - Projeto - Data Flights
+##### Bloco 23: [Introdução ao MongoDB](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_23)
+- [x] 23.1 - Introdução - NoSQL
+- [x] 23.2 - MongoDB - Introdução
+- [x] 23.3 - Filter Operators
+- [x] 23.4 - Projeto - Data Flights
 
 ##### Bloco 24: MongoDB: Updates Simples e Complexos
 - [ ] 24.1 - Updates Simples
