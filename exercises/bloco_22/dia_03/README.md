@@ -1,0 +1,94 @@
+# Atividades
+
+## Desafios sobre `VIEW`
+
+1. Crie uma view chamada **film_with_categories** utilizando as tabelas **category**, **film_category** e **film** do banco de dados **sakila**. Essa view deve exibir o **título** do filme, o **id** da categoria e o **nome** da categoria, conforme a imagem abaixo. Os resultados devem ser ordenados pelo **título** do filme.
+
+![view do exercício 1](./images/1.png)
+
+**_Resultado de exemplo para uma consulta na view do exercício 1_**
+
+```sql
+USE sakila;
+
+CREATE VIEW film_with_categories AS
+SELECT
+  F.title, C.category_id, C.`name`
+FROM sakila.film_category AS FC
+INNER JOIN sakila.film AS F
+ON FC.film_id = F.film_id
+INNER JOIN sakila.category AS C
+ON FC.category_id = C.category_id
+ORDER BY F.title;
+
+SELECT * FROM film_with_categories;
+```
+
+2. Crie uma view chamada **film_info** utilizando as tabelas **actor**, **film_actor** e **film** do banco de dados **sakila**. Sua view deve exibir o **actor_id**, o nome completo do ator ou da atriz em uma coluna com o **ALIAS actor** e o título dos filmes. Os resultados devem ser ordenados pelos nomes de atores e atrizes. Use a imagem a seguir como referência.
+
+![view do exercício 2](./images/2.png)
+
+**_Resultado de exemplo para uma consulta na view do exercício 2_**
+
+```sql
+USE sakila;
+
+CREATE VIEW film_info AS
+SELECT
+  A.actor_id,
+  CONCAT(A.first_name, ' ', A.last_name) AS actor,
+  F.title
+FROM film_actor AS FA
+INNER JOIN actor AS A
+ON FA.actor_id = A.actor_id
+INNER JOIN film AS F
+ON FA.film_id = F.film_id
+ORDER BY actor;
+
+SELECT * FROM film_info;
+```
+
+3. Crie uma view chamada **address_info** que faça uso das tabelas **address** e **city** do banco de dados **sakila**. Sua view deve exibir o **address_id**, o **address**, o **district**, o **city_id** e a **city**. Os resultados devem ser ordenados pelo nome das cidades. Use a imagem abaixo como referência.
+
+![view do exercício 3](./images/3.png)
+
+**_Resultado de exemplo para uma consulta na view do exercício 3_**
+
+```sql
+USE sakila;
+
+CREATE VIEW address_info AS
+SELECT
+  A.address_id,
+  A.address,
+  A.district,
+  A.city_id,
+  C.city
+FROM address AS A
+INNER JOIN city AS C
+ON A.city_id = C.city_id
+ORDER BY city;
+
+SELECT * FROM address_info;
+```
+
+4. Crie uma view chamada **movies_languages**, usando as tabelas **film** e **language** do banco de dados **sakila**. Sua view deve exibir o **título do filme**, o **id do idioma** e o **idioma do filme**, como na imagem a seguir.
+
+![view do exercício 4](./images/4.png)
+
+**_Resultado de `SELECT * FROM movies_languages`_**
+
+```sql
+USE sakila;
+
+CREATE VIEW movies_languages AS
+SELECT
+  F.title,
+  F.language_id,
+  L.name AS `language`
+FROM film AS F
+INNER JOIN `language` AS L
+ON F.language_id = L.language_id;
+
+SELECT * FROM movies_languages;
+```
