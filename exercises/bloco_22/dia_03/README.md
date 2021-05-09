@@ -92,3 +92,65 @@ ON F.language_id = L.language_id;
 
 SELECT * FROM movies_languages;
 ```
+
+## Desafios sobre `INDEX`
+
+1. Verifique o impacto de um **FULLTEXT INDEX** na tabela **category** (banco de dados sakila), adicionando-o na coluna **name**. Após ter adicionado o índice, mensure o custo da query utilizando o execution plan, como já foi feito em lições anteriores. Após ter criado e mensurado o custo da query, exclua o índice e mensure novamente esse custo.
+
+```sql
+-- Após ter criado o índice, mensure o custo com a seguinte query:
+SELECT *
+FROM sakila.category
+WHERE MATCH(name) AGAINST('action');
+
+-- Após ter excluído o índice, mensure o custo com a seguinte query:
+SELECT *
+FROM sakila.category
+WHERE name LIKE '%action%';
+```
+
+**Usando INDEX:**
+
+```sql
+USE sakila;
+
+CREATE FULLTEXT INDEX category_name_index ON sakila.category(`name`);
+SELECT * FROM sakila.category WHERE MATCH(name) AGAINST('action');
+```
+
+![category com INDEX](./images/category_with_index.png)
+
+**Sem INDEX:**
+
+```sql
+DROP INDEX category_name_index ON sakila.category;
+SELECT * FROM sakila.category WHERE name LIKE '%action%';
+```
+
+![category com INDEX](./images/category_without_index.png)
+
+2. Verifique o impacto de um **INDEX** na tabela **address** (banco de dados **sakila**) adicionando-o na coluna **postal_code**. Após ter adicionado o índice, mensure o custo da query utilizando o execution plan, como já foi feito em lições anteriores. Após ter criado e mensurado o custo da query, exclua o índice e mensure novamente esse custo.
+
+```sql
+-- Mensure o custo com a seguinte query:
+SELECT *
+FROM sakila.address
+WHERE postal_code = '36693';
+```
+
+**Sem INDEX:**
+
+```sql
+SELECT * FROM sakila.address WHERE postal_code = '36693';
+```
+
+![address sem INDEX](./images/address_without_index.png)
+
+**Usando INDEX:**
+
+```sql
+CREATE INDEX address_postal_code_index ON sakila.address(postal_code);
+SELECT * FROM sakila.address WHERE postal_code = '36693';
+```
+
+![address com INDEX](./images/address_with_index.png)
