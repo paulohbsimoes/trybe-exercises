@@ -154,3 +154,53 @@ SELECT * FROM sakila.address WHERE postal_code = '36693';
 ```
 
 ![address com INDEX](./images/address_with_index.png)
+
+## Desafios sobre `ALTER TABLE`
+
+### **Restaure o banco de dados _HR_ abaixo antes de continuar, caso não o tenha restaurado em alguma lição anterior:**
+
+O banco de dados usado como base para os próximos exercícios pode ser restaurado através [deste arquivo SQL](https://s3.us-east-2.amazonaws.com/assets.app.betrybe.com/back-end/sql/hr-cebf8bc2a5bb252bc470ae28943604c6.sql).
+
+**1.** Baixe o conteúdo do arquivo **.sql** linkado acima;
+
+**2.** Copie todo o código SQL;
+
+**3.** Abra o MySQL Workbench e abra uma nova janela de query;
+
+**4.** Cole o SQL para dentro dessa janela;
+
+**5.** Selecione todo o código usando CTRL + A;
+
+**6.** Execute-o teclando CTRL + ENTER.
+
+### **Desafios:**
+
+**1.** Escreva uma query SQL para alterar na tabela **locations** o nome da coluna **street_address** para **address**, mantendo o mesmo tipo e tamanho de dados.
+
+```sql
+# Verificando colunas
+SHOW COLUMNS FROM hr.locations;
+
+# Mudando nome da coluna
+ALTER TABLE hr.locations CHANGE STREET_ADDRESS ADDRESS VARCHAR(40);
+```
+
+**2.** Escreva uma query SQL para alterar o nome da coluna **region_name** para **region**, mantendo o mesmo tipo e tamanho de dados.
+
+```sql
+# Verificando colunas
+SHOW COLUMNS FROM hr.regions;
+
+# Mudando nome da coluna
+ALTER TABLE hr.regions CHANGE REGION_NAME REGION VARCHAR(25) UNIQUE
+```
+
+**3.** Escreva uma query SQL para alterar o nome da coluna **country_name** para **country**, mantendo o mesmo tipo e tamanho de dados.
+
+```sql
+# Verificando colunas
+SHOW COLUMNS FROM hr.countries;
+
+# Mudando nome da coluna
+ALTER TABLE hr.countries CHANGE COUNTRY_NAME COUNTRY VARCHAR(40);
+```
