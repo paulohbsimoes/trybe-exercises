@@ -31,3 +31,40 @@ db.transactions.aggregate([
   { $limit: 3 }
 ]);
 ```
+
+## Para fixar - $group
+
+Utilizando o banco de dados **agg_example**, faça os exercícios:
+
+1. Selecione todos os bancos;
+
+```javascript
+db.transactions.aggregate();
+```
+
+2. Selecione o valor total das transações em cada banco e quantas são;
+
+```javascript
+db.transactions.aggregate({
+  $group: {
+    _id: "$bank",
+    totalValue: { $sum: "$value" },
+    count: { $sum: 1 }
+  }
+});
+```
+
+3. Selecione o valor total de transações;
+
+```javascript
+db.transactions.aggregate({ $group: { _id: null, totalValue: { $sum: "$value" } } });
+```
+
+4. Selecione os bancos que têm o valor total de transações maior que 1000.
+
+```javascript
+db.transactions.aggregate(
+  { $group: { _id: '$bank', totalValue: { $sum: "$value" } } },
+  { $match: { totalValue: { $gt: 1000 } } }
+);
+```
