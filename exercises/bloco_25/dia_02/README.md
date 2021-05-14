@@ -129,3 +129,43 @@ db.products.aggregate(
   }
 );
 ```
+
+## Para fixar - Expressão $round
+
+Utilizando o banco de dados storage, faça os seguintes exercícios:
+
+1. Retorne o menor número inteiro relativo ao preço de venda de cada produto;
+
+```javascript
+db.products.aggregate(
+  { 
+    $project: {
+      sale_price: 1,
+      floorPrecoDeVenda: { $floor: "$sale_price" }
+    }
+  }
+);
+```
+
+2. Retorne o maior número inteiro relativo ao lucro total sobre cada produto.
+
+```javascript
+db.products.aggregate(
+  {
+    $project: {
+      lucroTotal: {
+        $subtract: [
+          "$sale_price",
+          { $add: ["$purchase_price", "$taxes"] }
+        ]
+      }
+    }
+  },
+  {
+    $project: {
+      lucroTotal: 1,
+      ceilLucroTotal: { $ceil: "$lucroTotal" }
+    }
+  }
+);
+```
