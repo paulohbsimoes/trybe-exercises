@@ -95,3 +95,15 @@ db.products.insertMany([
   { "name": "Monitor", "purchase_price": 119.9, "taxes": 39.20, "sale_price": 240.6, "quantity": 11 },
 ]);
 ```
+
+## Para fixar - Expressão $add
+
+Utilizando o banco de dados **storage**, faça o seguinte exercício:
+
+1. Calcule qual o custo total de cada produto, considerando o preço de compra e os impostos.
+
+```javascript
+db.products.aggregate(
+  { $project: { _id: 0, custoTotal: { $add: ["$purchase_price", "$taxes"] } } }
+);
+```
