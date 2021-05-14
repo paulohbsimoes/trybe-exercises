@@ -107,3 +107,25 @@ db.products.aggregate(
   { $project: { _id: 0, custoTotal: { $add: ["$purchase_price", "$taxes"] } } }
 );
 ```
+
+## Para fixar - Expressão $subtract
+
+Utilizando o banco de dados storage, faça o seguinte exercício:
+
+1. Calcule qual o lucro total de cada produto, considerando o preço de compra, os impostos e seu valor de venda.
+
+```javascript
+db.products.aggregate(
+  {
+    $project: {
+      _id: 0,
+      lucroTotal: {
+        $subtract: [
+          "$sale_price",
+          { $add: ["$purchase_price", "$taxes"] }
+        ]
+      }
+    }
+  }
+);
+```
