@@ -169,3 +169,26 @@ db.products.aggregate(
   }
 );
 ```
+
+## Para fixar - Expressão $abs
+
+Utilizando o banco de dados storage, faça o seguinte exercício:
+
+1. Calcule o valor absoluto do lucro total de cada produto.
+
+```javascript
+db.products.aggregate(
+  { 
+    $project: {
+      lucroTotalAbsoluto: {
+        $abs: {
+          $subtract: [
+            { $add: ["$purchase_price", "$taxes"] },
+            "$sale_price"
+          ]
+        }
+      }
+    }
+  }
+);
+```
