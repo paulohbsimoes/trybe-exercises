@@ -232,3 +232,19 @@ db.products.aggregate(
   }
 );
 ```
+
+## Para fixar - $divide
+
+Utilizando o banco de dados **storage**, faça o seguinte exercício:
+
+1. Calcule qual será o preço de venda de cada produto caso haja uma promoção de 50% de desconto.
+
+```javascript
+db.products.aggregate(
+  {
+    $project: {
+      preco: { $divide: ["$sale_price", 2] }
+    }
+  }
+);
+```
