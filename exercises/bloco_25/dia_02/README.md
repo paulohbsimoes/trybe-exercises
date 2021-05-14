@@ -248,3 +248,28 @@ db.products.aggregate(
   }
 );
 ```
+
+## Para fixar - $addFields
+
+Utilizando o banco de dados **storage**, faça o seguinte exercício:
+
+1. Calcule o valor total do estoque, considerando que cada produto valha o mesmo que seu preço de venda. Lembre-se da quantidade.
+
+```javascript
+db.products.aggregate(
+  {
+    $addFields: {
+      totalEmEstoque: {
+        $multiply: ["$sale_price", "$quantity"]
+      }
+    }
+  },
+  {
+    $group: {
+      _id: null,
+      totalEmEstoque: { $sum: "$totalEmEstoque" }
+    }
+  },
+  { $project: { _id: 0 } }
+);
+```
