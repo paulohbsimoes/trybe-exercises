@@ -13,5 +13,8 @@
     "chai": "^4.3.4",
     "mocha": "^8.4.0",
     "sinon": "^10.0.0"
+  },
+  "dependencies": {
+    "node-uuid": "^1.4.8"
   }
 }
