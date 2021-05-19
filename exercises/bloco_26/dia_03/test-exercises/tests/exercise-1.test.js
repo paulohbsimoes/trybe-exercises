@@ -1,7 +1,7 @@
 const { expect } = require('chai');
 const isPositive = require('../src/isPositive')
 
-describe('Ao o receber um número como parâmetro "isPositive" deve', () => {
+describe('A função "isPositive" deve', () => {
   it('retornar uma string', () => {
     expect(typeof isPositive(1)).to.be.equal('string');
   });
@@ -17,4 +17,8 @@ describe('Ao o receber um número como parâmetro "isPositive" deve', () => {
   it('retornar "neutro" quando o número igual a 0', () => {
     expect(isPositive(0)).to.be.equal('neutro');
   })
+
+  it('lançar uma exceção se o argumento recebido não for um número', () => {
+    expect(() => isPositive('hello trybers')).to.throw(/o valor deve ser um número/)
+  });
 })
