@@ -21,3 +21,8 @@ app.post('/greetings', (req, res) => {
   if (age <= 17) return res.status(401).send({ message: 'Unauthorized' });
   res.status(200).send({ message: `Hello, ${name}!` } )
 });
+
+app.put('/users/:name/:age', (req, res) => {
+  const { name, age } = req.params;
+  res.send({ message: `Seu nome é ${name} e você tem ${age} anos de idade` });
+})
