@@ -1,4 +1,3 @@
-const { getFileContent } = require('./utils');
 const fs = require('fs/promises');
 const rescue = require('express-rescue');
 const express = require('express');
@@ -10,6 +9,14 @@ const handleErrorsMiddleware = (err, req, res, next) => {
   res.status(500).send(err.message);
   next();
 }
+
+const routeWithAuthentication = (req, res, next) => {
+  const { authorization } = req.headers;
+  if (!authorization || authorization.length !== 16) res.status(401).send({ message: 'Token inválido!' });
+  next();
+}
+
+app.use(routeWithAuthentication);
 
 app.listen(3000, () => {
   console.log(`Listening on port 3000`)
@@ -36,7 +43,7 @@ app.put('/users/:name/:age', (req, res) => {
 })
 
 app.get('/simpsons', rescue(async (_req, res) => {
-  const content = await getFileContent('./simpsons.json');
+  const content = await fs.readFile('./simpsons.json', 'utf-8');
   const result = JSON.parse(content);
   res.send(result);
 }));
