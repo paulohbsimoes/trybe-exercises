@@ -68,4 +68,8 @@ app.post('/simpsons', rescue(async (req, res) => {
   res.send(204).exit();
 }));
 
+app.post('/post', rescue((req, res) => {
+
+}))
+
 app.use(handleErrorsMiddleware);
