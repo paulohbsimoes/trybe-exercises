@@ -1,7 +1,15 @@
+const { getFileContent } = require('./utils');
+const fs = require('fs/promises');
+const rescue = require('express-rescue');
 const express = require('express');
 const app = express();
 
 app.use(express.json());
+
+const handleErrorsMiddleware = (err, req, res, next) => {
+  res.status(500).send(err.message);
+  next();
+}
 
 app.listen(3000, () => {
   console.log(`Listening on port 3000`)
@@ -26,3 +34,31 @@ app.put('/users/:name/:age', (req, res) => {
   const { name, age } = req.params;
   res.send({ message: `Seu nome é ${name} e você tem ${age} anos de idade` });
 })
+
+app.get('/simpsons', rescue(async (_req, res) => {
+  const content = await getFileContent('./simpsons.json');
+  const result = JSON.parse(content);
+  res.send(result);
+}));
+
+app.get('/simpsons/:id', rescue(async (req, res) => {
+  const { id } = req.params;
+  const data = await fs.readFile('./simpsons.json', 'utf-8');
+  const content = JSON.parse(data);
+  const result = content.find((character) => character.id === id);
+  if (!result) res.status(404).send({ message: 'simpson not found' });
+  res.status(200).send(result);
+}));
+
+app.post('/simpsons', rescue(async (req, res) => {
+  const { id, name } = req.body;
+  const data = await fs.readFile('./simpsons.json', 'utf-8');
+  const content = JSON.parse(data);
+  const isIdUsed = content.some((character) => character.id === id);
+  if (isIdUsed) return res.status(409).send({ message: 'id already exists' });
+  content.push({ id, name });
+  await fs.writeFile('./simpsons.json', JSON.stringify(content, null, 2));
+  res.send(204).exit();
+}));
+
+app.use(handleErrorsMiddleware);
