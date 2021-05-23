@@ -1,6 +1,8 @@
 const fs = require('fs/promises');
 const rescue = require('express-rescue');
 const express = require('express');
+const generateToken = require('./generateToken');
+
 const app = express();
 
 app.use(express.json());
@@ -16,11 +18,15 @@ const routeWithAuthentication = (req, res, next) => {
   next();
 }
 
-app.use(routeWithAuthentication);
+app.post('/signup', rescue((req, res) => {
+  const { email , password , firstName, phone } = req.body;
+  if (email && password && firstName && phone) {
+    return res.status(200).send({ token: generateToken() });
+  }
+  res.status(401).send({ message: 'missing fields' });
+}))
 
-app.listen(3000, () => {
-  console.log(`Listening on port 3000`)
-});
+app.use(routeWithAuthentication);
 
 app.get('/ping', (_req, res) => {
   res.send({ message: 'pong' });
@@ -68,8 +74,8 @@ app.post('/simpsons', rescue(async (req, res) => {
   res.send(204).exit();
 }));
 
-app.post('/post', rescue((req, res) => {
-
-}))
-
 app.use(handleErrorsMiddleware);
+
+app.listen(3000, () => {
+  console.log(`Listening on port 3000`)
+});
