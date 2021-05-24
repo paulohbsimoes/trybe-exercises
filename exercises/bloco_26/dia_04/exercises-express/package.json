@@ -1,0 +1,21 @@
+{
+  "name": "exercises-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-rescue": "^1.1.31"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
