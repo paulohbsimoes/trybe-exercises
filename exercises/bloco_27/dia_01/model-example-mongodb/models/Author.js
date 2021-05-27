@@ -39,8 +39,8 @@ const getByAuthorId = async (authorId) => {
 const create = async ({ firstName, middleName, lastName }) => {
   const db = await connection();
   const newAuthor = addFullName({ firstName, middleName, lastName });
-  const result = await db.collection('authors').insertOne(newAuthor);
-  return result.ops[0];
+  await db.collection('authors').insertOne(newAuthor);
+  return serialize(newAuthor);
 }
 
 module.exports = {
