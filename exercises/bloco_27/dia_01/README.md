@@ -1,5 +1,7 @@
 # Atividades
 
+Atividades realizadas em dupla com [Rosiele](https://github.com/rosids). :clap:
+
 ## Vamos praticar - Model com MySQL
 
 Vamos colocar em prática tudo o que aprendemos até aqui. Primeiro, cria a tabela **Books** usando o SQL abaixo
