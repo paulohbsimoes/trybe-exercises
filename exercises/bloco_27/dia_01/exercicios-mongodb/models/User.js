@@ -1,4 +1,5 @@
 const connection = require('./connection');
+const { ObjectId } = require('mongodb');
 
 const isValid = ({ firstName, lastName, email, password }) => {
   const errors = [];
@@ -26,7 +27,20 @@ const addUser = async (newUser) => {
   return serialize(newUser);
 }
 
+const getUsers = async () => {
+  const conn = await connection();
+  return await conn.collection('users').find().toArray();
+}
+
+const getUserById = async (id) => {
+  if(!ObjectId.isValid(id)) return null;
+  const conn = await connection();
+  return await conn.collection('users').findOne(ObjectId(id));
+}
+
 module.exports = {
   addUser,
   isValid,
+  getUsers,
+  getUserById,
 }
