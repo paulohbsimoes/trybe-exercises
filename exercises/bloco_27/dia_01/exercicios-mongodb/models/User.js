@@ -38,9 +38,18 @@ const getUserById = async (id) => {
   return await conn.collection('users').findOne(ObjectId(id));
 }
 
+const editUser = async (id, updatedUser) => {
+  if (!ObjectId.isValid(id)) return null;
+  const conn = await connection();
+  await conn.collection('users')
+    .updateOne({ _id: ObjectId(id) }, { $set: updatedUser });
+  return serialize({ _id: id, ...updatedUser });
+}
+
 module.exports = {
   addUser,
   isValid,
   getUsers,
   getUserById,
+  editUser
 }

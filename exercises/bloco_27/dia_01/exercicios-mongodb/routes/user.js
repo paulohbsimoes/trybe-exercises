@@ -34,4 +34,27 @@ route.get('/:id', async (req, res) => {
   res.status(200).json(user);
 });
 
+route.put('/:id', async (req, res) => {
+  const { error } = User.isValid(req.body);
+
+  if (error) {
+    return res.status(400).json({
+      "error": true,
+      "message": error
+    });
+  }
+
+  const { id } = req.params;
+  const updatedUser = await User.editUser(id, req.body);
+
+  if (!updatedUser) {
+    res.status(404).json({
+      "error": true,
+      "message": "Usuário não encontrado"
+    })
+  }
+
+  res.status(200).json(updatedUser);
+});
+
 module.exports = route;
