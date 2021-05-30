@@ -17,7 +17,7 @@ const addFullName = (author) => {
 }
 
 const getAll = async () => {
-  const SQL = 'SELECT id, first_name, middle_name, last_name FROM authors';
+  const SQL = 'SELECT id, first_name, middle_name, last_name FROM model_example.authors';
   const [authors] = await connection.execute(SQL);
   return authors.map(serialize).map(addFullName);
 }
