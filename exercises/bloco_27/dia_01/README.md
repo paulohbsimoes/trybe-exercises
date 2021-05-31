@@ -116,7 +116,7 @@ Com isso em mente, prossiga para a realização dos exercícios:
 }
 ```
 
-> O campo ***_id*** deve ser renomeado para ***id***, pois a nomenclatura ***_id*** trata-se de um detalhe de implementação do MongoDB e que, portanto, deve ser transparente para as demais camadas da aplicação. Dessa forma, ao migrar para um banco relacional, por exemplo, você não precisa alterar o nome de nenhum campo da sua entidade.
+O campo ***_id*** deve ser renomeado para ***id***, pois a nomenclatura ***_id*** trata-se de um detalhe de implementação do MongoDB e que, portanto, deve ser transparente para as demais camadas da aplicação. Dessa forma, ao migrar para um banco relacional, por exemplo, você não precisa alterar o nome de nenhum campo da sua entidade.
 
 ---
 
