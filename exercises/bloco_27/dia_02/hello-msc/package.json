@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "Tryber",
@@ -14,6 +15,7 @@
     "express": "^4.17.1",
     "express-rescue": "^1.1.31",
     "joi": "^17.4.0",
-    "mongodb": "^3.6.4"
+    "mongodb": "^3.6.4",
+    "nodemon": "^2.0.7"
   }
 }

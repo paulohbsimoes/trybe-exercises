@@ -1,7 +1,7 @@
 const connection = require('./connection');
+const { ObjectId } = require('mongodb');
 
 // Cria uma string com o nome completo do autor
-
 const getNewAuthor = (authorData) => {
   const { id, firstName, middleName, lastName } = authorData;
 
@@ -19,7 +19,6 @@ const getNewAuthor = (authorData) => {
 };
 
 // Busca todos os autores do banco.
-
 const getAll = async () => {
   return connection()
     .then((db) => db.collection('authors').find().toArray())

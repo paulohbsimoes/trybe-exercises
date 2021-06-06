@@ -31,7 +31,7 @@ const create = rescue(async (req, res, next) => {
     // Deve ser uma string (.string()) não vazia (.not().empty()) e é obrigatório (.required())
     firstName: Joi.string().not().empty().required(),
     // Não é obrigatório mas, caso seja informado, deve ser uma string não vazia
-    middleMame: Joi.string().not().empty(),
+    middleName: Joi.string().not().empty(),
     // Deve ser uma string não vazia e é obrigatório
     lastName: Joi.string().not().empty().required(),
   })
@@ -44,9 +44,9 @@ const create = rescue(async (req, res, next) => {
   }
 
   // Caso não haja erro de validação, prosseguimos com a criação do usuário
-  const { firstName, middleMame, lastName } = req.body;
+  const { firstName, middleName, lastName } = req.body;
 
-  const newAuthor = await service.create(firstName, middleMame, lastName);
+  const newAuthor = await service.create(firstName, middleName, lastName);
 
   // Caso haja erro na criação do autor, iniciamos o fluxo de erro
   if (newAuthor.error) return next(newAuthor.error);
