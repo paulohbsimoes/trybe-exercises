@@ -15,33 +15,31 @@ const isValid = ({ firstName, lastName, email, password }) => {
 
 const addUser = async ({ firstName, lastName, email, password }) => {
   const query = 'INSERT INTO users (first_name, last_name, email, password) VALUES (?, ?, ?, ?)';
-  const { insertId } = connection.execute(query, [ firstName, lastName, email, password ]);
+  const [result] = await connection.execute(query, [ firstName, lastName, email, password ]);
+  const { insertId } = result;
   return { id: insertId, firstName, lastName, email, password };
 }
 
 const getUsers = async () => {
   const query = 'SELECT * FROM users';
-  const [result] = connection.execute(query);
+  const [result] = await connection.execute(query);
   return result;
 }
 
 const getUserById = async (id) => {
   const query = 'SELECT id, first_name, last_name, email FROM users WHERE id = ?';
-  const [result] = connection.execute(query, [ id ]);
+  const [result] = await connection.execute(query, [ id ]);
   if (!result.length) return null;
   return result;
 }
 
 const editUser = async (id, userData) => {
-  const { firstName, lastName, email } = userData;
-  try {
-    const query = 'UPDATE users SET first_name = ?, lastName = ?, email = ? WHERE id = ?';
-    connection.execute(query, [ firstName, lastName, email, id ]);
-    return true;
-  } catch (error) {
-    console.log(error);
-    return false;
-  }
+  const { firstName, lastName, email, password } = userData;
+  const user = await getUserById(id);
+  if (!user) return null;
+  const query = 'UPDATE users SET first_name = ?, last_name = ?, email = ?, password = ? WHERE id = ?';
+  await connection.execute(query, [ firstName, lastName, email, password, id ]);
+  return { id, ...userData };
 }
 
 module.exports = {

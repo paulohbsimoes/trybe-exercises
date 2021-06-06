@@ -28,15 +28,15 @@ VALUES
 
 Depois de criar a tabela no banco de dados, faça as seguintes implementações.
 
-1. Crie um modelo **Book** e defina o método **getAll** para retornar a lista de todos os livros.
+**1-** Crie um modelo **Book** e defina o método **getAll** para retornar a lista de todos os livros.
 
-2. Crie uma rota **/books** para trazer a lista de todos os livros.
+**2-** Crie uma rota **/books** para trazer a lista de todos os livros.
 
-3. Crie um método **getByAuthorId** no modelo **Book**, para retornar apenas livros associados com um determinado **author_id**. E altere o middleware da rota **books** criado no passo 2 para receber uma query string com a chave **author_id**, e retornar apenas os livros associados.
+**3-** Crie um método **getByAuthorId** no modelo **Book**, para retornar apenas livros associados com um determinado **author_id**. E altere o middleware da rota **books** criado no passo 2 para receber uma query string com a chave **author_id**, e retornar apenas os livros associados.
 
-4. Crie uma rota **/books/:id** e retorne o livro de acordo com o id passado por parâmetro. Se não existir retorne um json no seguinte formato **{ message: 'Not found' }**.
+**4-** Crie uma rota **/books/:id** e retorne o livro de acordo com o id passado por parâmetro. Se não existir retorne um json no seguinte formato **{ message: 'Not found' }**.
 
-5. Ainda usando a tabela books como referência crie uma rota **books** do tipo **POST**. Faça as seguintes validações:
+**5-** Ainda usando a tabela books como referência crie uma rota **books** do tipo **POST**. Faça as seguintes validações:
 
 * Título não pode ser vazio;
 
@@ -64,13 +64,13 @@ db.books.insertMany([
 ]);
 ```
 
-1. Refatore o método **getAll** de **models/Book** para utilizar o mongo como banco de dados.
+**1-** Refatore o método **getAll** de **models/Book** para utilizar o mongo como banco de dados.
 
-2. Refatore o método **getByAuthorId** de **models/Book** para utilizar o mongo como banco de dados.
+**2-** Refatore o método **getByAuthorId** de **models/Book** para utilizar o mongo como banco de dados.
 
-3. Refatore o método **getById** de **models/Book** para utilizar o mongo como banco de dados.
+**3-** Refatore o método **getById** de **models/Book** para utilizar o mongo como banco de dados.
 
-4. Refatore o método **create** de **models/Book** para utilizar o mongo como banco de dados.
+**4-** Refatore o método **create** de **models/Book** para utilizar o mongo como banco de dados.
 
 ## Exercícios
 
@@ -80,7 +80,7 @@ Utilize a camada de Model que você acabou de estudar para realizar a interaçã
 
 Com isso em mente, prossiga para a realização dos exercícios:
 
-01. Crie o endpoint `POST /user`
+**1-** Crie o endpoint `POST /user`
 
 * Seu endpoint deve receber o seguinte conteúdo no body da request:
 
@@ -120,7 +120,7 @@ O campo ***_id*** deve ser renomeado para ***id***, pois a nomenclatura ***_id**
 
 ---
 
-02. Crie o endpoint `GET /user`
+**2-** Crie o endpoint `GET /user`
 
 * O endpoint sempre deve retornar um array;
 
@@ -130,7 +130,7 @@ O campo ***_id*** deve ser renomeado para ***id***, pois a nomenclatura ***_id**
 
 ---
 
-03. Crie o endpoint `GET /user/:id`
+**3-** Crie o endpoint `GET /user/:id`
 
 * O endpoint deve retornar o usuário cujo ***id*** seja igual ao parâmetro ***id*** informado na URL. O status deve ser **200 OK**.
 
@@ -145,7 +145,7 @@ O campo ***_id*** deve ser renomeado para ***id***, pois a nomenclatura ***_id**
 
 ---
 
-04. Crie o endpoint `PUT /user/:id`
+**4-** Crie o endpoint `PUT /user/:id`
 
 * O endpoint deve receber, no corpo da request, os seguintes dados, em JSON:
 

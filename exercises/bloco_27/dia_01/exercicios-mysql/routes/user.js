@@ -21,7 +21,7 @@ route.post('/', async (req, res) => {
 
   const newUser = await User.addUser(req.body);
 
-  res.json(newUser);
+  res.status(201).json(newUser);
 });
 
 route.get('/', async (_req, res) => {
@@ -42,9 +42,9 @@ route.get('/:id', async (req, res) => {
 });
 
 route.put('/:id', async (req, res) => {
-  const { firstName, lastName, email } = req.body;
+  const { firstName, lastName, email, password } = req.body;
 
-  const { error } = User.isValid({ firstName, lastName, email });
+  const { error } = User.isValid({ firstName, lastName, email, password });
 
   if (error) {
     return res.status(400).json({
@@ -54,10 +54,10 @@ route.put('/:id', async (req, res) => {
   }
 
   const { id } = req.params;
-  const updatedUser = await User.editUser(id, { firstName, lastName, email });
+  const updatedUser = await User.editUser(id, { firstName, lastName, email, password });
 
   if (!updatedUser) {
-    res.status(404).json({
+    return res.status(404).json({
       "error": true,
       "message": "Usuário não encontrado"
     })
