@@ -48,7 +48,7 @@ route.put('/:id', async (req, res) => {
   const updatedUser = await User.editUser(id, req.body);
 
   if (!updatedUser) {
-    res.status(404).json({
+    return res.status(404).json({
       "error": true,
       "message": "Usuário não encontrado"
     })

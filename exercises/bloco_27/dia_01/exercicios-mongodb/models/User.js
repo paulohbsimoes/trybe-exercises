@@ -14,36 +14,41 @@ const isValid = ({ firstName, lastName, email, password }) => {
   return { error: errors.length ? errors : null };
 }
 
-const serialize = ({ _id, firstName, lastName, email }) => ({
+const serialize = ({ _id, firstName, lastName, email, password }) => ({
   id: _id,
   firstName,
   lastName,
-  email
+  email,
+  password
 })
 
 const addUser = async (newUser) => {
   const db = await connection();
-  await db.collection('users').insertOne(newUser);
-  return serialize(newUser);
+  const { insertedId } = await db.collection('users').insertOne({ ...newUser });
+  return { id: insertedId, ...newUser };
 }
 
 const getUsers = async () => {
   const conn = await connection();
-  return await conn.collection('users').find().toArray();
+  const users = await conn.collection('users').find().toArray();
+  return users.map(serialize);
 }
 
 const getUserById = async (id) => {
   if(!ObjectId.isValid(id)) return null;
   const conn = await connection();
-  return await conn.collection('users').findOne(ObjectId(id));
+  const user = await conn.collection('users').findOne(ObjectId(id));
+  return serialize(user);
 }
 
 const editUser = async (id, updatedUser) => {
   if (!ObjectId.isValid(id)) return null;
   const conn = await connection();
+  const user = await getUserById(id);
+  if (!user) return null;
   await conn.collection('users')
     .updateOne({ _id: ObjectId(id) }, { $set: updatedUser });
-  return serialize({ _id: id, ...updatedUser });
+  return { id, ...updatedUser };
 }
 
 module.exports = {
