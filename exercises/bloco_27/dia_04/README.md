@@ -6,33 +6,33 @@ Esses exercícios serão realizados um pouco diferente. Iremos implementar novas
 
 ## Detalhes do projeto
 
-1. Primeiro, crie um novo diretório para o projeto.
+**1-** Primeiro, crie um novo diretório para o projeto.
 
-2. Inicie o projeto com o **npm**:
+**2-** Inicie o projeto com o **npm**:
 
 ```bash
 npm init -y
 ```
 
-3. Instale os pacotes utilizados:
+**3-** Instale os pacotes utilizados:
 
 ```bash
 npm install body-parser express mongodb
 ```
 
-4. Instale também os pacotes de desenvolvimento:
+**4-** Instale também os pacotes de desenvolvimento:
 
 ```bash
 npm install -D mocha chai sinon mongodb-memory-server
 ```
 
-5. Adicione o script para rodar os testes no **package.json**, dentro de **"scripts"**:
+**5-** Adicione o script para rodar os testes no **package.json**, dentro de **"scripts"**:
 
 ```json
 "test": "mocha tests --recursive --exit"
 ```
 
-6. Iremos criar a seguinte estrutura de arquivos e diretórios:
+**6-** Iremos criar a seguinte estrutura de arquivos e diretórios:
 
 ```bash
 └── controllers
@@ -53,7 +53,7 @@ npm install -D mocha chai sinon mongodb-memory-server
     └── package.json
 ```
 
-7. Configure os seguintes arquivos conforme códigos já implementados.
+**7-** Configure os seguintes arquivos conforme códigos já implementados.
 
 * **index.js**
 
@@ -650,13 +650,13 @@ describe('Insere um novo filme no BD', () => {
 });
 ```
 
-8. Garanta que está tudo ok, rodando os testes:
+**8-** Garanta que está tudo ok, rodando os testes:
 
 ```bash
 npm test
 ```
 
-9. Para subir a aplicação, é necessário ter o MongoDB rodando em sua máquina (Relembre em **23.1 - Introdução ao MongoDB**), feito isso é possível executá-la.
+**9-** Para subir a aplicação, é necessário ter o MongoDB rodando em sua máquina (Relembre em **23.1 - Introdução ao MongoDB**), feito isso é possível executá-la.
 
 ```bash
 node index.js
