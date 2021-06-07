@@ -8,27 +8,27 @@ Vamos refatorar uma API que faz gestão de produtos para deixá-la mais elegante
 
 ### Detalhes do projeto
 
-1. Primeiro, crie um novo diretório para nosso projeto;
+**1-** Primeiro, crie um novo diretório para nosso projeto;
 
-2. Crie um novo projeto:
+**2-** Crie um novo projeto:
 
 ```bash
 npm init -y
 ```
 
-3. Instale o pacote **express**:
+**3-** Instale o pacote **express**:
 
 ```bash
 npm install express
 ```
 
-4. Instale o pacote **body-parser** para parsear o corpo das requisições:
+**4-** Instale o pacote **body-parser** para parsear o corpo das requisições:
 
 ```bash
 npm install body-parser
 ```
 
-5. Instale o pacote **nodemon** para criar um servidor que se atualize em cada alteração salva nos arquivos:
+**5-** Instale o pacote **nodemon** para criar um servidor que se atualize em cada alteração salva nos arquivos:
 
 ```bash
 npm install nodemon
@@ -40,7 +40,7 @@ Adicione a linha abaixo no seu package.json, no objeto **"scripts"** para rodar 
 "debug": "nodemon index.js"
 ```
 
-6. Por fim, instale o pacote **mysql2** para conectar com o banco:
+**6-** Por fim, instale o pacote **mysql2** para conectar com o banco:
 
 ```bash
 npm install mysql2
@@ -52,7 +52,7 @@ Se preferir instalar todas as dependecias de uma vez, use o comando abaixo:
 npm install mysql2 nodemon body-parser express
 ```
 
-7. Na raiz do nosso projeto, crie o arquivo **index.js** para configurarmos o express:
+**7-** Na raiz do nosso projeto, crie o arquivo **index.js** para configurarmos o express:
 
 
 ```javascript
@@ -71,7 +71,7 @@ app.listen(3000, () => {
 });
 ```
 
-8. Vamos criar uma conexão com o **mysql**, crie uma pasta **models** e um arquivo **connection.js**:
+**8-** Vamos criar uma conexão com o **mysql**, crie uma pasta **models** e um arquivo **connection.js**:
 
 ```javascript
 const mysql = require('mysql2/promise');
@@ -151,7 +151,7 @@ const exclude = async (id) => {
 module.exports = { add, getAll, getById, update, exclude };
 ```
 
-7. Execute esse script para subir o banco do exercício:
+**9-** Execute esse script para subir o banco do exercício:
 
 ```sql
 DROP DATABASE IF EXISTS rest_exercicios;
@@ -171,7 +171,7 @@ VALUES ('Cerveja Skol', 'Ambev'),
 SELECT * FROM products;
 ```
 
-8. Por último, vamos criar uma pasta **controllers** e, dentro dela, o arquivo **productController.js**. Esse será o local onde utilizaremos a técnica de refactoring:
+**10-** Por último, vamos criar uma pasta **controllers** e, dentro dela, o arquivo **productController.js**. Esse será o local onde utilizaremos a técnica de refactoring:
 
 ```javascript
 const express = require('express');
@@ -218,16 +218,16 @@ module.exports = router;
 
 ## Agora é sua vez!
 
-1. Pense qual é o recurso que estamos trabalhando e altere os endpoints para que fiquem padronizados.
+**1-** Pense qual é o recurso que estamos trabalhando e altere os endpoints para que fiquem padronizados.
 
-2. Padronize todos os retornos para JSON.
+**2-** Padronize todos os retornos para JSON.
 
-3. Utilize os verbos (POST, PUT, GET etc.) corretos para cada ação do CRUD.
+**3-** Utilize os verbos (POST, PUT, GET etc.) corretos para cada ação do CRUD.
 
-4. Garanta que todos os endpoints tenham as respostas (status code) corretas, ou seja, código para quando der tudo certo, código pra quando ocorrer erro etc.
+**4-** Garanta que todos os endpoints tenham as respostas (status code) corretas, ou seja, código para quando der tudo certo, código pra quando ocorrer erro etc.
 
 **Dica:** Para testar suas requisições você pode utilizar o [Postman](https://www.postman.com/).
 
 ## Bônus
 
-1. Refatore a API para que utilize MongoDB como banco de dados.
+**1-** Refatore a API para que utilize MongoDB como banco de dados.
