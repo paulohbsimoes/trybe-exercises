@@ -1,4 +1,13 @@
 const CepModel = require('../model/Cep');
+const ApiCepModel = require('../model/ApiCep');
+
+const serialize = ({ cep, logradouro, bairro, localidade, uf }) => ({
+  cep: cep.replace('-', ''),
+  logradouro,
+  bairro,
+  localidade,
+  uf
+})
 
 const getCep = async (cep) => {
   if (!/^\d{5}-?\d{3}$/.test(cep)) return {
@@ -8,7 +17,16 @@ const getCep = async (cep) => {
     }
   }
 
-  const result = await CepModel.getCep(cep.replace('-', ''));
+  const normalizedCep = cep.replace('-', '');
+
+  let result = await CepModel.getCep(normalizedCep);
+
+  if (!result) {
+    const newCep = await ApiCepModel.getCep(normalizedCep);
+    if (!newCep.erro) {
+      result = await CepModel.create(serialize(newCep));
+    }
+  }
 
   if (!result) return {
     error: {
@@ -17,7 +35,7 @@ const getCep = async (cep) => {
     }
   }
 
-  return result;
+  return serialize(result);
 }
 
 const create = async ({ cep, logradouro, bairro, localidade, uf }) => {
