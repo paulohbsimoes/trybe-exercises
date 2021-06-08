@@ -148,7 +148,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 ##### Bloco 22: [Normalização e Modelagem de Banco de Dados](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_22)
 - [x] 22.1 - Transformando ideias em um modelo de banco de dados
 - [x] 22.2 - Normalização, Formas Normais e Dumps
-- [ ] 22.3 - Transformando ideias em um modelo de banco de dados - Parte 2
+- [x] 22.3 - Transformando ideias em um modelo de banco de dados - Parte 2
 - [x] 22.4 - Projeto - One For All
 
 ##### Bloco 23: [Introdução ao MongoDB](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_23)
@@ -158,30 +158,32 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 23.4 - Projeto - Data Flights
 
 ##### Bloco 24: MongoDB: Updates Simples e Complexos
-- [ ] 24.1 - Updates Simples
-- [ ] 24.2 - Updates Complexos - Arrays - Parte 1
-- [ ] 24.3 - Updates Complexos - Arrays - Parte 2
-- [ ] 24.4 - Projeto - Commerce
+- [x] 24.1 - Updates Simples
+- [x] 24.2 - Updates Complexos - Arrays - Parte 1
+- [x] 24.3 - Updates Complexos - Arrays - Parte 2
+- [x] 24.4 - Projeto - Commerce
 
 ##### Bloco 25: MongoDB: Aggregation Framework
-- [ ] 25.1 - Aggregation Framework - Parte 1
-- [ ] 25.2 - Aggregation Framework - Parte 2
-- [ ] 25.3 - Projeto - Aggregations
+- [x] 25.1 - Aggregation Framework - Parte 1
+- [x] 25.2 - Aggregation Framework - Parte 2
+- [x] 25.3 - Projeto - Aggregations
 
 ##### Bloco 26: Introdução ao desenvolvimento Web com NodeJS
-- [ ] 26.1 - Intro - NodeJS
-- [ ] 26.2 - NodeJS - Introdução
-- [ ] 26.3 - NodeJS - Fluxo Assíncrono
-- [ ] 26.4 - NodeJS - Arquitetura
-- [ ] 26.5 - Express: HTTP com Node.js
-- [ ] 26.6 - Práticando Express
-- [ ] 26.7 - Arquitetura de Software - Introdução ao MVC
-- [ ] 26.8 - Projeto - Cookmaster
+- [x] 26.1 - Intro - NodeJS
+- [x] 26.1 - NodeJS - Introdução
+- [x] 26.2 - NodeJS - Fluxo Assíncrono
+- [x] 26.3 - Testes com NodeJS
+- [x] 26.4 - Express: HTTP com Node.js
+- [x] 26.5 - Práticando Express
+- [x] 26.6 - Projeto - Talker manager
 
 ##### Bloco 27: NodeJS: Camada de Serviço e Arquitetura Rest e Restful
-- [ ] 27.1 - Arquitetura de Software - Camada de Serviço
-- [ ] 27.2 - Arquitetura web - Rest e Restful
-- [ ] 27.3 - Projeto - Store Manager
+- [x] 27.1 - Introdução - Arquitetura de Software
+- [x] 27.1 - Arquitetura de Software - Camada de Model
+- [x] 27.2 - Arquitetura de Software - Camada de Controller e Service
+- [x] 27.3 - Arquitetura Web - Rest e Restful
+- [x] 27.4 - Arquitetura de Software - Testando as Camadas
+- [x] 27.5 - Projeto - Store Manager
 
 ##### Bloco 28: Autenticação e Upload de Arquivos
 - [ ] 28.1 - NodeJS - JWT - (JSON Web Token)
