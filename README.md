@@ -157,18 +157,18 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 23.3 - Filter Operators
 - [x] 23.4 - Projeto - Data Flights
 
-##### Bloco 24: MongoDB: Updates Simples e Complexos
+##### Bloco 24: [MongoDB: Updates Simples e Complexos](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_24)
 - [x] 24.1 - Updates Simples
 - [x] 24.2 - Updates Complexos - Arrays - Parte 1
 - [x] 24.3 - Updates Complexos - Arrays - Parte 2
 - [x] 24.4 - Projeto - Commerce
 
-##### Bloco 25: MongoDB: Aggregation Framework
+##### Bloco 25: [MongoDB: Aggregation Framework](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_25)
 - [x] 25.1 - Aggregation Framework - Parte 1
 - [x] 25.2 - Aggregation Framework - Parte 2
 - [x] 25.3 - Projeto - Aggregations
 
-##### Bloco 26: Introdução ao desenvolvimento Web com NodeJS
+##### Bloco 26: [Introdução ao desenvolvimento Web com NodeJS](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_26)
 - [x] 26.1 - Intro - NodeJS
 - [x] 26.1 - NodeJS - Introdução
 - [x] 26.2 - NodeJS - Fluxo Assíncrono
@@ -177,7 +177,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 26.5 - Práticando Express
 - [x] 26.6 - Projeto - Talker manager
 
-##### Bloco 27: NodeJS: Camada de Serviço e Arquitetura Rest e Restful
+##### Bloco 27: [NodeJS: Camada de Serviço e Arquitetura Rest e Restful](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_27)
 - [x] 27.1 - Introdução - Arquitetura de Software
 - [x] 27.1 - Arquitetura de Software - Camada de Model
 - [x] 27.2 - Arquitetura de Software - Camada de Controller e Service
