@@ -32,7 +32,10 @@ const create = async ({ title, directedBy, releaseYear }) => {
   };
 };
 
+const getById = async (movieId) => MoviesModel.getById(movieId);
+
 module.exports = {
   create,
   getAll,
+  getById
 };

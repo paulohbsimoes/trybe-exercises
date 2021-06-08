@@ -8,6 +8,7 @@ const app = express();
 // app.use(bodyParser.json());
 app.use(express.json());
 
+app.get('/movies/:id', MovieController.getById);
 app.get('/movies', MovieController.getAll);
 
 app.post('/movies', MovieController.create);

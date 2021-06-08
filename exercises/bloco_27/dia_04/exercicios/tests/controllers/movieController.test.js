@@ -1,5 +1,6 @@
 const sinon = require('sinon');
 const { expect } = require('chai');
+const { ObjectId } = require('mongodb');
 
 const MoviesService = require('../../services/movieService');
 const MoviesController = require('../../controllers/movieController');
@@ -149,3 +150,62 @@ describe('Ao chamar o controller de create', () => {
 
   });
 });
+
+describe.only('É possível buscar um filme pelo seu ID', () => {
+  let request, response;
+
+  beforeEach(() => {
+    request = {};
+    response = {};
+    response.json = sinon.stub().returns();
+    response.status = sinon.stub().returns(response);
+    response.send = sinon.stub().returns();
+  });
+
+  describe('quando o filme é encontrado', () => {
+    const payloadMovie = {
+      _id: ObjectId(),
+      title: 'Os três porquinhos',
+      directedBy: 'Sr. anônimo',
+      releaseYear: 1900
+    }
+
+    before(() => sinon.stub(MoviesService, 'getById').resolves(payloadMovie));
+
+    after(() => MoviesService.getById.restore());
+
+    beforeEach(() => {
+      request.params = {
+        id: payloadMovie._id
+      }
+    });
+
+    it('usa o id recebido como param para buscar o filme', async () => {
+      await MoviesController.getById(request, response);
+      expect(MoviesService.getById.calledWith(request.params.id)).to.be.true;
+    })
+
+    it('res.json é chamado com o filme encontrado', async () => {
+      await MoviesController.getById(request, response);
+      expect(response.json.calledWith(payloadMovie)).to.be.true;
+    })
+  })
+
+  describe('quando o filme não for encontrado', () => {
+    before(() => sinon.stub(MoviesService, 'getById').resolves(null));
+
+    after(() => MoviesService.getById.restore());
+
+    beforeEach(() => request.params = { id: ObjectId() });
+
+    it('chama status com o código 404', async () => {
+      await MoviesController.getById(request, response);
+      expect(response.status.calledWith(404)).to.be.true;
+    })
+
+    it('chama send com com mensagem de Dados inválidos', async () => {
+      await MoviesController.getById(request, response);
+      expect(response.send.calledWith('Dados inválidos')).to.be.true;
+    })
+  })
+})

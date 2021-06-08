@@ -1,6 +1,6 @@
 const sinon = require('sinon');
 const { expect } = require('chai');
-const { MongoClient } = require('mongodb');
+const { MongoClient, ObjectId } = require('mongodb');
 const { MongoMemoryServer } = require('mongodb-memory-server');
 
 const MoviesModel = require('../../models/movieModel');
@@ -138,3 +138,61 @@ describe('Insere um novo filme no BD', () => {
 
   });
 });
+
+describe.only('É possível recuperar um filme pelo seu ID', () => {
+  let conn;
+
+  before(async () => {
+    const mongodb = new MongoMemoryServer();
+    const uri = await mongodb.getUri();
+
+    conn = await MongoClient.connect(uri, {
+      useNewUrlParser: true,
+      useUnifiedTopology: true
+    });
+
+    sinon.stub(MongoClient, 'connect').resolves(conn);
+  })
+
+  after(() => MongoClient.connect.restore());
+
+  describe('quando o filme é encontrado', () => {
+    const payloadMovie = {
+      title: 'Os três porquinhos',
+      directedBy: 'Sr. anônimo',
+      releaseYear: 1900
+    }
+
+    let payloadMovieId = null;
+
+    before(async () => {
+      const db = await conn.db('model_example');
+      const { insertedId } = await db.collection('movies').insertOne({...payloadMovie });
+      payloadMovieId = insertedId;
+    })
+
+    it('retorna um objeto', async () => {
+      const result = await MoviesModel.getById(payloadMovieId);
+      expect(result).to.be.a('object');
+    })
+
+    it('o objeto deve ser referente ao filme encontrado', async () => {
+      const result = await MoviesModel.getById(payloadMovieId);
+      expect(result).to.deep.equal({ _id: payloadMovieId, ...payloadMovie });
+    })
+  })
+
+  describe('quando o ID é inválido', () => {
+    it('retorna null', async () => {
+      const result = await MoviesModel.getById('IDInválido');
+      expect(result).to.be.null;
+    })
+  })
+
+  describe('quando não há nenhum filme com o ID informado', () => {
+    it('retorna null', async () => {
+      const result = await MoviesModel.getById(ObjectId());
+      expect(result).to.be.null;
+    })
+  })
+})

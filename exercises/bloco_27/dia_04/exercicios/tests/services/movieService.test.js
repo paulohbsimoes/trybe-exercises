@@ -1,5 +1,6 @@
 const sinon = require('sinon');
 const { expect } = require('chai');
+const { ObjectId } = require('mongodb');
 
 const MoviesModel = require('../../models/movieModel');
 const MoviesService = require('../../services/movieService');
@@ -123,3 +124,41 @@ describe('Insere um novo filme no BD', () => {
 
   });
 });
+
+describe.only('É possível buscar um filme pelo seu ID', () => {
+  const payloadMovieId = ObjectId();
+
+  const payloadMovie = {
+    id: payloadMovieId,
+    title: 'Example Movie',
+    directedBy: 'Jane Dow',
+    releaseYear: 1999,
+  };
+
+  describe('quando o filme é encontrado', () => {
+    before(() => sinon.stub(MoviesModel, 'getById').resolves(payloadMovie));
+
+    after(() => MoviesModel.getById.restore());
+
+    it('deve usar o id passado como argumento para fazer a busca', async () => {
+      await MoviesService.getById(payloadMovieId);
+      expect(MoviesModel.getById.calledWith(payloadMovieId)).to.be.true;
+    })
+
+    it('retorna um objeto', async () => {
+      const result = await MoviesService.getById(payloadMovieId);
+      expect(result).to.be.a('object');
+    })
+  })
+
+  describe('quando o filme não for encontrado', () => {
+    before(() => sinon.stub(MoviesModel, 'getById').resolves(null));
+
+    after(() => MoviesModel.getById.restore());
+
+    it('retorna null', async () => {
+      const result = await MoviesService.getById(payloadMovieId);
+      expect(result).to.be.null;
+    })
+  })
+})

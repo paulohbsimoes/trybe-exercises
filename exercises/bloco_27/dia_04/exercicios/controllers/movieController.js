@@ -19,7 +19,15 @@ const create = async (req, res) => {
   res.status(201).send('Filme criado com sucesso!');
 };
 
+const getById = async (req, res) => {
+  const { id } = req.params;
+  const result = await MovieService.getById(id);
+  if (!result) return res.status(404).send('Dados inválidos');
+  res.json(result);
+};
+
 module.exports = {
   getAll,
   create,
+  getById
 };
