@@ -210,7 +210,7 @@ describe('É possível buscar um filme pelo seu ID', () => {
   })
 })
 
-describe.only('É possível remover um filme pelo seu ID', () => {
+describe('É possível remover um filme pelo seu ID', () => {
   let request, response;
 
   beforeEach(() => {
