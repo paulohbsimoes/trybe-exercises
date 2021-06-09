@@ -125,7 +125,7 @@ describe('Insere um novo filme no BD', () => {
   });
 });
 
-describe.only('É possível buscar um filme pelo seu ID', () => {
+describe('É possível buscar um filme pelo seu ID', () => {
   const payloadMovieId = ObjectId();
 
   const payloadMovie = {
@@ -159,6 +159,56 @@ describe.only('É possível buscar um filme pelo seu ID', () => {
     it('retorna null', async () => {
       const result = await MoviesService.getById(payloadMovieId);
       expect(result).to.be.null;
+    })
+  })
+})
+
+describe('É possível remover um filme', () => {
+  describe('quando for removido com sucesso', () => {
+    let payloadMovie;
+    let movieId;
+
+    beforeEach(() => {
+      movieId = ObjectId;
+
+      payloadMovie = {
+        _id: movieId,
+        title: 'Os três porquinhos',
+        directedBy: 'Sr. anônimo',
+        releaseYear: 1900
+      }
+
+      sinon.stub(MoviesModel, 'remove').resolves(payloadMovie);
+    })
+
+    afterEach(() => MoviesModel.remove.restore());
+
+    it('utiliza o id recebido por parâmetro', async () => {
+      await MoviesService.remove(movieId);
+      expect(MoviesModel.remove.calledWith(movieId)).to.be.true;
+    })
+
+    it('retorna um objeto com o filme removido', async () => {
+      const result = await MoviesService.remove(movieId);
+      expect(result).to.deep.equal(payloadMovie);
+    })
+  })
+
+  describe('quando a remoção falhar', () => {
+    const errorMock = {
+      err: {
+        code: 'badRequest',
+        message: 'Não foi possível remover o filme'
+      }
+    }
+    
+    before(() => sinon.stub(MoviesModel, 'remove').resolves(null));
+
+    after(() => MoviesModel.remove.restore());
+
+    it('retorna um objeto de error', async () => {
+      const result = await MoviesService.remove(ObjectId());
+      expect(result).to.deep.equal(errorMock);
     })
   })
 })

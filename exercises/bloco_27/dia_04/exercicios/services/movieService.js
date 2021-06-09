@@ -34,8 +34,22 @@ const create = async ({ title, directedBy, releaseYear }) => {
 
 const getById = async (movieId) => MoviesModel.getById(movieId);
 
+const remove = async (movieId) => {
+  const movie = await MoviesModel.remove(movieId);
+
+  if (!movie) return {
+    err: {
+      code: 'badRequest',
+      message: 'Não foi possível remover o filme'
+    }
+  }
+
+  return movie;
+};
+
 module.exports = {
   create,
   getAll,
-  getById
+  getById,
+  remove
 };

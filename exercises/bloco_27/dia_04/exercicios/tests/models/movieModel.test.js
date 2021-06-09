@@ -139,7 +139,7 @@ describe('Insere um novo filme no BD', () => {
   });
 });
 
-describe.only('É possível recuperar um filme pelo seu ID', () => {
+describe('É possível recuperar um filme pelo seu ID', () => {
   let conn;
 
   before(async () => {
@@ -192,6 +192,59 @@ describe.only('É possível recuperar um filme pelo seu ID', () => {
   describe('quando não há nenhum filme com o ID informado', () => {
     it('retorna null', async () => {
       const result = await MoviesModel.getById(ObjectId());
+      expect(result).to.be.null;
+    })
+  })
+})
+
+describe('É possível remover um filme', () => {
+  let conn;
+
+  beforeEach(async () => {
+    const mongodb = new MongoMemoryServer();
+    const uri = await mongodb.getUri();
+
+    conn = await MongoClient.connect(uri, {
+      useNewUrlParser: true,
+      useUnifiedTopology: true
+    });
+
+    sinon.stub(MongoClient, 'connect').resolves(conn);
+  })
+
+  afterEach(() => MongoClient.connect.restore());
+  
+  describe('quando for removido com sucesso', () => {
+    const payloadMovie = {
+      title: 'Os três porquinhos',
+      directedBy: 'Sr. anônimo',
+      releaseYear: 1900
+    }
+  
+    let payloadMovieId = null;
+  
+    beforeEach(async () => {
+      const db = await conn.db('model_example');
+      const { insertedId } = await db.collection('movies').insertOne({...payloadMovie });
+      payloadMovieId = insertedId;
+    })
+  
+    it('retorna um objeto com o filme removido', async () => {
+      const result = await MoviesModel.remove(payloadMovieId);
+      expect(result).to.deep.equal({ _id: payloadMovieId, ...payloadMovie });
+    })
+  })
+
+  describe('quando o ID passado for invalido', () => {
+    it('retorna null', async () => {
+      const result = await MoviesModel.remove('INVALIDID');
+      expect(result).to.be.null;
+    })
+  })
+
+  describe('quando não houver nenhum filme com o ID', () => {
+    it('retorna null', async () => {
+      const result = await MoviesModel.remove(ObjectId());
       expect(result).to.be.null;
     })
   })

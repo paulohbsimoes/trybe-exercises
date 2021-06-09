@@ -26,8 +26,16 @@ const getById = async (req, res) => {
   res.json(result);
 };
 
+const remove = async (req, res) => {
+  const { id } = req.params;
+  const result = await MovieService.remove(id);
+  if (result.err) return res.status(400).json(result);
+  res.json(result);
+};
+
 module.exports = {
   getAll,
   create,
-  getById
+  getById,
+  remove
 };

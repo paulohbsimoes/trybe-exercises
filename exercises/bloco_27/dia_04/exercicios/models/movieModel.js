@@ -30,12 +30,21 @@ const create = async ({ title, directedBy, releaseYear }) => {
 const getById = async (id) => {
   if (!ObjectId.isValid(id)) return null;
   const db = await connection();
-  const result = db.collection('movies').findOne(ObjectId(id));
-  return result;
+  return db.collection('movies').findOne(ObjectId(id));
+};
+
+const remove = async (id) => {
+  if (!ObjectId.isValid(id)) return null;
+  const movie = await getById(id);
+  const db = await connection();
+  const { deletedCount } = await db.collection('movies').deleteOne({ _id: ObjectId(id) });
+  if (!deletedCount) return null;
+  return movie; 
 };
 
 module.exports = {
   create,
   getAll,
-  getById
+  getById,
+  remove
 };

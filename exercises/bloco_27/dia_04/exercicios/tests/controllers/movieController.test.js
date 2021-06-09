@@ -151,7 +151,7 @@ describe('Ao chamar o controller de create', () => {
   });
 });
 
-describe.only('É possível buscar um filme pelo seu ID', () => {
+describe('É possível buscar um filme pelo seu ID', () => {
   let request, response;
 
   beforeEach(() => {
@@ -206,6 +206,76 @@ describe.only('É possível buscar um filme pelo seu ID', () => {
     it('chama send com com mensagem de Dados inválidos', async () => {
       await MoviesController.getById(request, response);
       expect(response.send.calledWith('Dados inválidos')).to.be.true;
+    })
+  })
+})
+
+describe.only('É possível remover um filme pelo seu ID', () => {
+  let request, response;
+
+  beforeEach(() => {
+    request = {};
+    response = {};
+    response.json = sinon.stub().returns();
+    response.status = sinon.stub().returns(response);
+    response.send = sinon.stub().returns();
+  });
+
+  describe('quando o filme é removido com sucesso', () => {
+    let movieId, payloadMovie;
+
+    beforeEach(() => {
+      movieId = ObjectId();
+
+      request.params = { id: movieId };
+
+      payloadMovie = {
+        _id: movieId,
+        title: 'Os três porquinhos',
+        directedBy: 'Sr. anônimo',
+        releaseYear: 1900
+      }
+
+      sinon.stub(MoviesService, 'remove').resolves(payloadMovie);
+    })
+
+    afterEach(() => MoviesService.remove.restore());
+
+    it('usa o id recebido como parametro', async () => {
+      await MoviesController.remove(request, response);
+      expect(MoviesService.remove.calledWith(movieId)).to.be.true;
+    })
+
+    it('chama response.json com o filme removido', async () => {
+      await MoviesController.remove(request, response);
+      expect(response.json.calledWith(payloadMovie)).to.be.true;
+    })
+  })
+
+  describe('quando a remoção falhar', () => {
+    const errorMock = {
+      err: {
+        code: 'badRequest',
+        message: 'Não foi possível remover o filme'
+      }
+    }
+
+    before(() => sinon.stub(MoviesService, 'remove').resolves(errorMock));
+
+    after(() => MoviesService.remove.restore());
+
+    beforeEach(() => {
+      request.params = { id: ObjectId() };
+    });
+
+    it('chama response.status com status 400', async () => {
+      await MoviesController.remove(request, response);
+      expect(response.status.calledWith(400)).to.be.true;
+    })
+
+    it('chama response.json com um objeto de error', async () => {
+      await MoviesController.remove(request, response);
+      expect(response.json.calledWith(errorMock)).to.be.true;
     })
   })
 })
