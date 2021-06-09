@@ -1,0 +1,21 @@
+{
+  "name": "api-jwt",
+  "version": "1.0.0",
+  "main": "./api/server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "init": "echo \"SECRET_KEY=$(node generateKey.js)\" > .env"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "~0.0.3",
+    "body-parser": "~1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "~4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-simple": "~0.5.6",
+    "moment": "~2.29.1",
+    "mongodb": "~3.6.2",
+    "nodemon": "~2.0.4"
+  }
+}
