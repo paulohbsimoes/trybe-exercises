@@ -19,6 +19,8 @@ app.get('/top-secret', middlewares.auth, middlewares.admin, (_req, res) => {
   res.json({ secretInfo: 'Peter Parker é o Homem-Arannha' });
 });
 
+app.post('/signup', users.signup, users.login);
+
 app.use(middlewares.error);
 
 app.listen(PORT, () => `Listening on port ${PORT}`);
