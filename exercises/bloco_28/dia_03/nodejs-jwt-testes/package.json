@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-jwt-testes",
+  "version": "1.0.0",
+  "main": "./src/api/server.js",
+  "scripts": {
+    "dev": "nodemon .",
+    "test": "mocha ./tests/**/*$NAME*.test.js --exit",
+    "test:coverage": "nyc --include='src/**/*.js' npm run test"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "~0.0.3",
+    "body-parser": "~1.19.0",
+    "express": "~4.17.1",
+    "jwt-simple": "~0.5.6",
+    "moment": "~2.24.0",
+    "nodemon": "~2.0.4"
+  },
+  "devDependencies": {
+    "chai": "~4.3.4",
+    "chai-http": "~4.3.0",
+    "mocha": "~8.4.0",
+    "mongodb": "~3.6.9",
+    "mongodb-memory-server": "~6.9.6",
+    "nyc": "~15.1.0",
+    "sinon": "~11.1.1"
+  }
+}
