@@ -1,4 +1,4 @@
-# Atividades
+# Exercícios
 
 Antes de começar, crie um novo projeto chamado **hello-jwt** utilizando o comando **npm init @tryber/backend hello-jwt**, aceitando as opções padrão.
 
@@ -115,3 +115,52 @@ Antes de começar, crie um novo projeto chamado **hello-jwt** utilizando o coman
 ```
 
 **21 -** Para validar se a pessoa é admin, crie um novo middleware no arquivo **middlewares/admin.js**.
+
+## Bônus
+
+**1 -** Crie o endpoint **POST /signup**
+
+**2 -** O endpoint deve aceitar o seguinte JSON no corpo da requisição:
+
+```json
+{
+  "username": "MariaCecília_Souza92",
+  "password": "%9!%e\"c0c5w,q%%h9n3k"
+}
+```
+
+**3 -** Para validar os campos, considere os mesmos critérios do endpoint **POST /login**;
+
+**4 -** Caso **username** já exista, retorne o status **409 Conflict** e o seguinte JSON:
+
+```json
+{
+   "error": { "message": "user already exists" }
+}
+```
+
+**5 -** Caso os campos sejam válidos, armazene os dados no arquivo **models/data/users.json**;
+
+* Ao armazenar os dados recebidos, adicione a propriedade **admin**, que terá seu valor determinado da seguinte forma:
+
+* Obtenha um número aleatório de 1 a 100 com o seguinte trecho de código: **Math.floor(Math.random() * 100)**;
+
+* Caso o número aleatório seja maior que **50**, **admin** deve ser **true**;
+
+* Caso o número aleatório seja menor ou igual a **50**, **admin** deve ser **false**.
+
+**6 -** Após armazenar os novos dados, retorne um token que expire em uma hora e contenha **username** e **admin** no payload. Utilize o seguinte formato na resposta:
+
+```json
+{
+  "token": "<token gerado aqui>"
+}
+```
+
+**7 -** Altere o endpoint de login
+
+**8 -** Antes de gerar o token, verifique se o nome de usuário e a senha informados existem no arquivo **users.json**;
+
+**9 -** Não permita mais o login do usuário **admin** com a senha fixa.
+
+**10 -** Informe, na propriedade **admin** do payload do token, o mesmo valor da propriedade **admin** que está armazenado para aquela pessoa.
