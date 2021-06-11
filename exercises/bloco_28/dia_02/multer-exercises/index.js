@@ -2,14 +2,15 @@ require('dotenv').config();
 
 const express = require('express');
 const multer = require('multer');
-
 const fs = require('fs');
 const path = require('path');
-const createError = require('./utils/createError');
 
 const error = require('./middlewares/error')
+const createError = require('./utils/createError');
 
-const PORT = 3000;
+const profile = require('./routes/profile')
+
+const PORT = process.env.PORT || 3000;
 
 const app = express();
 
@@ -42,7 +43,20 @@ app.post('/upload', upload.single('file'), (req, res) => {
   res.status(200).json({ body: req.body, file: req.file });
 });
 
+const multiple = multer({ dest: 'uploads' });
+
+app.post('/multiple', multiple.array('files'), (req, res) => {
+  const { files } = req;
+  const result = files.map(({ filename, originalname }) => ({
+    file: originalname,
+    url: `http://localhost:3000/${filename}`
+  }));
+  res.status(200).json(result);
+})
+
 app.get('/ping', (_req, res) => res.json({ message: 'Pong!' }));
+
+app.use('/profile', profile);
 
 app.use(error);
 
