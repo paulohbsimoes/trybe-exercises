@@ -7,11 +7,10 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 ## Fundamentos do Desenvolvimento Web :heavy_check_mark:
 
 ##### Bloco 1: [Unix, Bash e Shell Script](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_01)
-- [x] 1.1 - Setup
-- [x] 1.2 - Fundamentos do Desenvolvimento Web
+- [x] 1.3 - Fundamentos do Desenvolvimento Web
 - [x] 1.3 - Introdução - Unix & Shell
-- [x] 1.4 - Unix & Bash - Parte 1
-- [x] 1.5 - Unix & Bash - Parte 2
+- [x] 1.3 - Unix & Bash - Parte 1
+- [x] 1.4 - Unix & Bash - Parte 2
 
 ##### Bloco 2: [Git, GitHub e Internet](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_02)
 - [x] 2.1 - Git & GitHub  - O que é e para que serve
@@ -43,8 +42,8 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 5.5 - Projeto - Arte com Pixels
 - [x] 5.6 - Projeto - Lista de tarefas
 - [x] 5.7 - (Bônus) Projeto - Meme Generator
-- [x] 5.8 - (Bônus) Projeto - Adivinhe a Cor
-- [x] 5.8 - (Bônus) Projeto - Carta Misteriosa
+- [x] 5.7 - (Bônus) Projeto - Adivinhe a Cor
+- [x] 5.7 - (Bônus) Projeto - Carta Misteriosa
 
 ##### Bloco 6: [HTML e CSS: Forms, Flexbox e Responsivo](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_06)
 - [x] 6.1 - HTML & CSS - Forms
@@ -153,9 +152,9 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 
 ##### Bloco 23: [Introdução ao MongoDB](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_23)
 - [x] 23.1 - Introdução - NoSQL
-- [x] 23.2 - MongoDB - Introdução
-- [x] 23.3 - Filter Operators
-- [x] 23.4 - Projeto - Data Flights
+- [x] 23.1 - MongoDB - Introdução
+- [x] 23.2 - Filter Operators
+- [x] 23.3 - Projeto - Data Flights
 
 ##### Bloco 24: [MongoDB: Updates Simples e Complexos](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_24)
 - [x] 24.1 - Updates Simples
@@ -174,7 +173,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 26.2 - NodeJS - Fluxo Assíncrono
 - [x] 26.3 - Testes com NodeJS
 - [x] 26.4 - Express: HTTP com Node.js
-- [x] 26.5 - Práticando Express
+- [x] 26.5 - Praticando Express
 - [x] 26.6 - Projeto - Talker manager
 
 ##### Bloco 27: [NodeJS: Camada de Serviço e Arquitetura Rest e Restful](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_27)
@@ -186,73 +185,68 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 27.5 - Projeto - Store Manager
 
 ##### Bloco 28: Autenticação e Upload de Arquivos
-- [ ] 28.1 - NodeJS - JWT - (JSON Web Token)
-- [ ] 28.2 - NodeJS - Upload de arquivos com Multer
-- [ ] 28.3 - Projeto - Cookmaster V2
+- [x] 28.1 - NodeJS - JWT - (JSON Web Token)
+- [x] 28.2 - NodeJS - Upload de arquivos com Multer
+- [x] 28.3 - NodeJS - Testando APIs com Testes de Integração
+- [x] 28.4 - Projeto - Cookmaster
 
 ##### Bloco 29: Deployment
-- [ ] 29.1 - Introdução - Deploy
-- [ ] 29.2 - Infraestrutura - Deploy com Heroku
-- [ ] 29.3 - Deploy - Gerenciadores de Processos
-- [ ] 29.4 - Projeto - Stranger Things
+- [x] 29.1 - Introdução - Deploy
+- [x] 29.1 - Infraestrutura - Deploy com Heroku
+- [x] 29.2 - Deploy - Gerenciadores de Processos
+- [x] 29.3 - Projeto - Stranger Things
 
-##### Bloco 30: Projeto Trybeer
-- [ ] 30.1 - Projeto - Trybeer
+##### Bloco 30: Arquitetura: SOLID e ORM
+- [ ] 30.1 - Arquitetura - Princípios SOLID
+- [ ] 30.2 - ORM - Interface da aplicação com o banco de dados
+- [ ] 30.3 - ORM - Associations
+- [ ] 30.4 - Boas práticas na escrita de testes
+- [ ] 30.5 - Projeto - API de Blogs
 
-##### Bloco 31: Arquitetura: SOLID e ORM
-- [ ] 31.1 - Arquitetura - Princípios SOLID
-- [ ] 31.2 - ORM - Interface da aplicação com o banco de dados
-- [ ] 31.3 - ORM - Associations
-- [ ] 31.4 - Boas práticas na escrita de testes
-- [ ] 31.5 - Projeto - API de Blogs
+##### Bloco 31: Sockets
+- [ ] 31.1 - Sockets - TCP/UDP & NET
+- [ ] 31.2 - Sockets - Socket.io
+- [ ] 31.3 - Projeto - Webchat
 
-##### Bloco 32: Sockets
-- [ ] 32.1 - Sockets - TCP/UDP & NET
-- [ ] 32.2 - Sockets - Socket.io
-- [ ] 32.3 - Projeto - Webchat
-
-##### Bloco 33: Projeto Trybeer II
-- [ ] 33.1 - Projeto - Trybeer v2
-
-##### Bloco 34: Arquitetura de Computadores e Redes
-- [ ] 34.1 - Introdução - Ciência da Computação
-- [ ] 34.2 - Arquitetura de Computadores
-- [ ] 34.3 - Arquitetura de redes
-- [ ] 34.4 - Redes de computadores, ferramentas e segurança
-- [ ] 34.5 - Projeto - Explorando os protocolos
+##### Bloco 32: Projeto Trybeer II
+- [ ] 32.1 - Projeto - Trybeer v2
 
 ## Ciência da Computação :hourglass_flowing_sand:
 
-##### Bloco 35: Introdução à Python e Raspagem de Dados da Web
-- [ ] 35.1 - Aprendendo Python
-- [ ] 35.2 - Testes e Exceções
-- [ ] 35.3 - Entrada e Saída de dados
-- [ ] 35.4 - Raspagem de Dados
-- [ ] 35.5 - Projeto - Tech news
+##### Bloco 33: Arquitetura de Computadores e Redes
+- [ ] 33.1 - Introdução - Ciência da Computação
+- [ ] 33.2 - Arquitetura de Computadores
+- [ ] 33.3 - Arquitetura de redes
+- [ ] 33.4 - Redes de computadores, ferramentas e segurança
+- [ ] 33.5 - Projeto - Explorando os protocolos
 
-##### Bloco 36: Programação Orientada a Objetos e Padrões de Projeto
-- [ ] 36.1 - Introdução à programação orientada a objetos
-- [ ] 36.2 - Programação orientada a objetos na prática
-- [ ] 36.3 - Padrões de projeto
-- [ ] 36.4 - Projeto - Relatórios de Estoque
+##### Bloco 34: Introdução à Python e Raspagem de Dados da Web
+- [ ] 34.1 - Aprendendo Python
+- [ ] 34.2 - Entrada e Saída de dados
+- [ ] 34.3 - Raspagem de Dados
+- [ ] 34.4 - Testes
+- [ ] 34.5 - Projeto - Tech news
 
-##### Bloco 37: Algoritmos e Estrutura de Dados
-- [ ] 37.1 - Estrutura de Dados I - Arrays
-- [ ] 37.2 - Estrutura de Dados I - Complexidade de Algoritmos
-- [ ] 37.3 - Recursividade e Estratégias para solução de problemas
-- [ ] 37.4 - Algoritmos de ordenação e busca
-- [ ] 37.5 - Projeto - Algoritmos
+##### Bloco 35: Programação Orientada a Objetos e Padrões de Projeto
+- [ ] 35.1 - Introdução à programação orientada a objetos
+- [ ] 35.2 - Herança, Composição e Interfaces
+- [ ] 35.3 - Padrões de projeto
+- [ ] 35.4 - Projeto - Relatórios de Estoque
+
+##### Bloco 36: Algoritmos e Estrutura de Dados
+- [ ] 36.1 - Complexidade de Algoritmos
+- [ ] 36.2 - Recursividade e Estratégias para solução de problemas
+- [ ] 36.3 - Algoritmos de ordenação e busca
+- [ ] 36.4 - Projeto - Algoritmos
+
+##### Bloco 37: Estrutura de Dados: Hash e Set
+- [ ] 37.1 - Arrays
+- [ ] 37.2 - Hashmap e Dict
+- [ ] 37.3 - Set
+- [ ] 37.4 - Projeto - Restaurant Orders
 
 ##### Bloco 38: Estrutura de Dados: Pilhas, Filas e Listas
-- [ ] 38.1 - Projeto - Restaurant Orders
-
-##### Bloco 38: Estrutura de Dados: Hash e Set
-- [ ] 39.1 - Estrutura de dados II - Hash maps & Dict
-- [ ] 39.2 - Estrutura de dados II - Set
-
-##### Bloco 39: Estrutura de Dados: Pilhas, Filas e Listas
-- [ ] 40.1 - Estrutura de dados III - Pilhas
-- [ ] 40.2 - Estrutura de dados III - Deque
-- [ ] 40.3 - Estrutura de Dados III - Nó & Listas ligadas
-- [ ] 40.4 - Estrutura de Dados III - Listas duplamente ligadas
-- [ ] 40.5 - Projeto - TING - Trybe Is Not Google
+- [ ] 38.1 - Nó e Listas Encadeadas
+- [ ] 38.2 - Deque
+- [ ] 38.3 - Pilhas
+- [ ] 38.4 - Projeto - TING - Trybe Is Not Google
