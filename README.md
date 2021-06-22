@@ -7,11 +7,10 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 ## Fundamentos do Desenvolvimento Web :heavy_check_mark:
 
 ##### Bloco 1: [Unix, Bash e Shell Script](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_01)
-- [x] 1.1 - Setup
-- [x] 1.2 - Fundamentos do Desenvolvimento Web
+- [x] 1.3 - Fundamentos do Desenvolvimento Web
 - [x] 1.3 - Introdução - Unix & Shell
-- [x] 1.4 - Unix & Bash - Parte 1
-- [x] 1.5 - Unix & Bash - Parte 2
+- [x] 1.3 - Unix & Bash - Parte 1
+- [x] 1.4 - Unix & Bash - Parte 2
 
 ##### Bloco 2: [Git, GitHub e Internet](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_02)
 - [x] 2.1 - Git & GitHub  - O que é e para que serve
@@ -43,8 +42,8 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 5.5 - Projeto - Arte com Pixels
 - [x] 5.6 - Projeto - Lista de tarefas
 - [x] 5.7 - (Bônus) Projeto - Meme Generator
-- [x] 5.8 - (Bônus) Projeto - Adivinhe a Cor
-- [x] 5.8 - (Bônus) Projeto - Carta Misteriosa
+- [x] 5.7 - (Bônus) Projeto - Adivinhe a Cor
+- [x] 5.7 - (Bônus) Projeto - Carta Misteriosa
 
 ##### Bloco 6: [HTML e CSS: Forms, Flexbox e Responsivo](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_06)
 - [x] 6.1 - HTML & CSS - Forms
@@ -153,9 +152,9 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 
 ##### Bloco 23: [Introdução ao MongoDB](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_23)
 - [x] 23.1 - Introdução - NoSQL
-- [x] 23.2 - MongoDB - Introdução
-- [x] 23.3 - Filter Operators
-- [x] 23.4 - Projeto - Data Flights
+- [x] 23.1 - MongoDB - Introdução
+- [x] 23.2 - Filter Operators
+- [x] 23.3 - Projeto - Data Flights
 
 ##### Bloco 24: [MongoDB: Updates Simples e Complexos](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_24)
 - [x] 24.1 - Updates Simples
@@ -174,7 +173,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 26.2 - NodeJS - Fluxo Assíncrono
 - [x] 26.3 - Testes com NodeJS
 - [x] 26.4 - Express: HTTP com Node.js
-- [x] 26.5 - Práticando Express
+- [x] 26.5 - Praticando Express
 - [x] 26.6 - Projeto - Talker manager
 
 ##### Bloco 27: [NodeJS: Camada de Serviço e Arquitetura Rest e Restful](https://github.com/paulohbsimoes/trybe-exercises/tree/master/exercises/bloco_27)
@@ -186,32 +185,31 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 27.5 - Projeto - Store Manager
 
 ##### Bloco 28: Autenticação e Upload de Arquivos
-- [ ] 28.1 - NodeJS - JWT - (JSON Web Token)
-- [ ] 28.2 - NodeJS - Upload de arquivos com Multer
-- [ ] 28.3 - Projeto - Cookmaster V2
+- [x] 28.1 - NodeJS - JWT - (JSON Web Token)
+- [x] 28.2 - NodeJS - Upload de arquivos com Multer
+- [x] 28.3 - NodeJS - Testando APIs com Testes de Integração
+- [x] 28.4 - Projeto - Cookmaster
 
 ##### Bloco 29: Deployment
 - [ ] 29.1 - Introdução - Deploy
-- [ ] 29.2 - Infraestrutura - Deploy com Heroku
-- [ ] 29.3 - Deploy - Gerenciadores de Processos
-- [ ] 29.4 - Projeto - Stranger Things
+- [ ] 29.1 - Infraestrutura - Deploy com Heroku
+- [ ] 29.2 - Deploy - Gerenciadores de Processos
+- [ ] 29.3 - Projeto - Stranger Things
 
-##### Bloco 30: Projeto Trybeer
-- [ ] 30.1 - Projeto - Trybeer
 
-##### Bloco 31: Arquitetura: SOLID e ORM
+##### Bloco 30: Arquitetura: SOLID e ORM
 - [ ] 31.1 - Arquitetura - Princípios SOLID
 - [ ] 31.2 - ORM - Interface da aplicação com o banco de dados
 - [ ] 31.3 - ORM - Associations
 - [ ] 31.4 - Boas práticas na escrita de testes
 - [ ] 31.5 - Projeto - API de Blogs
 
-##### Bloco 32: Sockets
+##### Bloco 31: Sockets
 - [ ] 32.1 - Sockets - TCP/UDP & NET
 - [ ] 32.2 - Sockets - Socket.io
 - [ ] 32.3 - Projeto - Webchat
 
-##### Bloco 33: Projeto Trybeer II
+##### Bloco 32: Projeto Trybeer II
 - [ ] 33.1 - Projeto - Trybeer v2
 
 ##### Bloco 34: Arquitetura de Computadores e Redes
