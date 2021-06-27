@@ -4,7 +4,7 @@ module.exports = (sequelize, DataTypes) => {
     city: DataTypes.STRING,
     street: DataTypes.STRING,
     number: DataTypes.INTEGER,
-    employeeId: { type: DataTypes.INTEGER, foreignKey: true },
+    // employeeId: { type: DataTypes.INTEGER, foreignKey: true },
     // A declaração da Foreign Key é opcional no model
   },
   {
