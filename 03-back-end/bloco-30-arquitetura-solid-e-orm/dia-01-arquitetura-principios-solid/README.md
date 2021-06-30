@@ -1,3 +1,5 @@
+Exercícios feitos em dupla com [Rosiele](https://github.com/rosids). :partying_face:
+
 # Agora, a prática
 
 Vamos seguir a linha de refatoração neste exercício também! O exercício será em dupla. Junte-se com a sua e mande ver! Vamos começar criando uma aplicação pequena e aplicando os princípios de SOLID nela para que possamos transformar esse módulo em uma API.
