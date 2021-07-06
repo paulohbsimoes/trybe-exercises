@@ -1,0 +1,20 @@
+{
+  "name": "piadas-chucknorris",
+  "version": "1.0.0",
+  "description": "Vamos criar uma aplicação simples que faz chamadas a uma [API de piadas sobre o Chuck Norris](https://api.chucknorris.io/). A aplicação terá 2 \"partes\". Uma que mostra as categorias das piadas e direciona a pessoa para a segunda parte, onde a chamada da API de piadas é feita e a piada é de fato retornada. Então, vamos lá ?",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  }
+}

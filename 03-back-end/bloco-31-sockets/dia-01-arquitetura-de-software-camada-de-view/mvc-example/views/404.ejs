@@ -1,0 +1,9 @@
+<!doctype html>
+<html>
+  <head>
+    <title>MVC com Express</title>
+  </head>
+  <body>
+    <h1>Página não encontrada!</h1>
+  </body>
+</html>
