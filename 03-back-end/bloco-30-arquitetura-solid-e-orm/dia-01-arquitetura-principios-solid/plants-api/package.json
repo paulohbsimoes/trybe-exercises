@@ -1,0 +1,22 @@
+{
+  "name": "plants-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "seeders": "node ./seeders/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "joi": "^17.4.0",
+    "mongodb": "^3.6.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.8"
+  }
+}

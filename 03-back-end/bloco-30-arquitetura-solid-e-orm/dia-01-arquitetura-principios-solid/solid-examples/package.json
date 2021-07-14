@@ -1,0 +1,23 @@
+{
+  "name": "solid-examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./tests/**/*$NAME*.{test,spec}.js --exit",
+    "lint": "eslint --no-inline-config --ext .js --no-error-on-unmatched-pattern -c .eslintrc.json ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "eslint-config-trybe-backend": "^1.0.3",
+    "mocha": "^9.0.1",
+    "sinon": "^11.1.1"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "node-fetch": "^2.6.1"
+  }
+}
