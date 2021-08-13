@@ -1,0 +1,2285 @@
+[
+    {
+        "national_number": "001",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/bulbasaur.png",
+            "large": "https://img.pokemondb.net/artwork/bulbasaur.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/bulbasaur.gif"
+        },
+        "name": "Bulbasaur",
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "total": 318,
+        "hp": 45,
+        "attack": 49,
+        "defense": 49,
+        "sp_atk": 65,
+        "sp_def": 65,
+        "speed": 45
+    },
+    {
+        "national_number": "002",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/ivysaur.png",
+            "large": "https://img.pokemondb.net/artwork/ivysaur.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/ivysaur.gif"
+        },
+        "name": "Ivysaur",
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "total": 405,
+        "hp": 60,
+        "attack": 62,
+        "defense": 63,
+        "sp_atk": 80,
+        "sp_def": 80,
+        "speed": 60
+    },
+    {
+        "national_number": "003",
+        "evolution": {
+            "name": "Mega Venusaur"
+        },
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/venusaur.png",
+            "large": "https://img.pokemondb.net/artwork/venusaur.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/venusaur.gif"
+        },
+        "name": "Venusaur",
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "total": 625,
+        "hp": 80,
+        "attack": 100,
+        "defense": 123,
+        "sp_atk": 122,
+        "sp_def": 120,
+        "speed": 80
+    },
+    {
+        "national_number": "003",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/venusaur.png",
+            "large": "https://img.pokemondb.net/artwork/venusaur.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/venusaur.gif"
+        },
+        "name": "Venusaur",
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "total": 525,
+        "hp": 80,
+        "attack": 82,
+        "defense": 83,
+        "sp_atk": 100,
+        "sp_def": 100,
+        "speed": 80
+    },
+    {
+        "national_number": "043",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/oddish.png",
+            "large": "https://img.pokemondb.net/artwork/oddish.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/oddish.gif"
+        },
+        "name": "Oddish",
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "total": 320,
+        "hp": 45,
+        "attack": 50,
+        "defense": 55,
+        "sp_atk": 75,
+        "sp_def": 65,
+        "speed": 30
+    },
+    {
+        "national_number": "044",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/gloom.png",
+            "large": "https://img.pokemondb.net/artwork/gloom.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/gloom.gif"
+        },
+        "name": "Gloom",
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "total": 395,
+        "hp": 60,
+        "attack": 65,
+        "defense": 70,
+        "sp_atk": 85,
+        "sp_def": 75,
+        "speed": 40
+    },
+    {
+        "national_number": "045",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/vileplume.png",
+            "large": "https://img.pokemondb.net/artwork/vileplume.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/vileplume.gif"
+        },
+        "name": "Vileplume",
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "total": 490,
+        "hp": 75,
+        "attack": 80,
+        "defense": 85,
+        "sp_atk": 110,
+        "sp_def": 90,
+        "speed": 50
+    },
+    {
+        "national_number": "046",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/paras.png",
+            "large": "https://img.pokemondb.net/artwork/paras.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/paras.gif"
+        },
+        "name": "Paras",
+        "type": [
+            "Bug",
+            "Grass"
+        ],
+        "total": 285,
+        "hp": 35,
+        "attack": 70,
+        "defense": 55,
+        "sp_atk": 45,
+        "sp_def": 55,
+        "speed": 25
+    },
+    {
+        "national_number": "047",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/parasect.png",
+            "large": "https://img.pokemondb.net/artwork/parasect.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/parasect.gif"
+        },
+        "name": "Parasect",
+        "type": [
+            "Bug",
+            "Grass"
+        ],
+        "total": 405,
+        "hp": 60,
+        "attack": 95,
+        "defense": 80,
+        "sp_atk": 60,
+        "sp_def": 80,
+        "speed": 30
+    },
+    {
+        "national_number": "069",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/bellsprout.png",
+            "large": "https://img.pokemondb.net/artwork/bellsprout.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/bellsprout.gif"
+        },
+        "name": "Bellsprout",
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "total": 300,
+        "hp": 50,
+        "attack": 75,
+        "defense": 35,
+        "sp_atk": 70,
+        "sp_def": 30,
+        "speed": 40
+    },
+    {
+        "national_number": "070",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/weepinbell.png",
+            "large": "https://img.pokemondb.net/artwork/weepinbell.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/weepinbell.gif"
+        },
+        "name": "Weepinbell",
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "total": 390,
+        "hp": 65,
+        "attack": 90,
+        "defense": 50,
+        "sp_atk": 85,
+        "sp_def": 45,
+        "speed": 55
+    },
+    {
+        "national_number": "071",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/victreebel.png",
+            "large": "https://img.pokemondb.net/artwork/victreebel.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/victreebel.gif"
+        },
+        "name": "Victreebel",
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "total": 490,
+        "hp": 80,
+        "attack": 105,
+        "defense": 65,
+        "sp_atk": 100,
+        "sp_def": 70,
+        "speed": 70
+    },
+    {
+        "national_number": "102",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/exeggcute.png",
+            "large": "https://img.pokemondb.net/artwork/exeggcute.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/exeggcute.gif"
+        },
+        "name": "Exeggcute",
+        "type": [
+            "Grass",
+            "Psychic"
+        ],
+        "total": 325,
+        "hp": 60,
+        "attack": 40,
+        "defense": 80,
+        "sp_atk": 60,
+        "sp_def": 45,
+        "speed": 40
+    },
+    {
+        "national_number": "103",
+        "evolution": {
+            "name": "Alolan Exeggutor"
+        },
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/exeggutor.png",
+            "large": "https://img.pokemondb.net/artwork/exeggutor.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/exeggutor.gif"
+        },
+        "name": "Exeggutor",
+        "type": [
+            "Grass",
+            "Dragon"
+        ],
+        "total": 530,
+        "hp": 95,
+        "attack": 105,
+        "defense": 85,
+        "sp_atk": 125,
+        "sp_def": 75,
+        "speed": 45
+    },
+    {
+        "national_number": "103",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/exeggutor.png",
+            "large": "https://img.pokemondb.net/artwork/exeggutor.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/exeggutor.gif"
+        },
+        "name": "Exeggutor",
+        "type": [
+            "Grass",
+            "Psychic"
+        ],
+        "total": 530,
+        "hp": 95,
+        "attack": 95,
+        "defense": 85,
+        "sp_atk": 125,
+        "sp_def": 75,
+        "speed": 55
+    },
+    {
+        "national_number": "114",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/tangela.png",
+            "large": "https://img.pokemondb.net/artwork/tangela.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/tangela.gif"
+        },
+        "name": "Tangela",
+        "type": [
+            "Grass"
+        ],
+        "total": 435,
+        "hp": 65,
+        "attack": 55,
+        "defense": 115,
+        "sp_atk": 100,
+        "sp_def": 40,
+        "speed": 60
+    },
+    {
+        "national_number": "152",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/chikorita.png",
+            "large": "https://img.pokemondb.net/artwork/chikorita.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/chikorita.gif"
+        },
+        "name": "Chikorita",
+        "type": [
+            "Grass"
+        ],
+        "total": 318,
+        "hp": 45,
+        "attack": 49,
+        "defense": 65,
+        "sp_atk": 49,
+        "sp_def": 65,
+        "speed": 45
+    },
+    {
+        "national_number": "153",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/bayleef.png",
+            "large": "https://img.pokemondb.net/artwork/bayleef.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/bayleef.gif"
+        },
+        "name": "Bayleef",
+        "type": [
+            "Grass"
+        ],
+        "total": 405,
+        "hp": 60,
+        "attack": 62,
+        "defense": 80,
+        "sp_atk": 63,
+        "sp_def": 80,
+        "speed": 60
+    },
+    {
+        "national_number": "154",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/meganium.png",
+            "large": "https://img.pokemondb.net/artwork/meganium.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/meganium.gif"
+        },
+        "name": "Meganium",
+        "type": [
+            "Grass"
+        ],
+        "total": 525,
+        "hp": 80,
+        "attack": 82,
+        "defense": 100,
+        "sp_atk": 83,
+        "sp_def": 100,
+        "speed": 80
+    },
+    {
+        "national_number": "182",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/bellossom.png",
+            "large": "https://img.pokemondb.net/artwork/bellossom.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/bellossom.gif"
+        },
+        "name": "Bellossom",
+        "type": [
+            "Grass"
+        ],
+        "total": 490,
+        "hp": 75,
+        "attack": 80,
+        "defense": 95,
+        "sp_atk": 90,
+        "sp_def": 100,
+        "speed": 50
+    },
+    {
+        "national_number": "187",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/hoppip.png",
+            "large": "https://img.pokemondb.net/artwork/hoppip.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/hoppip.gif"
+        },
+        "name": "Hoppip",
+        "type": [
+            "Grass",
+            "Flying"
+        ],
+        "total": 250,
+        "hp": 35,
+        "attack": 35,
+        "defense": 40,
+        "sp_atk": 35,
+        "sp_def": 55,
+        "speed": 50
+    },
+    {
+        "national_number": "188",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/skiploom.png",
+            "large": "https://img.pokemondb.net/artwork/skiploom.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/skiploom.gif"
+        },
+        "name": "Skiploom",
+        "type": [
+            "Grass",
+            "Flying"
+        ],
+        "total": 340,
+        "hp": 55,
+        "attack": 45,
+        "defense": 50,
+        "sp_atk": 45,
+        "sp_def": 65,
+        "speed": 80
+    },
+    {
+        "national_number": "189",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/jumpluff.png",
+            "large": "https://img.pokemondb.net/artwork/jumpluff.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/jumpluff.gif"
+        },
+        "name": "Jumpluff",
+        "type": [
+            "Grass",
+            "Flying"
+        ],
+        "total": 460,
+        "hp": 75,
+        "attack": 55,
+        "defense": 70,
+        "sp_atk": 55,
+        "sp_def": 95,
+        "speed": 110
+    },
+    {
+        "national_number": "191",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/sunkern.png",
+            "large": "https://img.pokemondb.net/artwork/sunkern.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/sunkern.gif"
+        },
+        "name": "Sunkern",
+        "type": [
+            "Grass"
+        ],
+        "total": 180,
+        "hp": 30,
+        "attack": 30,
+        "defense": 30,
+        "sp_atk": 30,
+        "sp_def": 30,
+        "speed": 30
+    },
+    {
+        "national_number": "192",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/sunflora.png",
+            "large": "https://img.pokemondb.net/artwork/sunflora.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/sunflora.gif"
+        },
+        "name": "Sunflora",
+        "type": [
+            "Grass"
+        ],
+        "total": 425,
+        "hp": 75,
+        "attack": 75,
+        "defense": 55,
+        "sp_atk": 105,
+        "sp_def": 85,
+        "speed": 30
+    },
+    {
+        "national_number": "251",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/celebi.png",
+            "large": "https://img.pokemondb.net/artwork/celebi.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/celebi.gif"
+        },
+        "name": "Celebi",
+        "type": [
+            "Psychic",
+            "Grass"
+        ],
+        "total": 600,
+        "hp": 100,
+        "attack": 100,
+        "defense": 100,
+        "sp_atk": 100,
+        "sp_def": 100,
+        "speed": 100
+    },
+    {
+        "national_number": "252",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/treecko.png",
+            "large": "https://img.pokemondb.net/artwork/treecko.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/treecko.gif"
+        },
+        "name": "Treecko",
+        "type": [
+            "Grass"
+        ],
+        "total": 310,
+        "hp": 40,
+        "attack": 45,
+        "defense": 35,
+        "sp_atk": 65,
+        "sp_def": 55,
+        "speed": 70
+    },
+    {
+        "national_number": "253",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/grovyle.png",
+            "large": "https://img.pokemondb.net/artwork/grovyle.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/grovyle.gif"
+        },
+        "name": "Grovyle",
+        "type": [
+            "Grass"
+        ],
+        "total": 405,
+        "hp": 50,
+        "attack": 65,
+        "defense": 45,
+        "sp_atk": 85,
+        "sp_def": 65,
+        "speed": 95
+    },
+    {
+        "national_number": "254",
+        "evolution": {
+            "name": "Mega Sceptile"
+        },
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/sceptile.png",
+            "large": "https://img.pokemondb.net/artwork/sceptile.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/sceptile.gif"
+        },
+        "name": "Sceptile",
+        "type": [
+            "Grass",
+            "Dragon"
+        ],
+        "total": 630,
+        "hp": 70,
+        "attack": 110,
+        "defense": 75,
+        "sp_atk": 145,
+        "sp_def": 85,
+        "speed": 145
+    },
+    {
+        "national_number": "254",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/sceptile.png",
+            "large": "https://img.pokemondb.net/artwork/sceptile.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/sceptile.gif"
+        },
+        "name": "Sceptile",
+        "type": [
+            "Grass"
+        ],
+        "total": 530,
+        "hp": 70,
+        "attack": 85,
+        "defense": 65,
+        "sp_atk": 105,
+        "sp_def": 85,
+        "speed": 120
+    },
+    {
+        "national_number": "270",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/lotad.png",
+            "large": "https://img.pokemondb.net/artwork/lotad.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/lotad.gif"
+        },
+        "name": "Lotad",
+        "type": [
+            "Water",
+            "Grass"
+        ],
+        "total": 220,
+        "hp": 40,
+        "attack": 30,
+        "defense": 30,
+        "sp_atk": 40,
+        "sp_def": 50,
+        "speed": 30
+    },
+    {
+        "national_number": "271",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/lombre.png",
+            "large": "https://img.pokemondb.net/artwork/lombre.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/lombre.gif"
+        },
+        "name": "Lombre",
+        "type": [
+            "Water",
+            "Grass"
+        ],
+        "total": 340,
+        "hp": 60,
+        "attack": 50,
+        "defense": 50,
+        "sp_atk": 60,
+        "sp_def": 70,
+        "speed": 50
+    },
+    {
+        "national_number": "272",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/ludicolo.png",
+            "large": "https://img.pokemondb.net/artwork/ludicolo.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/ludicolo.gif"
+        },
+        "name": "Ludicolo",
+        "type": [
+            "Water",
+            "Grass"
+        ],
+        "total": 480,
+        "hp": 80,
+        "attack": 70,
+        "defense": 70,
+        "sp_atk": 90,
+        "sp_def": 100,
+        "speed": 70
+    },
+    {
+        "national_number": "273",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/seedot.png",
+            "large": "https://img.pokemondb.net/artwork/seedot.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/seedot.gif"
+        },
+        "name": "Seedot",
+        "type": [
+            "Grass"
+        ],
+        "total": 220,
+        "hp": 40,
+        "attack": 40,
+        "defense": 50,
+        "sp_atk": 30,
+        "sp_def": 30,
+        "speed": 30
+    },
+    {
+        "national_number": "274",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/nuzleaf.png",
+            "large": "https://img.pokemondb.net/artwork/nuzleaf.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/nuzleaf.gif"
+        },
+        "name": "Nuzleaf",
+        "type": [
+            "Grass",
+            "Dark"
+        ],
+        "total": 340,
+        "hp": 70,
+        "attack": 70,
+        "defense": 40,
+        "sp_atk": 60,
+        "sp_def": 40,
+        "speed": 60
+    },
+    {
+        "national_number": "275",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/shiftry.png",
+            "large": "https://img.pokemondb.net/artwork/shiftry.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/shiftry.gif"
+        },
+        "name": "Shiftry",
+        "type": [
+            "Grass",
+            "Dark"
+        ],
+        "total": 480,
+        "hp": 90,
+        "attack": 100,
+        "defense": 60,
+        "sp_atk": 90,
+        "sp_def": 60,
+        "speed": 80
+    },
+    {
+        "national_number": "285",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/shroomish.png",
+            "large": "https://img.pokemondb.net/artwork/shroomish.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/shroomish.gif"
+        },
+        "name": "Shroomish",
+        "type": [
+            "Grass"
+        ],
+        "total": 295,
+        "hp": 60,
+        "attack": 40,
+        "defense": 60,
+        "sp_atk": 40,
+        "sp_def": 60,
+        "speed": 35
+    },
+    {
+        "national_number": "286",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/breloom.png",
+            "large": "https://img.pokemondb.net/artwork/breloom.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/breloom.gif"
+        },
+        "name": "Breloom",
+        "type": [
+            "Grass",
+            "Fighting"
+        ],
+        "total": 460,
+        "hp": 60,
+        "attack": 130,
+        "defense": 80,
+        "sp_atk": 60,
+        "sp_def": 60,
+        "speed": 70
+    },
+    {
+        "national_number": "315",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/roselia.png",
+            "large": "https://img.pokemondb.net/artwork/roselia.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/roselia.gif"
+        },
+        "name": "Roselia",
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "total": 400,
+        "hp": 50,
+        "attack": 60,
+        "defense": 45,
+        "sp_atk": 100,
+        "sp_def": 80,
+        "speed": 65
+    },
+    {
+        "national_number": "331",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/cacnea.png",
+            "large": "https://img.pokemondb.net/artwork/cacnea.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/cacnea.gif"
+        },
+        "name": "Cacnea",
+        "type": [
+            "Grass"
+        ],
+        "total": 335,
+        "hp": 50,
+        "attack": 85,
+        "defense": 40,
+        "sp_atk": 85,
+        "sp_def": 40,
+        "speed": 35
+    },
+    {
+        "national_number": "332",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/cacturne.png",
+            "large": "https://img.pokemondb.net/artwork/cacturne.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/cacturne.gif"
+        },
+        "name": "Cacturne",
+        "type": [
+            "Grass",
+            "Dark"
+        ],
+        "total": 475,
+        "hp": 70,
+        "attack": 115,
+        "defense": 60,
+        "sp_atk": 115,
+        "sp_def": 60,
+        "speed": 55
+    },
+    {
+        "national_number": "345",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/lileep.png",
+            "large": "https://img.pokemondb.net/artwork/lileep.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/lileep.gif"
+        },
+        "name": "Lileep",
+        "type": [
+            "Rock",
+            "Grass"
+        ],
+        "total": 355,
+        "hp": 66,
+        "attack": 41,
+        "defense": 77,
+        "sp_atk": 61,
+        "sp_def": 87,
+        "speed": 23
+    },
+    {
+        "national_number": "346",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/cradily.png",
+            "large": "https://img.pokemondb.net/artwork/cradily.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/cradily.gif"
+        },
+        "name": "Cradily",
+        "type": [
+            "Rock",
+            "Grass"
+        ],
+        "total": 495,
+        "hp": 86,
+        "attack": 81,
+        "defense": 97,
+        "sp_atk": 81,
+        "sp_def": 107,
+        "speed": 43
+    },
+    {
+        "national_number": "357",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/tropius.png",
+            "large": "https://img.pokemondb.net/artwork/tropius.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/tropius.gif"
+        },
+        "name": "Tropius",
+        "type": [
+            "Grass",
+            "Flying"
+        ],
+        "total": 460,
+        "hp": 99,
+        "attack": 68,
+        "defense": 83,
+        "sp_atk": 72,
+        "sp_def": 87,
+        "speed": 51
+    },
+    {
+        "national_number": "387",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/turtwig.png",
+            "large": "https://img.pokemondb.net/artwork/turtwig.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/turtwig.gif"
+        },
+        "name": "Turtwig",
+        "type": [
+            "Grass"
+        ],
+        "total": 318,
+        "hp": 55,
+        "attack": 68,
+        "defense": 64,
+        "sp_atk": 45,
+        "sp_def": 55,
+        "speed": 31
+    },
+    {
+        "national_number": "388",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/grotle.png",
+            "large": "https://img.pokemondb.net/artwork/grotle.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/grotle.gif"
+        },
+        "name": "Grotle",
+        "type": [
+            "Grass"
+        ],
+        "total": 405,
+        "hp": 75,
+        "attack": 89,
+        "defense": 85,
+        "sp_atk": 55,
+        "sp_def": 65,
+        "speed": 36
+    },
+    {
+        "national_number": "389",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/torterra.png",
+            "large": "https://img.pokemondb.net/artwork/torterra.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/torterra.gif"
+        },
+        "name": "Torterra",
+        "type": [
+            "Grass",
+            "Ground"
+        ],
+        "total": 525,
+        "hp": 95,
+        "attack": 109,
+        "defense": 105,
+        "sp_atk": 75,
+        "sp_def": 85,
+        "speed": 56
+    },
+    {
+        "national_number": "406",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/budew.png",
+            "large": "https://img.pokemondb.net/artwork/budew.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/budew.gif"
+        },
+        "name": "Budew",
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "total": 280,
+        "hp": 40,
+        "attack": 30,
+        "defense": 35,
+        "sp_atk": 50,
+        "sp_def": 70,
+        "speed": 55
+    },
+    {
+        "national_number": "407",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/roserade.png",
+            "large": "https://img.pokemondb.net/artwork/roserade.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/roserade.gif"
+        },
+        "name": "Roserade",
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "total": 515,
+        "hp": 60,
+        "attack": 70,
+        "defense": 65,
+        "sp_atk": 125,
+        "sp_def": 105,
+        "speed": 90
+    },
+    {
+        "national_number": "413",
+        "evolution": {
+            "name": "Plant Cloak"
+        },
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/wormadam.png",
+            "large": "https://img.pokemondb.net/artwork/wormadam.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/wormadam.gif"
+        },
+        "name": "Wormadam",
+        "type": [
+            "Bug",
+            "Grass"
+        ],
+        "total": 424,
+        "hp": 60,
+        "attack": 59,
+        "defense": 85,
+        "sp_atk": 79,
+        "sp_def": 105,
+        "speed": 36
+    },
+    {
+        "national_number": "420",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/cherubi.png",
+            "large": "https://img.pokemondb.net/artwork/cherubi.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/cherubi.gif"
+        },
+        "name": "Cherubi",
+        "type": [
+            "Grass"
+        ],
+        "total": 275,
+        "hp": 45,
+        "attack": 35,
+        "defense": 45,
+        "sp_atk": 62,
+        "sp_def": 53,
+        "speed": 35
+    },
+    {
+        "national_number": "421",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/cherrim.png",
+            "large": "https://img.pokemondb.net/artwork/cherrim.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/cherrim.gif"
+        },
+        "name": "Cherrim",
+        "type": [
+            "Grass"
+        ],
+        "total": 450,
+        "hp": 70,
+        "attack": 60,
+        "defense": 70,
+        "sp_atk": 87,
+        "sp_def": 78,
+        "speed": 85
+    },
+    {
+        "national_number": "455",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/carnivine.png",
+            "large": "https://img.pokemondb.net/artwork/carnivine.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/carnivine.gif"
+        },
+        "name": "Carnivine",
+        "type": [
+            "Grass"
+        ],
+        "total": 454,
+        "hp": 74,
+        "attack": 100,
+        "defense": 72,
+        "sp_atk": 90,
+        "sp_def": 72,
+        "speed": 46
+    },
+    {
+        "national_number": "459",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/snover.png",
+            "large": "https://img.pokemondb.net/artwork/snover.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/snover.gif"
+        },
+        "name": "Snover",
+        "type": [
+            "Grass",
+            "Ice"
+        ],
+        "total": 334,
+        "hp": 60,
+        "attack": 62,
+        "defense": 50,
+        "sp_atk": 62,
+        "sp_def": 60,
+        "speed": 40
+    },
+    {
+        "national_number": "460",
+        "evolution": {
+            "name": "Mega Abomasnow"
+        },
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/abomasnow.png",
+            "large": "https://img.pokemondb.net/artwork/abomasnow.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/abomasnow.gif"
+        },
+        "name": "Abomasnow",
+        "type": [
+            "Grass",
+            "Ice"
+        ],
+        "total": 594,
+        "hp": 90,
+        "attack": 132,
+        "defense": 105,
+        "sp_atk": 132,
+        "sp_def": 105,
+        "speed": 30
+    },
+    {
+        "national_number": "460",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/abomasnow.png",
+            "large": "https://img.pokemondb.net/artwork/abomasnow.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/abomasnow.gif"
+        },
+        "name": "Abomasnow",
+        "type": [
+            "Grass",
+            "Ice"
+        ],
+        "total": 494,
+        "hp": 90,
+        "attack": 92,
+        "defense": 75,
+        "sp_atk": 92,
+        "sp_def": 85,
+        "speed": 60
+    },
+    {
+        "national_number": "465",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/tangrowth.png",
+            "large": "https://img.pokemondb.net/artwork/tangrowth.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/tangrowth.gif"
+        },
+        "name": "Tangrowth",
+        "type": [
+            "Grass"
+        ],
+        "total": 535,
+        "hp": 100,
+        "attack": 100,
+        "defense": 125,
+        "sp_atk": 110,
+        "sp_def": 50,
+        "speed": 50
+    },
+    {
+        "national_number": "470",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/leafeon.png",
+            "large": "https://img.pokemondb.net/artwork/leafeon.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/leafeon.gif"
+        },
+        "name": "Leafeon",
+        "type": [
+            "Grass"
+        ],
+        "total": 525,
+        "hp": 65,
+        "attack": 110,
+        "defense": 130,
+        "sp_atk": 60,
+        "sp_def": 65,
+        "speed": 95
+    },
+    {
+        "national_number": "479",
+        "evolution": {
+            "name": "Mow Rotom"
+        },
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/rotom.png",
+            "large": "https://img.pokemondb.net/artwork/rotom.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/rotom.gif"
+        },
+        "name": "Rotom",
+        "type": [
+            "Electric",
+            "Grass"
+        ],
+        "total": 520,
+        "hp": 50,
+        "attack": 65,
+        "defense": 107,
+        "sp_atk": 105,
+        "sp_def": 107,
+        "speed": 86
+    },
+    {
+        "national_number": "492",
+        "evolution": {
+            "name": "Sky Forme"
+        },
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/shaymin.png",
+            "large": "https://img.pokemondb.net/artwork/shaymin.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/shaymin.gif"
+        },
+        "name": "Shaymin",
+        "type": [
+            "Grass",
+            "Flying"
+        ],
+        "total": 600,
+        "hp": 100,
+        "attack": 103,
+        "defense": 75,
+        "sp_atk": 120,
+        "sp_def": 75,
+        "speed": 127
+    },
+    {
+        "national_number": "492",
+        "evolution": {
+            "name": "Land Forme"
+        },
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/shaymin.png",
+            "large": "https://img.pokemondb.net/artwork/shaymin.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/shaymin.gif"
+        },
+        "name": "Shaymin",
+        "type": [
+            "Grass"
+        ],
+        "total": 600,
+        "hp": 100,
+        "attack": 100,
+        "defense": 100,
+        "sp_atk": 100,
+        "sp_def": 100,
+        "speed": 100
+    },
+    {
+        "national_number": "495",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/snivy.png",
+            "large": "https://img.pokemondb.net/artwork/snivy.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/snivy.gif"
+        },
+        "name": "Snivy",
+        "type": [
+            "Grass"
+        ],
+        "total": 308,
+        "hp": 45,
+        "attack": 45,
+        "defense": 55,
+        "sp_atk": 45,
+        "sp_def": 55,
+        "speed": 63
+    },
+    {
+        "national_number": "496",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/servine.png",
+            "large": "https://img.pokemondb.net/artwork/servine.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/servine.gif"
+        },
+        "name": "Servine",
+        "type": [
+            "Grass"
+        ],
+        "total": 413,
+        "hp": 60,
+        "attack": 60,
+        "defense": 75,
+        "sp_atk": 60,
+        "sp_def": 75,
+        "speed": 83
+    },
+    {
+        "national_number": "497",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/serperior.png",
+            "large": "https://img.pokemondb.net/artwork/serperior.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/serperior.gif"
+        },
+        "name": "Serperior",
+        "type": [
+            "Grass"
+        ],
+        "total": 528,
+        "hp": 75,
+        "attack": 75,
+        "defense": 95,
+        "sp_atk": 75,
+        "sp_def": 95,
+        "speed": 113
+    },
+    {
+        "national_number": "511",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/pansage.png",
+            "large": "https://img.pokemondb.net/artwork/pansage.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/pansage.gif"
+        },
+        "name": "Pansage",
+        "type": [
+            "Grass"
+        ],
+        "total": 316,
+        "hp": 50,
+        "attack": 53,
+        "defense": 48,
+        "sp_atk": 53,
+        "sp_def": 48,
+        "speed": 64
+    },
+    {
+        "national_number": "512",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/simisage.png",
+            "large": "https://img.pokemondb.net/artwork/simisage.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/simisage.gif"
+        },
+        "name": "Simisage",
+        "type": [
+            "Grass"
+        ],
+        "total": 498,
+        "hp": 75,
+        "attack": 98,
+        "defense": 63,
+        "sp_atk": 98,
+        "sp_def": 63,
+        "speed": 101
+    },
+    {
+        "national_number": "540",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/sewaddle.png",
+            "large": "https://img.pokemondb.net/artwork/sewaddle.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/sewaddle.gif"
+        },
+        "name": "Sewaddle",
+        "type": [
+            "Bug",
+            "Grass"
+        ],
+        "total": 310,
+        "hp": 45,
+        "attack": 53,
+        "defense": 70,
+        "sp_atk": 40,
+        "sp_def": 60,
+        "speed": 42
+    },
+    {
+        "national_number": "541",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/swadloon.png",
+            "large": "https://img.pokemondb.net/artwork/swadloon.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/swadloon.gif"
+        },
+        "name": "Swadloon",
+        "type": [
+            "Bug",
+            "Grass"
+        ],
+        "total": 380,
+        "hp": 55,
+        "attack": 63,
+        "defense": 90,
+        "sp_atk": 50,
+        "sp_def": 80,
+        "speed": 42
+    },
+    {
+        "national_number": "542",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/leavanny.png",
+            "large": "https://img.pokemondb.net/artwork/leavanny.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/leavanny.gif"
+        },
+        "name": "Leavanny",
+        "type": [
+            "Bug",
+            "Grass"
+        ],
+        "total": 500,
+        "hp": 75,
+        "attack": 103,
+        "defense": 80,
+        "sp_atk": 70,
+        "sp_def": 80,
+        "speed": 92
+    },
+    {
+        "national_number": "546",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/cottonee.png",
+            "large": "https://img.pokemondb.net/artwork/cottonee.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/cottonee.gif"
+        },
+        "name": "Cottonee",
+        "type": [
+            "Grass",
+            "Fairy"
+        ],
+        "total": 280,
+        "hp": 40,
+        "attack": 27,
+        "defense": 60,
+        "sp_atk": 37,
+        "sp_def": 50,
+        "speed": 66
+    },
+    {
+        "national_number": "547",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/whimsicott.png",
+            "large": "https://img.pokemondb.net/artwork/whimsicott.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/whimsicott.gif"
+        },
+        "name": "Whimsicott",
+        "type": [
+            "Grass",
+            "Fairy"
+        ],
+        "total": 480,
+        "hp": 60,
+        "attack": 67,
+        "defense": 85,
+        "sp_atk": 77,
+        "sp_def": 75,
+        "speed": 116
+    },
+    {
+        "national_number": "548",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/petilil.png",
+            "large": "https://img.pokemondb.net/artwork/petilil.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/petilil.gif"
+        },
+        "name": "Petilil",
+        "type": [
+            "Grass"
+        ],
+        "total": 280,
+        "hp": 45,
+        "attack": 35,
+        "defense": 50,
+        "sp_atk": 70,
+        "sp_def": 50,
+        "speed": 30
+    },
+    {
+        "national_number": "549",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/lilligant.png",
+            "large": "https://img.pokemondb.net/artwork/lilligant.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/lilligant.gif"
+        },
+        "name": "Lilligant",
+        "type": [
+            "Grass"
+        ],
+        "total": 480,
+        "hp": 70,
+        "attack": 60,
+        "defense": 75,
+        "sp_atk": 110,
+        "sp_def": 75,
+        "speed": 90
+    },
+    {
+        "national_number": "556",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/maractus.png",
+            "large": "https://img.pokemondb.net/artwork/maractus.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/maractus.gif"
+        },
+        "name": "Maractus",
+        "type": [
+            "Grass"
+        ],
+        "total": 461,
+        "hp": 75,
+        "attack": 86,
+        "defense": 67,
+        "sp_atk": 106,
+        "sp_def": 67,
+        "speed": 60
+    },
+    {
+        "national_number": "585",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/deerling.png",
+            "large": "https://img.pokemondb.net/artwork/deerling.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/deerling.gif"
+        },
+        "name": "Deerling",
+        "type": [
+            "Normal",
+            "Grass"
+        ],
+        "total": 335,
+        "hp": 60,
+        "attack": 60,
+        "defense": 50,
+        "sp_atk": 40,
+        "sp_def": 50,
+        "speed": 75
+    },
+    {
+        "national_number": "586",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/sawsbuck.png",
+            "large": "https://img.pokemondb.net/artwork/sawsbuck.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/sawsbuck.gif"
+        },
+        "name": "Sawsbuck",
+        "type": [
+            "Normal",
+            "Grass"
+        ],
+        "total": 475,
+        "hp": 80,
+        "attack": 100,
+        "defense": 70,
+        "sp_atk": 60,
+        "sp_def": 70,
+        "speed": 95
+    },
+    {
+        "national_number": "590",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/foongus.png",
+            "large": "https://img.pokemondb.net/artwork/foongus.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/foongus.gif"
+        },
+        "name": "Foongus",
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "total": 294,
+        "hp": 69,
+        "attack": 55,
+        "defense": 45,
+        "sp_atk": 55,
+        "sp_def": 55,
+        "speed": 15
+    },
+    {
+        "national_number": "591",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/amoonguss.png",
+            "large": "https://img.pokemondb.net/artwork/amoonguss.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/amoonguss.gif"
+        },
+        "name": "Amoonguss",
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "total": 464,
+        "hp": 114,
+        "attack": 85,
+        "defense": 70,
+        "sp_atk": 85,
+        "sp_def": 80,
+        "speed": 30
+    },
+    {
+        "national_number": "597",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/ferroseed.png",
+            "large": "https://img.pokemondb.net/artwork/ferroseed.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/ferroseed.gif"
+        },
+        "name": "Ferroseed",
+        "type": [
+            "Grass",
+            "Steel"
+        ],
+        "total": 305,
+        "hp": 44,
+        "attack": 50,
+        "defense": 91,
+        "sp_atk": 24,
+        "sp_def": 86,
+        "speed": 10
+    },
+    {
+        "national_number": "598",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/ferrothorn.png",
+            "large": "https://img.pokemondb.net/artwork/ferrothorn.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/ferrothorn.gif"
+        },
+        "name": "Ferrothorn",
+        "type": [
+            "Grass",
+            "Steel"
+        ],
+        "total": 489,
+        "hp": 74,
+        "attack": 94,
+        "defense": 131,
+        "sp_atk": 54,
+        "sp_def": 116,
+        "speed": 20
+    },
+    {
+        "national_number": "640",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/virizion.png",
+            "large": "https://img.pokemondb.net/artwork/virizion.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/virizion.gif"
+        },
+        "name": "Virizion",
+        "type": [
+            "Grass",
+            "Fighting"
+        ],
+        "total": 580,
+        "hp": 91,
+        "attack": 90,
+        "defense": 72,
+        "sp_atk": 90,
+        "sp_def": 129,
+        "speed": 108
+    },
+    {
+        "national_number": "650",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/chespin.png",
+            "large": "https://img.pokemondb.net/artwork/chespin.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/chespin.gif"
+        },
+        "name": "Chespin",
+        "type": [
+            "Grass"
+        ],
+        "total": 313,
+        "hp": 56,
+        "attack": 61,
+        "defense": 65,
+        "sp_atk": 48,
+        "sp_def": 45,
+        "speed": 38
+    },
+    {
+        "national_number": "651",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/quilladin.png",
+            "large": "https://img.pokemondb.net/artwork/quilladin.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/quilladin.gif"
+        },
+        "name": "Quilladin",
+        "type": [
+            "Grass"
+        ],
+        "total": 405,
+        "hp": 61,
+        "attack": 78,
+        "defense": 95,
+        "sp_atk": 56,
+        "sp_def": 58,
+        "speed": 57
+    },
+    {
+        "national_number": "652",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/chesnaught.png",
+            "large": "https://img.pokemondb.net/artwork/chesnaught.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/chesnaught.gif"
+        },
+        "name": "Chesnaught",
+        "type": [
+            "Grass",
+            "Fighting"
+        ],
+        "total": 530,
+        "hp": 88,
+        "attack": 107,
+        "defense": 122,
+        "sp_atk": 74,
+        "sp_def": 75,
+        "speed": 64
+    },
+    {
+        "national_number": "672",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/skiddo.png",
+            "large": "https://img.pokemondb.net/artwork/skiddo.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/skiddo.gif"
+        },
+        "name": "Skiddo",
+        "type": [
+            "Grass"
+        ],
+        "total": 350,
+        "hp": 66,
+        "attack": 65,
+        "defense": 48,
+        "sp_atk": 62,
+        "sp_def": 57,
+        "speed": 52
+    },
+    {
+        "national_number": "673",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/gogoat.png",
+            "large": "https://img.pokemondb.net/artwork/gogoat.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/gogoat.gif"
+        },
+        "name": "Gogoat",
+        "type": [
+            "Grass"
+        ],
+        "total": 531,
+        "hp": 123,
+        "attack": 100,
+        "defense": 62,
+        "sp_atk": 97,
+        "sp_def": 81,
+        "speed": 68
+    },
+    {
+        "national_number": "708",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/phantump.png",
+            "large": "https://img.pokemondb.net/artwork/phantump.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/phantump.gif"
+        },
+        "name": "Phantump",
+        "type": [
+            "Ghost",
+            "Grass"
+        ],
+        "total": 309,
+        "hp": 43,
+        "attack": 70,
+        "defense": 48,
+        "sp_atk": 50,
+        "sp_def": 60,
+        "speed": 38
+    },
+    {
+        "national_number": "709",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/trevenant.png",
+            "large": "https://img.pokemondb.net/artwork/trevenant.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/trevenant.gif"
+        },
+        "name": "Trevenant",
+        "type": [
+            "Ghost",
+            "Grass"
+        ],
+        "total": 474,
+        "hp": 85,
+        "attack": 110,
+        "defense": 76,
+        "sp_atk": 65,
+        "sp_def": 82,
+        "speed": 56
+    },
+    {
+        "national_number": "710",
+        "evolution": {
+            "name": "Average Size"
+        },
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/pumpkaboo.png",
+            "large": "https://img.pokemondb.net/artwork/pumpkaboo.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/pumpkaboo.gif"
+        },
+        "name": "Pumpkaboo",
+        "type": [
+            "Ghost",
+            "Grass"
+        ],
+        "total": 335,
+        "hp": 49,
+        "attack": 66,
+        "defense": 70,
+        "sp_atk": 44,
+        "sp_def": 55,
+        "speed": 51
+    },
+    {
+        "national_number": "710",
+        "evolution": {
+            "name": "Small Size"
+        },
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/pumpkaboo.png",
+            "large": "https://img.pokemondb.net/artwork/pumpkaboo.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/pumpkaboo.gif"
+        },
+        "name": "Pumpkaboo",
+        "type": [
+            "Ghost",
+            "Grass"
+        ],
+        "total": 335,
+        "hp": 44,
+        "attack": 66,
+        "defense": 70,
+        "sp_atk": 44,
+        "sp_def": 55,
+        "speed": 56
+    },
+    {
+        "national_number": "710",
+        "evolution": {
+            "name": "Large Size"
+        },
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/pumpkaboo.png",
+            "large": "https://img.pokemondb.net/artwork/pumpkaboo.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/pumpkaboo.gif"
+        },
+        "name": "Pumpkaboo",
+        "type": [
+            "Ghost",
+            "Grass"
+        ],
+        "total": 335,
+        "hp": 54,
+        "attack": 66,
+        "defense": 70,
+        "sp_atk": 44,
+        "sp_def": 55,
+        "speed": 46
+    },
+    {
+        "national_number": "710",
+        "evolution": {
+            "name": "Super Size"
+        },
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/pumpkaboo.png",
+            "large": "https://img.pokemondb.net/artwork/pumpkaboo.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/pumpkaboo.gif"
+        },
+        "name": "Pumpkaboo",
+        "type": [
+            "Ghost",
+            "Grass"
+        ],
+        "total": 335,
+        "hp": 59,
+        "attack": 66,
+        "defense": 70,
+        "sp_atk": 44,
+        "sp_def": 55,
+        "speed": 41
+    },
+    {
+        "national_number": "711",
+        "evolution": {
+            "name": "Average Size"
+        },
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/gourgeist.png",
+            "large": "https://img.pokemondb.net/artwork/gourgeist.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/gourgeist.gif"
+        },
+        "name": "Gourgeist",
+        "type": [
+            "Ghost",
+            "Grass"
+        ],
+        "total": 494,
+        "hp": 65,
+        "attack": 90,
+        "defense": 122,
+        "sp_atk": 58,
+        "sp_def": 75,
+        "speed": 84
+    },
+    {
+        "national_number": "711",
+        "evolution": {
+            "name": "Small Size"
+        },
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/gourgeist.png",
+            "large": "https://img.pokemondb.net/artwork/gourgeist.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/gourgeist.gif"
+        },
+        "name": "Gourgeist",
+        "type": [
+            "Ghost",
+            "Grass"
+        ],
+        "total": 494,
+        "hp": 55,
+        "attack": 85,
+        "defense": 122,
+        "sp_atk": 58,
+        "sp_def": 75,
+        "speed": 99
+    },
+    {
+        "national_number": "711",
+        "evolution": {
+            "name": "Large Size"
+        },
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/gourgeist.png",
+            "large": "https://img.pokemondb.net/artwork/gourgeist.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/gourgeist.gif"
+        },
+        "name": "Gourgeist",
+        "type": [
+            "Ghost",
+            "Grass"
+        ],
+        "total": 494,
+        "hp": 75,
+        "attack": 95,
+        "defense": 122,
+        "sp_atk": 58,
+        "sp_def": 75,
+        "speed": 69
+    },
+    {
+        "national_number": "711",
+        "evolution": {
+            "name": "Super Size"
+        },
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/gourgeist.png",
+            "large": "https://img.pokemondb.net/artwork/gourgeist.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/gourgeist.gif"
+        },
+        "name": "Gourgeist",
+        "type": [
+            "Ghost",
+            "Grass"
+        ],
+        "total": 494,
+        "hp": 85,
+        "attack": 100,
+        "defense": 122,
+        "sp_atk": 58,
+        "sp_def": 75,
+        "speed": 54
+    },
+    {
+        "national_number": "722",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/rowlet.png",
+            "large": "https://img.pokemondb.net/artwork/rowlet.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/rowlet.gif"
+        },
+        "name": "Rowlet",
+        "type": [
+            "Grass",
+            "Flying"
+        ],
+        "total": 320,
+        "hp": 68,
+        "attack": 55,
+        "defense": 55,
+        "sp_atk": 50,
+        "sp_def": 50,
+        "speed": 42
+    },
+    {
+        "national_number": "723",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/dartrix.png",
+            "large": "https://img.pokemondb.net/artwork/dartrix.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/dartrix.gif"
+        },
+        "name": "Dartrix",
+        "type": [
+            "Grass",
+            "Flying"
+        ],
+        "total": 420,
+        "hp": 78,
+        "attack": 75,
+        "defense": 75,
+        "sp_atk": 70,
+        "sp_def": 70,
+        "speed": 52
+    },
+    {
+        "national_number": "724",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/decidueye.png",
+            "large": "https://img.pokemondb.net/artwork/decidueye.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/decidueye.gif"
+        },
+        "name": "Decidueye",
+        "type": [
+            "Grass",
+            "Ghost"
+        ],
+        "total": 530,
+        "hp": 78,
+        "attack": 107,
+        "defense": 75,
+        "sp_atk": 100,
+        "sp_def": 100,
+        "speed": 70
+    },
+    {
+        "national_number": "753",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/fomantis.png",
+            "large": "https://img.pokemondb.net/artwork/fomantis.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/fomantis.gif"
+        },
+        "name": "Fomantis",
+        "type": [
+            "Grass"
+        ],
+        "total": 250,
+        "hp": 40,
+        "attack": 55,
+        "defense": 35,
+        "sp_atk": 50,
+        "sp_def": 35,
+        "speed": 35
+    },
+    {
+        "national_number": "754",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/lurantis.png",
+            "large": "https://img.pokemondb.net/artwork/lurantis.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/lurantis.gif"
+        },
+        "name": "Lurantis",
+        "type": [
+            "Grass"
+        ],
+        "total": 480,
+        "hp": 70,
+        "attack": 105,
+        "defense": 90,
+        "sp_atk": 80,
+        "sp_def": 90,
+        "speed": 45
+    },
+    {
+        "national_number": "755",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/morelull.png",
+            "large": "https://img.pokemondb.net/artwork/morelull.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/morelull.gif"
+        },
+        "name": "Morelull",
+        "type": [
+            "Grass",
+            "Fairy"
+        ],
+        "total": 285,
+        "hp": 40,
+        "attack": 35,
+        "defense": 55,
+        "sp_atk": 65,
+        "sp_def": 75,
+        "speed": 15
+    },
+    {
+        "national_number": "756",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/shiinotic.png",
+            "large": "https://img.pokemondb.net/artwork/shiinotic.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/shiinotic.gif"
+        },
+        "name": "Shiinotic",
+        "type": [
+            "Grass",
+            "Fairy"
+        ],
+        "total": 405,
+        "hp": 60,
+        "attack": 45,
+        "defense": 80,
+        "sp_atk": 90,
+        "sp_def": 100,
+        "speed": 30
+    },
+    {
+        "national_number": "761",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/bounsweet.png",
+            "large": "https://img.pokemondb.net/artwork/bounsweet.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/bounsweet.gif"
+        },
+        "name": "Bounsweet",
+        "type": [
+            "Grass"
+        ],
+        "total": 210,
+        "hp": 42,
+        "attack": 30,
+        "defense": 38,
+        "sp_atk": 30,
+        "sp_def": 38,
+        "speed": 32
+    },
+    {
+        "national_number": "762",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/steenee.png",
+            "large": "https://img.pokemondb.net/artwork/steenee.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/steenee.gif"
+        },
+        "name": "Steenee",
+        "type": [
+            "Grass"
+        ],
+        "total": 290,
+        "hp": 52,
+        "attack": 40,
+        "defense": 48,
+        "sp_atk": 40,
+        "sp_def": 48,
+        "speed": 62
+    },
+    {
+        "national_number": "763",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/tsareena.png",
+            "large": "https://img.pokemondb.net/artwork/tsareena.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/tsareena.gif"
+        },
+        "name": "Tsareena",
+        "type": [
+            "Grass"
+        ],
+        "total": 510,
+        "hp": 72,
+        "attack": 120,
+        "defense": 98,
+        "sp_atk": 50,
+        "sp_def": 98,
+        "speed": 72
+    },
+    {
+        "national_number": "781",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/dhelmise.png",
+            "large": "https://img.pokemondb.net/artwork/dhelmise.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/dhelmise.gif"
+        },
+        "name": "Dhelmise",
+        "type": [
+            "Ghost",
+            "Grass"
+        ],
+        "total": 517,
+        "hp": 70,
+        "attack": 131,
+        "defense": 100,
+        "sp_atk": 86,
+        "sp_def": 90,
+        "speed": 40
+    },
+    {
+        "national_number": "787",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/tapu-bulu.png",
+            "large": "https://img.pokemondb.net/artwork/tapu-bulu.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/tapu-bulu.gif"
+        },
+        "name": "Tapu Bulu",
+        "type": [
+            "Grass",
+            "Fairy"
+        ],
+        "total": 570,
+        "hp": 70,
+        "attack": 130,
+        "defense": 115,
+        "sp_atk": 85,
+        "sp_def": 95,
+        "speed": 75
+    },
+    {
+        "national_number": "798",
+        "evolution": null,
+        "sprites": {
+            "normal": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/kartana.png",
+            "large": "https://img.pokemondb.net/artwork/kartana.jpg",
+            "animated": "https://img.pokemondb.net/sprites/black-white/anim/normal/kartana.gif"
+        },
+        "name": "Kartana",
+        "type": [
+            "Grass",
+            "Steel"
+        ],
+        "total": 570,
+        "hp": 59,
+        "attack": 181,
+        "defense": 131,
+        "sp_atk": 59,
+        "sp_def": 31,
+        "speed": 109
+    }
+]
