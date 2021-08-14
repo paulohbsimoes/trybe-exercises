@@ -15,7 +15,7 @@ Vamos colocar tudo o que vimos até agora em prática. Em todos os exercícios, 
 
 Sua tarefa é ler uma expressão e encontrar o número de telefone correspondente baseado na tabela abaixo. Uma expressão é composta por letras maiúsculas (A-Z), hifens (-) e os números 1 e 0.
 
-```python
+```shell
 Letras  ->  Número
 ABC     ->  2
 DEF     ->  3
