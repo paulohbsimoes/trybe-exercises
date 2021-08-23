@@ -4,6 +4,8 @@ Vamos exercitar nossa capacidade de abstração em diferentes cenários. Em cada
 
 **1 -** Em um contexto de orientação a objetos, como podemos definir o que são mensagens e qual a sua importância?
 
+**Resposta:** Mensagem é a forma como os objetos interagem, mais focado em "o que fazer" do que "como fazer"
+
 **2 -** Para exercitar nossa capacidade de abstração, vamos modelar algumas partes de um software de geometria. Como poderíamos modelar um objeto retângulo?
 
 🐦 Para ajudar, segue o exemplo do quadrado. Vamos utilizar a seguinte notação para descrever nossas abstrações:
