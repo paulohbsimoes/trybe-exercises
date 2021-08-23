@@ -53,6 +53,36 @@ Comportamentos
 
 **4 -** Vamos mudar um pouco nosso contexto para um sistema de vendas de uma cafeteria. Como podemos abstrair um pedido composto por vários itens? Qual seu nome, atributos e comportamentos?
 
+**Resposta:** Podemos criar uma classe para representar os itens e outra para representar os pedidos.
+
+```python
+Nome da abstração
+Item
+
+Atributos/Estados
+- preço
+- código de barras
+- tipo de produto
+
+Comportamentos
+- mudar preço
+```
+
+```python
+Nome da abstração
+Pedido
+
+Atributos/Estados
+- lista de items
+- status
+
+Comportamentos
+- adicionar items
+- remover items
+- mudar status do pedido
+- concluir pedido
+```
+
 **5 -** Notou que os pilares da orientação a objetos começam a manifestar a medida que fizemos nossos exercícios de modelagem? Que tal agora então modelarmos uma televisão?
 
 🐦 Pense em como encapsular comportamentos como o estado (ligado/desligado), ou a taxa de variação do volume, que muda de TV para TV etc.
