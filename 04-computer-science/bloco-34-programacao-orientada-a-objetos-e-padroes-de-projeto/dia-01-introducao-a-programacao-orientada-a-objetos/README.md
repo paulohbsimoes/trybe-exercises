@@ -86,3 +86,21 @@ Comportamentos
 **5 -** Notou que os pilares da orientação a objetos começam a manifestar a medida que fizemos nossos exercícios de modelagem? Que tal agora então modelarmos uma televisão?
 
 🐦 Pense em como encapsular comportamentos como o estado (ligado/desligado), ou a taxa de variação do volume, que muda de TV para TV etc.
+
+```python
+Nome da abstração
+Televisão
+
+Atributos/Estados
+- status (ligada/desligada)
+- canal selecionado
+- volume
+
+Comportamentos
+- toggle status
+- mudar para o próximo canal
+- mudar para o canal anterior
+- aumentar volume
+- diminuir volume
+- mutar
+```
