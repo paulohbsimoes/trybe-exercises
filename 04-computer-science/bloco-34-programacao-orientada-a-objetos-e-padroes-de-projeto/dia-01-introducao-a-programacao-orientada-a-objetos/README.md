@@ -39,6 +39,18 @@ Comportamentos
 
 **3 -** E como poderíamos definir um círculo? Qual seu nome, atributos e comportamentos?
 
+```python
+Nome da abstração
+Círculo
+
+Atributos/Estados
+- raio
+
+Comportamentos
+- calcular area (pi * raio * raio)
+- calcular perímetro (2 * pi * raio)
+```
+
 **4 -** Vamos mudar um pouco nosso contexto para um sistema de vendas de uma cafeteria. Como podemos abstrair um pedido composto por vários itens? Qual seu nome, atributos e comportamentos?
 
 **5 -** Notou que os pilares da orientação a objetos começam a manifestar a medida que fizemos nossos exercícios de modelagem? Que tal agora então modelarmos uma televisão?
