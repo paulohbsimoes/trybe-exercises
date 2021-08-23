@@ -22,6 +22,21 @@ comportamentos
 - calcular perímetro (4 * lado)
 ```
 
+**Resposta:** A classe retângulo poderia ter dois atributos: **altura** e **comprimento**. Também teria um método `calcula_area` e `calcula_perímetro`.
+
+```python
+Nome da abstração
+Retângulo
+
+Atributos/Estados
+- altura
+- comprimento
+
+Comportamentos
+- calcular area (altura * comprimento)
+- calcular perímetro ((altura + comprimento) * 2)
+```
+
 **3 -** E como poderíamos definir um círculo? Qual seu nome, atributos e comportamentos?
 
 **4 -** Vamos mudar um pouco nosso contexto para um sistema de vendas de uma cafeteria. Como podemos abstrair um pedido composto por vários itens? Qual seu nome, atributos e comportamentos?
