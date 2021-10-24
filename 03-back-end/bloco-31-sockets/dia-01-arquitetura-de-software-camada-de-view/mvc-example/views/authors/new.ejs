@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <title>MVC com Express</title>
+  </head>
+  <body>
+    <% if (message) { %>
+      <div><%= message %></div>
+    <% } %>
+    <form action="/authors" method="POST">
+      <label for="first_name">Nome:</label>
+      <input id="first_name" name="first_name" type="text" />
+      <label for="middle_name">Nome do meio:</label>
+      <input id="middle_name" name="middle_name" type="text" />
+      <label for="last_name">Sobrenome:</label>
+      <input id="last_name" name="last_name" type="text" />
+      <button type="submit">Criar novo autor!</button>
+    </form>
+    <a href="/authors">Voltar para página inicial</a>
+  </body>
+</html>
